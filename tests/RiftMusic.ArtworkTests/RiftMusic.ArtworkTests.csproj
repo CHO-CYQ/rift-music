@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><AssemblyName>RiftMusic</AssemblyName>
+    <ArtworkServiceSource Condition="'$(ArtworkServiceSource)' == ''">../../src/RiftMusic.App/Services/ArtworkService.cs</ArtworkServiceSource>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/RiftMusic.Core/RiftMusic.Core.csproj" />
+    <Compile Include="$(ArtworkServiceSource)" Link="ArtworkService.cs" />
+    <Resource Include="../../src/RiftMusic.App/Assets/Art/*.jpg" Link="Assets/Art/%(Filename)%(Extension)" />
+    <Resource Include="../../src/RiftMusic.App/Assets/Art/*.png" Link="Assets/Art/%(Filename)%(Extension)" />
+    <Resource Include="../../src/RiftMusic.App/Assets/Fonts/*.otf" Link="Assets/Fonts/%(Filename)%(Extension)" />
+    <Page Include="../../src/RiftMusic.App/Assets/FluentIcons.xaml" Link="Assets/FluentIcons.xaml" />
+    <EmbeddedResource Include="../../docs/artwork-sources.json" LogicalName="RiftMusic.artwork.json" />
+  </ItemGroup>
+</Project>

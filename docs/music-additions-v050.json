@@ -1,0 +1,50 @@
+{
+  "version": "0.5.0",
+  "tracks": [
+    {
+      "Id": "bp-worlds2024-viper-cyrene",
+      "File": "worlds2024-viper-cyrene.mp3",
+      "Sha256": "6e43ba0c4e543402dea66c11f39dc608ce2402d0150bd33275a27a78ee5da529"
+    },
+    {
+      "Id": "bp-fst2025-the-one",
+      "File": "fst2025-the-one.mp3",
+      "Sha256": "25bcc93126160a02a01049ccf517a5284fa2c232bf3ea804b77d65142c67874e"
+    },
+    {
+      "Id": "bp-fst2025-limitless",
+      "File": "fst2025-limitless.mp3",
+      "Sha256": "b691378e0911952d52ebe3517cae473b81dcc68df50dc1a8f738b47504136ba3"
+    },
+    {
+      "Id": "bp-fst2026-do-my-thing",
+      "File": "fst2026-do-my-thing.mp3",
+      "Sha256": "d7cef881aef8bc250516ab1a2e75b0227c716e12406bff68f5f8c8ae55d1aa93"
+    },
+    {
+      "Id": "bp-fst2026-creme",
+      "File": "fst2026-creme.mp3",
+      "Sha256": "7255d31437133aa2f301fa07e4d0e147515aac33ef63cdb3cab21fc163061d0f"
+    },
+    {
+      "Id": "bp-fst2026-go-get-it",
+      "File": "fst2026-go-get-it.mp3",
+      "Sha256": "d807864bec4ed98b6db1308a63400643f8bd1899adfcdd8b8dc33d979aaacf29"
+    },
+    {
+      "Id": "bp-fst2026-new-new",
+      "File": "fst2026-new-new.mp3",
+      "Sha256": "aa72bdabd63386ca0e8b3f807c6d4c6f091655adc7388e0fc04a18597952b01d"
+    },
+    {
+      "Id": "bp-fst2026-phonkadelic",
+      "File": "fst2026-phonkadelic.mp3",
+      "Sha256": "6866fc1efd362699f11c0c60989cf4fa1d6ebffda67ff24897a27c84992a5792"
+    },
+    {
+      "Id": "bp-lck2025-prelude-to-battle",
+      "File": "lck2025-prelude-to-battle.mp3",
+      "Sha256": "f05fbe63b5171d91a605f057d88f9dd6c24df77ec870801e38484efe1c1b9adb"
+    }
+  ]
+}

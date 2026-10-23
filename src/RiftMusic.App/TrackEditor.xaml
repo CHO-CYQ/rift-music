@@ -1,0 +1,27 @@
+<Window x:Class="RiftMusic.App.TrackEditor" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:shell="clr-namespace:System.Windows.Shell;assembly=PresentationFramework" Style="{StaticResource {x:Type Window}}" Title="编辑音乐" Width="660" Height="760" MinHeight="560" MinWidth="600" WindowStyle="None" WindowStartupLocation="CenterOwner">
+  <shell:WindowChrome.WindowChrome><shell:WindowChrome CaptionHeight="44" ResizeBorderThickness="7" GlassFrameThickness="0" UseAeroCaptionButtons="False"/></shell:WindowChrome.WindowChrome>
+  <Grid Background="{StaticResource CanvasBrush}">
+    <Grid.RowDefinitions><RowDefinition Height="44"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+    <Grid Margin="22,0,8,0"><TextBlock Text="编辑音乐" FontSize="13" FontWeight="Medium" VerticalAlignment="Center"/><Button HorizontalAlignment="Right" Style="{StaticResource CaptionButton}" Content="&#xE8BB;" Click="CloseEditorClick" shell:WindowChrome.IsHitTestVisibleInChrome="True" AutomationProperties.Name="关闭音乐编辑"/></Grid>
+    <Grid Grid.Row="1" Margin="24,12,24,24"><Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+      <StackPanel Margin="0,0,0,20"><TextBlock Text="MAKE IT YOURS" FontFamily="{DynamicResource WorldsDisplayFont}" FontWeight="Black" FontSize="39"/><TextBlock Text="让音乐，恰好开始" FontFamily="{DynamicResource ChineseDisplayFont}" FontSize="20" FontWeight="Heavy" Margin="0,4,0,0"/><TextBlock x:Name="DurationHint" Foreground="{StaticResource MutedBrush}" FontSize="13" Margin="0,9,0,0"/></StackPanel>
+      <Border Grid.Row="1" Style="{StaticResource GlassPanel}" Padding="20,18">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+          <StackPanel Margin="0,0,8,0">
+            <TextBlock Text="音乐名称" Margin="0,0,0,6"/><TextBox x:Name="NameBox" AutomationProperties.AutomationId="TrackName"/>
+            <TextBlock Text="艺术家 / 制作人" Margin="0,15,0,6"/><TextBox x:Name="ArtistBox"/>
+            <Grid Margin="0,15,0,0"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="16"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions><StackPanel><TextBlock Text="分类" Margin="0,0,0,6"/><ComboBox x:Name="CategoryBox" DisplayMemberPath="Name" SelectedValuePath="Id" SelectionChanged="CategoryChanged"/></StackPanel><StackPanel Grid.Column="2"><TextBlock Text="主题" Margin="0,0,0,6"/><TextBox x:Name="ThemeBox" ToolTip="例如星之守护者、奥德赛、诺克萨斯"/></StackPanel></Grid>
+            <Grid Margin="0,15,0,0"><Grid.ColumnDefinitions><ColumnDefinition Width="100"/><ColumnDefinition Width="16"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions><StackPanel><TextBlock Text="年份" Margin="0,0,0,6"/><TextBox x:Name="YearBox"/></StackPanel><StackPanel Grid.Column="2"><TextBlock Text="赛季 / 备注" Margin="0,0,0,6"/><TextBox x:Name="SeasonBox"/></StackPanel></Grid>
+            <StackPanel x:Name="DraftFields" Margin="0,15,0,0" Visibility="Collapsed"><TextBlock Text="BP 赛事" Margin="0,0,0,6"/><ComboBox x:Name="CompetitionBox" SelectedValuePath="Tag"><ComboBoxItem Content="S 赛 / 全球总决赛" Tag="Worlds"/><ComboBoxItem Content="MSI" Tag="MSI"/><ComboBoxItem Content="全球先锋赛" Tag="FirstStand"/><ComboBoxItem Content="LCK" Tag="LCK"/><ComboBoxItem Content="LPL" Tag="LPL"/></ComboBox><TextBlock x:Name="DraftHint" FontSize="13" Foreground="{StaticResource MutedBrush}" TextWrapping="Wrap" Margin="0,7,0,0"/></StackPanel>
+            <TextBlock Text="音频版本" Margin="0,15,0,6"/><ComboBox x:Name="KindBox"><ComboBoxItem Content="用户自定义"/><ComboBoxItem Content="游戏内开场原版"/><ComboBoxItem Content="主题曲伴奏补充版"/><ComboBoxItem Content="官方主题曲补充"/><ComboBoxItem Content="游戏内地图开场"/><ComboBoxItem Content="官方伴奏剪辑"/><ComboBoxItem Content="伴奏处理剪辑"/><ComboBoxItem Content="赛事 BP 独立音频"/></ComboBox>
+            <Grid Margin="0,17,0,0"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="16"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions><StackPanel><TextBlock Text="开始位置（秒）" Margin="0,0,0,6"/><TextBox x:Name="StartBox"/></StackPanel><StackPanel Grid.Column="2"><TextBlock Text="结束位置（秒）" Margin="0,0,0,6"/><TextBox x:Name="EndBox"/></StackPanel></Grid>
+            <Grid Margin="0,17,0,0"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="16"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions><StackPanel><TextBlock Text="淡入（秒）" Margin="0,0,0,6"/><TextBox x:Name="FadeInBox"/></StackPanel><StackPanel Grid.Column="2"><TextBlock Text="淡出（秒）" Margin="0,0,0,6"/><TextBox x:Name="FadeOutBox"/></StackPanel></Grid>
+            <TextBlock Text="来源链接 / 说明" Margin="0,17,0,6"/><TextBox x:Name="SourceBox" TextWrapping="Wrap" MinHeight="60" AcceptsReturn="True"/>
+            <TextBlock x:Name="ErrorLabel" Foreground="#B32634" TextWrapping="Wrap" Margin="0,14,0,0"/>
+          </StackPanel>
+        </ScrollViewer>
+      </Border>
+      <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,18,0,0"><Button Content="取消" IsCancel="True"/><Button x:Name="SaveTrackButton" Content="保存音乐" IsDefault="True" Click="SaveClick" Background="{StaticResource GoldBrush}" Foreground="White" Margin="10,0,0,0" AutomationProperties.AutomationId="SaveTrack"/></StackPanel>
+    </Grid>
+  </Grid>
+</Window>

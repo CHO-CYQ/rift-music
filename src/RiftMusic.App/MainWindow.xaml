@@ -1,0 +1,206 @@
+<Window x:Class="RiftMusic.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:services="clr-namespace:RiftMusic.App.Services"
+        xmlns:shell="clr-namespace:System.Windows.Shell;assembly=PresentationFramework"
+        Style="{StaticResource {x:Type Window}}" Title="峡谷序曲 · 音乐馆 · v0.1 测试版"
+        Width="1320" Height="900" MinWidth="1080" MinHeight="720" WindowStartupLocation="CenterScreen"
+        WindowStyle="None" ResizeMode="CanResize">
+  <shell:WindowChrome.WindowChrome><shell:WindowChrome CaptionHeight="48" ResizeBorderThickness="7" GlassFrameThickness="0" CornerRadius="4" UseAeroCaptionButtons="False"/></shell:WindowChrome.WindowChrome>
+  <Window.Resources><services:ArtworkConverter x:Key="ArtworkConverter"/><services:ArtworkDescriptionConverter x:Key="ArtworkDescriptionConverter"/><services:ArtworkYearConverter x:Key="ArtworkYearConverter"/></Window.Resources>
+  <Border x:Name="WindowFrame" Background="{StaticResource CanvasBrush}" BorderBrush="#BDBDBD" BorderThickness="1" CornerRadius="4" ClipToBounds="True">
+    <Grid>
+      <Grid.RowDefinitions><RowDefinition Height="48"/><RowDefinition Height="*"/><RowDefinition Height="132"/></Grid.RowDefinitions>
+
+      <Grid x:Name="WindowTitleBar" Background="Transparent" Margin="13,0,6,0">
+        <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="8,0,0,0">
+          <Image Source="pack://application:,,,/RiftMusic;component/Assets/RiftMusic.png" Width="28" Height="28" Margin="0,0,10,0" RenderOptions.BitmapScalingMode="HighQuality"/>
+          <TextBlock Text="峡谷序曲" FontSize="13" FontFamily="{DynamicResource ChineseDisplayFont}" FontWeight="Bold" VerticalAlignment="Center"/>
+          <TextBlock Text="v0.1 测试版 / RIFT MUSIC" FontFamily="{DynamicResource MusicFont}" FontSize="12" Foreground="{StaticResource MutedBrush}" VerticalAlignment="Center" Margin="12,0,0,0"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+          <Button Click="MinimizeClick" Style="{StaticResource CaptionButton}" Content="&#xE921;" ToolTip="最小化" AutomationProperties.Name="最小化窗口" shell:WindowChrome.IsHitTestVisibleInChrome="True"/>
+          <Button x:Name="MaximizeButton" Click="MaximizeClick" Style="{StaticResource CaptionButton}" ToolTip="最大化 / 还原" AutomationProperties.Name="最大化或还原窗口" shell:WindowChrome.IsHitTestVisibleInChrome="True"><TextBlock x:Name="MaximizeLabel" Text="&#xE922;" FontFamily="Segoe MDL2 Assets"/></Button>
+          <Button Click="CloseWindowClick" Style="{StaticResource CaptionButton}" Content="&#xE8BB;" ToolTip="关闭窗口，继续在托盘运行" AutomationProperties.Name="关闭窗口并留在托盘" shell:WindowChrome.IsHitTestVisibleInChrome="True"/>
+        </StackPanel>
+      </Grid>
+
+      <Grid Grid.Row="1">
+        <Grid.ColumnDefinitions><ColumnDefinition Width="264"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+        <Border Background="#F2F2F2" BorderBrush="#D4D4D4" BorderThickness="0,0,1,0">
+          <Grid Margin="17,15,17,14">
+            <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+            <StackPanel Margin="13,0,0,10"><TextBlock Text="ONE &amp; ONLY" FontFamily="{DynamicResource WorldsDisplayFont}" FontWeight="Bold" FontSize="36" LineHeight="37" LineStackingStrategy="BlockLineHeight"/><TextBlock Text="听见下一局" FontFamily="{DynamicResource ChineseDisplayFont}" FontWeight="Bold" FontSize="16"/><Border Height="2" Background="{StaticResource BronzeBrush}" Margin="0,6,0,0"/></StackPanel>
+            <StackPanel Grid.Row="1">
+              <Button x:Name="OpeningWorkspaceButton" Tag="opening" Click="WorkspaceClick" Style="{StaticResource WorkspaceButton}" Margin="0,0,0,6" AutomationProperties.Name="游戏开场音乐馆">
+                <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="30"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions><Path Data="{StaticResource FluentMusic}" Fill="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" Width="19" Height="19" Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Left"/><StackPanel Grid.Column="1"><TextBlock Text="游戏开场" FontFamily="{DynamicResource ChineseDisplayFont}" FontWeight="Bold" FontSize="15" LineHeight="20" LineStackingStrategy="BlockLineHeight"/><TextBlock Text="进入峡谷的第一首" FontSize="12" LineHeight="16" LineStackingStrategy="BlockLineHeight" Foreground="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" Opacity="0.78" Margin="0,3,0,0"/></StackPanel></Grid>
+              </Button>
+              <Button x:Name="DraftWorkspaceButton" Tag="draft" Click="WorkspaceClick" Style="{StaticResource WorkspaceButton}" AutomationProperties.Name="赛事BP音乐馆">
+                <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="30"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions><Path Data="{StaticResource FluentTrophy}" Fill="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" Width="19" Height="19" Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Left"/><StackPanel Grid.Column="1"><TextBlock Text="赛事 BP" FontFamily="{DynamicResource ChineseDisplayFont}" FontWeight="Bold" FontSize="15" LineHeight="20" LineStackingStrategy="BlockLineHeight"/><TextBlock Text="选英雄时的赛场配乐" FontSize="12" LineHeight="16" LineStackingStrategy="BlockLineHeight" Foreground="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" Opacity="0.78" Margin="0,3,0,0"/></StackPanel></Grid>
+              </Button>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Margin="0,15,0,10">
+              <Button x:Name="AllLibraryButton" Tag="all" Click="SidebarCollectionClick" Style="{StaticResource CollectionButton}" AutomationProperties.Name="全部音乐">
+                <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="30"/><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><Path Data="{StaticResource FluentMusic}" Fill="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" Width="18" Height="18" Stretch="Uniform" HorizontalAlignment="Left"/><TextBlock Grid.Column="1" Text="全部音乐"/><TextBlock Grid.Column="2" x:Name="AllLibraryCount" FontFamily="{DynamicResource WorldsMonoFont}" FontSize="11" Opacity="0.65"/></Grid>
+              </Button>
+              <Button x:Name="FavoritesLibraryButton" Tag="favorites" Click="SidebarCollectionClick" Style="{StaticResource CollectionButton}" AutomationProperties.Name="我的收藏" Margin="0,3,0,0">
+                <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="30"/><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><Path Data="{StaticResource FluentHeart}" Fill="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Button}}" Width="18" Height="18" Stretch="Uniform" HorizontalAlignment="Left"/><TextBlock Grid.Column="1" Text="我的收藏"/><TextBlock Grid.Column="2" x:Name="FavoritesLibraryCount" FontFamily="{DynamicResource WorldsMonoFont}" FontSize="11" Opacity="0.65"/></Grid>
+              </Button>
+            </StackPanel>
+            <Grid Grid.Row="3" Margin="11,2,2,5"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+              <TextBlock x:Name="NavSectionLabel" Text="分类" Style="{StaticResource SmallLabel}" VerticalAlignment="Center"/>
+              <Button Grid.Column="1" x:Name="ResetBrowseButton" Click="ResetBrowseClick" Content="重置" Style="{StaticResource QuietButton}" FontSize="10" Padding="5,4" MinHeight="28" AutomationProperties.Name="清除分类与年份筛选"/>
+              <ToggleButton Grid.Column="2" x:Name="MultiSelectToggle" Click="SidebarMultiSelectChanged" Content="多选" Style="{StaticResource SidebarModeToggle}" ToolTip="开启后可组合多个分类或年份" AutomationProperties.Name="多选分类与年份"/>
+            </Grid>
+            <ScrollViewer x:Name="SidebarScroll" Grid.Row="4" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+              <StackPanel>
+                <TreeView x:Name="CategoryTree" Button.Click="SidebarAllYearsClick" Background="Transparent" BorderThickness="0" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="False" VirtualizingPanel.IsVirtualizing="False" AutomationProperties.Name="分类与年份筛选">
+                  <TreeView.Template><ControlTemplate TargetType="TreeView"><ItemsPresenter/></ControlTemplate></TreeView.Template>
+                  <TreeView.Resources><Style TargetType="TreeViewItem" BasedOn="{StaticResource SidebarItem}"><EventSetter Event="Expanded" Handler="SidebarExpanded"/><EventSetter Event="Collapsed" Handler="SidebarExpanded"/></Style></TreeView.Resources>
+                  <TreeView.ItemTemplate><HierarchicalDataTemplate ItemsSource="{Binding Children}">
+                    <ToggleButton Style="{StaticResource SidebarCheck}" IsThreeState="True" IsChecked="{Binding Checked, Mode=OneWay}" Click="SidebarClick" PreviewKeyDown="SidebarYearKeyDown" AutomationProperties.Name="{Binding Hint}" Tag="{Binding Id}">
+                      <Grid><Grid.Style><Style TargetType="Grid"><Style.Triggers><DataTrigger Binding="{Binding IsYear}" Value="True"><Setter Property="Width" Value="46"/></DataTrigger></Style.Triggers></Style></Grid.Style><Grid.ColumnDefinitions><ColumnDefinition><ColumnDefinition.Style><Style TargetType="ColumnDefinition"><Setter Property="Width" Value="28"/><Style.Triggers><DataTrigger Binding="{Binding IsYear}" Value="True"><Setter Property="Width" Value="0"/></DataTrigger></Style.Triggers></Style></ColumnDefinition.Style></ColumnDefinition><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+                        <Grid><TextBlock Text="{Binding Glyph}" FontSize="17"><TextBlock.Style><Style TargetType="TextBlock" BasedOn="{StaticResource Icon}"><Setter Property="Visibility" Value="Collapsed"/><Style.Triggers><DataTrigger Binding="{Binding Logo}" Value="{x:Null}"><Setter Property="Visibility" Value="Visible"/></DataTrigger></Style.Triggers></Style></TextBlock.Style></TextBlock><Border x:Name="CompetitionMark" Background="{Binding Foreground, RelativeSource={RelativeSource AncestorType=ToggleButton}}" Width="23" Height="25"><Border.Style><Style TargetType="Border"><Style.Triggers><DataTrigger Binding="{Binding Logo}" Value="{x:Null}"><Setter Property="Visibility" Value="Collapsed"/></DataTrigger></Style.Triggers></Style></Border.Style><Border.OpacityMask><ImageBrush ImageSource="{Binding Logo}" Stretch="Uniform"/></Border.OpacityMask></Border></Grid>
+                        <TextBlock Grid.Column="1" Text="{Binding Name}" FontSize="14" VerticalAlignment="Center" TextTrimming="CharacterEllipsis" ToolTip="{Binding Hint}"/>
+                        <TextBlock Grid.Column="2" Text="{Binding Count}" FontFamily="{DynamicResource WorldsMonoFont}" FontSize="12" Foreground="{Binding Foreground, RelativeSource={RelativeSource AncestorType=ToggleButton}}" Opacity="0.65" VerticalAlignment="Center" Margin="3,0,0,0"><TextBlock.Style><Style TargetType="TextBlock"><Style.Triggers><DataTrigger Binding="{Binding IsYear}" Value="True"><Setter Property="Visibility" Value="Collapsed"/></DataTrigger></Style.Triggers></Style></TextBlock.Style></TextBlock>
+                      </Grid>
+                    </ToggleButton>
+                  </HierarchicalDataTemplate></TreeView.ItemTemplate>
+                </TreeView>
+                <TextBlock x:Name="SidebarSelectionHint" Visibility="Collapsed"/>
+              </StackPanel>
+            </ScrollViewer>
+            <StackPanel Grid.Row="5" Margin="2,8,2,0">
+              <Button x:Name="ImportButton" Click="ImportClick" Background="#FFFFFF" BorderBrush="#D4D4D4" HorizontalContentAlignment="Left"><StackPanel Orientation="Horizontal"><Path Data="{StaticResource FluentDownload}" Fill="{StaticResource GoldBrush}" Width="17" Height="17" Stretch="Uniform" Margin="0,0,9,0"/><TextBlock Text="导入本地音乐" FontSize="13"/></StackPanel></Button>
+              <TextBlock x:Name="WorkspaceHint" Text="自动播放设置分别保存" Visibility="Collapsed" FontSize="12" Foreground="{StaticResource MutedBrush}" TextWrapping="Wrap" LineHeight="19" Margin="11,13,8,0"/>
+            </StackPanel>
+          </Grid>
+        </Border>
+
+        <ScrollViewer Grid.Column="1" x:Name="PageScrollViewer" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" CanContentScroll="False" PanningMode="VerticalOnly">
+          <StackPanel x:Name="PageContent" Margin="34,18,26,27"><StackPanel.RenderTransform><TranslateTransform/></StackPanel.RenderTransform>
+            <Grid Margin="0,0,0,15"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+              <StackPanel><TextBlock x:Name="PageCaption" Foreground="{StaticResource MutedBrush}" FontFamily="{DynamicResource WorldsMonoFont}" FontSize="10" Margin="0,0,0,4"/><TextBlock x:Name="PageTitle" Text="游戏开场" FontFamily="{DynamicResource ChineseDisplayFont}" FontSize="29" FontWeight="Bold"/></StackPanel>
+              <Button x:Name="SettingsButton" Grid.Column="1" Click="SettingsClick" VerticalAlignment="Center" Background="#FFFFFF" BorderBrush="#D4D4D4" Padding="16,12" AutomationProperties.Name="当前音乐馆的自动播放设置"><StackPanel Orientation="Horizontal"><Path Data="{StaticResource FluentSettings}" Fill="{StaticResource GoldBrush}" Width="18" Height="18" Stretch="Uniform" Margin="0,0,9,0"/><TextBlock x:Name="AutomationSettingsTitle" Text="自动播放" FontSize="13"/></StackPanel></Button>
+            </Grid>
+
+            <Border x:Name="HeroBanner" CornerRadius="4" Height="170" Margin="0,0,0,13" Background="#FFFFFF" BorderBrush="#D4D4D4" BorderThickness="1" ClipToBounds="True">
+              <Grid>
+                <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="300"/></Grid.ColumnDefinitions>
+                <Image x:Name="HeroImage" Visibility="Collapsed"/>
+                <Grid Margin="20,10,16,11">
+                  <Grid.RowDefinitions><RowDefinition Height="54"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+                  <TextBlock x:Name="WorldsDisplayTitle" Text="RIFT / OVERTURE" FontFamily="{DynamicResource WorldsDisplayFont}" FontWeight="Bold" FontSize="52" LineHeight="53" LineStackingStrategy="BlockLineHeight" Foreground="#181818" TextTrimming="CharacterEllipsis"/>
+                  <Grid Grid.Row="1">
+                    <StackPanel VerticalAlignment="Center">
+                      <TextBlock x:Name="HeroEyebrow" Text="RIFT OVERTURE · MUSIC COLLECTION" FontFamily="{DynamicResource WorldsMonoFont}" FontSize="11" Foreground="#321BDD" TextTrimming="CharacterEllipsis"/>
+                      <TextBlock x:Name="HeroTitle" Text="熟悉的旋律，下一局再见。" FontFamily="{DynamicResource ChineseDisplayFont}" FontSize="19" FontWeight="Bold" TextTrimming="CharacterEllipsis" Foreground="#181818" Margin="0,2,0,1"/>
+                      <TextBlock x:Name="HeroDescription" Text="世界赛的回忆，英雄与宇宙的声音。" FontSize="13" Foreground="#626262" TextTrimming="CharacterEllipsis"/>
+                      <TextBlock x:Name="CountLabel" Foreground="#321BDD" FontFamily="{DynamicResource WorldsMonoFont}" FontSize="12" Margin="0,4,0,0"/>
+                    </StackPanel>
+                  </Grid>
+                </Grid>
+                <Border Grid.Column="1" Background="#F2F2F2" BorderBrush="#E7E7E7" BorderThickness="1,0,0,0">
+                  <Grid><Image x:Name="WorldsThemeImage" Stretch="Uniform" RenderOptions.BitmapScalingMode="HighQuality" ToolTip="{Binding Text, ElementName=HeroArtLabel}"/><TextBlock x:Name="HeroArtLabel" Visibility="Collapsed"/></Grid>
+                </Border>
+              </Grid>
+            </Border>
+
+            <Button Click="SettingsClick" Padding="17,10" Margin="0,0,0,15" Background="#FFFFFF" BorderBrush="#D4D4D4" HorizontalContentAlignment="Stretch" AutomationProperties.Name="查看和修改自动播放计划">
+              <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="29"/><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><Border Width="8" Height="8" Background="{StaticResource GoldBrush}" CornerRadius="1" HorizontalAlignment="Left" VerticalAlignment="Center"/><TextBlock x:Name="AutomationSummaryLabel" Grid.Column="1" Text="自动开场 · 每局随机" FontSize="13" TextWrapping="Wrap" VerticalAlignment="Center"/><TextBlock Grid.Column="2" Text="调整计划 →" Foreground="{StaticResource GoldBrush}" FontSize="13" VerticalAlignment="Center" Margin="15,0,0,0"/></Grid>
+            </Button>
+
+            <UniformGrid x:Name="FeaturedPanel" Columns="3" Rows="1" Margin="0,0,0,15" Height="68">
+              <Button Tag="worlds" Click="FeaturedClick" Style="{StaticResource FeaturedButton}" Margin="0,0,10,0"><Grid><Grid.ColumnDefinitions><ColumnDefinition Width="62"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions><Image x:Name="FeaturedWorldsImage" Width="46" Height="46" Stretch="Uniform" HorizontalAlignment="Left"><Image.Clip><RectangleGeometry Rect="0,0,46,46" RadiusX="2" RadiusY="2"/></Image.Clip></Image><StackPanel Grid.Column="1" VerticalAlignment="Center"><TextBlock Text="全球总决赛" FontFamily="{DynamicResource ChineseDisplayFont}" FontSize="14" FontWeight="Bold"/><TextBlock Text="历届赛场的开场" Foreground="{StaticResource MutedBrush}" FontSize="12" Margin="0,4,0,0"/></StackPanel></Grid></Button>
+              <Button Tag="skins" Click="FeaturedClick" Style="{StaticResource FeaturedButton}" Margin="0,0,10,0"><Grid><Grid.ColumnDefinitions><ColumnDefinition Width="62"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions><Image x:Name="FeaturedSkinsImage" Width="46" Height="46" Stretch="Uniform" HorizontalAlignment="Left"><Image.Clip><RectangleGeometry Rect="0,0,46,46" RadiusX="2" RadiusY="2"/></Image.Clip></Image><StackPanel Grid.Column="1" VerticalAlignment="Center"><TextBlock Text="英雄与皮肤" FontFamily="{DynamicResource ChineseDisplayFont}" FontSize="14" FontWeight="Bold"/><TextBlock Text="角色与主题旋律" Foreground="{StaticResource MutedBrush}" FontSize="12" Margin="0,4,0,0"/></StackPanel></Grid></Button>
+              <Button Tag="events" Click="FeaturedClick" Style="{StaticResource FeaturedButton}"><Grid><Grid.ColumnDefinitions><ColumnDefinition Width="62"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions><Image x:Name="FeaturedEventsImage" Width="46" Height="46" Stretch="Uniform" HorizontalAlignment="Left"><Image.Clip><RectangleGeometry Rect="0,0,46,46" RadiusX="2" RadiusY="2"/></Image.Clip></Image><StackPanel Grid.Column="1" VerticalAlignment="Center"><TextBlock Text="活动与地图" FontFamily="{DynamicResource ChineseDisplayFont}" FontSize="14" FontWeight="Bold"/><TextBlock Text="属于那个版本的声音" Foreground="{StaticResource MutedBrush}" FontSize="12" Margin="0,4,0,0" TextTrimming="CharacterEllipsis"/></StackPanel></Grid></Button>
+            </UniformGrid>
+
+            <Grid Margin="0,0,0,12"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><Grid><TextBox x:Name="SearchBox" TextChanged="FilterChanged" Padding="39,11,45,11" Height="46" AutomationProperties.Name="搜索音乐、主题或年份"/><Path Data="{StaticResource FluentSearch}" Fill="#626262" Width="18" Height="18" Stretch="Uniform" IsHitTestVisible="False" HorizontalAlignment="Left" Margin="13,0,0,0"/><TextBlock x:Name="SearchHint" Text="搜索曲目、主题或艺术家" Foreground="#626262" IsHitTestVisible="False" VerticalAlignment="Center" Margin="39,0,0,0" FontSize="13"/><Button x:Name="SearchClearButton" Click="ClearSearch" Visibility="Collapsed" Style="{StaticResource QuietButton}" Width="36" Height="36" Padding="9" HorizontalAlignment="Right" Margin="4" AutomationProperties.Name="清空搜索" ToolTip="清空搜索"><Path Data="M 3,3 L 13,13 M 3,13 L 13,3" Stroke="{StaticResource MutedBrush}" StrokeThickness="1.8" StrokeStartLineCap="Round" StrokeEndLineCap="Round" UseLayoutRounding="False" Width="16" Height="16" Stretch="Uniform"/></Button></Grid><ComboBox Grid.Column="1" x:Name="ThemeFilter" SelectionChanged="FilterSelectionChanged" AutomationProperties.Name="主题筛选" Width="156" Height="46" Margin="10,0,0,0"/></Grid>
+            <Border x:Name="SelectionActions" Visibility="Collapsed" Background="#EBE8FF" BorderBrush="#321BDD" BorderThickness="1" CornerRadius="4" Padding="12,8" Margin="0,0,0,12">
+              <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><TextBlock x:Name="SelectedActionTitle" Text="所选曲目" FontSize="13" TextTrimming="CharacterEllipsis" VerticalAlignment="Center" Margin="0,0,13,0"/><Button x:Name="SetFixedInlineButton" Grid.Column="1" Click="UseForAutomaticClick" Content="设为固定开场" Background="{StaticResource GoldBrush}" Foreground="White" BorderThickness="0" MinHeight="38" Padding="13,8" FontSize="13"/><Button x:Name="TrackDetailsButton" Grid.Column="2" Click="SettingsClick" Tag="details" Content="详情" Style="{StaticResource QuietButton}" MinHeight="38" Padding="11,8" FontSize="13" Margin="5,0,0,0"/></Grid>
+            </Border>
+            <Grid Margin="14,0,14,8"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="140"/><ColumnDefinition Width="59"/><ColumnDefinition Width="42"/></Grid.ColumnDefinitions><StackPanel Orientation="Horizontal" Margin="38,0,0,0"><TextBlock Text="曲目 / 主题" Foreground="{StaticResource MutedBrush}" FontSize="13"/><TextBlock x:Name="SearchResultCount" Foreground="{StaticResource MutedBrush}" FontSize="13" Margin="12,0,0,0"/></StackPanel><TextBlock Grid.Column="1" Text="音源版本" Foreground="{StaticResource MutedBrush}" FontSize="12"/><TextBlock Grid.Column="2" Text="时长" Foreground="{StaticResource MutedBrush}" FontSize="12"/></Grid>
+
+            <Grid MinHeight="220">
+              <ListBox x:Name="TrackList" SelectionChanged="SelectionChanged" MouseDoubleClick="TrackDoubleClick" AutomationProperties.AutomationId="TrackList" VirtualizingPanel.IsVirtualizing="False" ScrollViewer.CanContentScroll="False" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                <ListBox.Template><ControlTemplate TargetType="ListBox"><Border Background="{TemplateBinding Background}"><ItemsPresenter/></Border></ControlTemplate></ListBox.Template>
+                <ListBox.ItemTemplate><DataTemplate><Grid MinHeight="56"><Grid.ColumnDefinitions><ColumnDefinition Width="38"/><ColumnDefinition Width="*"/><ColumnDefinition Width="140"/><ColumnDefinition Width="59"/><ColumnDefinition Width="42"/></Grid.ColumnDefinitions>
+                  <CheckBox IsChecked="{Binding Enabled, Mode=OneWay}" Click="TrackEnabledChanged" VerticalAlignment="Center" ToolTip="加入当前模式的自动播放范围" AutomationProperties.Name="加入自动播放"/>
+                  <Grid Grid.Column="1" Margin="0,0,16,0">
+                    <Grid.ColumnDefinitions><ColumnDefinition Width="112"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+                    <Image Source="{Binding Converter={StaticResource ArtworkConverter}}" Width="96" Height="60" Stretch="Uniform" ToolTip="{Binding Converter={StaticResource ArtworkDescriptionConverter}}" RenderOptions.BitmapScalingMode="HighQuality" HorizontalAlignment="Left"><Image.Clip><RectangleGeometry Rect="0,0,96,60" RadiusX="2" RadiusY="2"/></Image.Clip></Image>
+                    <Border Background="#F2F2F2" BorderBrush="#D4D4D4" BorderThickness="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,16,2" Padding="4,1" IsHitTestVisible="False">
+                      <Border.Style><Style TargetType="Border"><Style.Triggers><DataTrigger Binding="{Binding Converter={StaticResource ArtworkYearConverter}}" Value=""><Setter Property="Visibility" Value="Collapsed"/></DataTrigger></Style.Triggers></Style></Border.Style>
+                      <TextBlock Text="{Binding Converter={StaticResource ArtworkYearConverter}}" FontFamily="{DynamicResource WorldsMonoFont}" FontSize="9" Foreground="#181818"/>
+                    </Border>
+                    <StackPanel Grid.Column="1" VerticalAlignment="Center"><TextBlock Text="{Binding Name}" FontWeight="Medium" FontSize="16" TextTrimming="CharacterEllipsis" ToolTip="{Binding Name}"/><TextBlock Text="{Binding LibrarySubtitle}" ToolTip="{Binding LibrarySubtitle}" Foreground="{StaticResource MutedBrush}" FontSize="14" TextTrimming="CharacterEllipsis" Margin="0,6,0,0"/></StackPanel>
+                  </Grid>
+                  <TextBlock Grid.Column="2" Text="{Binding EditionLabel}" Foreground="{StaticResource MutedBrush}" FontSize="12" VerticalAlignment="Center" TextTrimming="CharacterEllipsis" ToolTip="{Binding Quality}"/>
+                  <TextBlock Grid.Column="3" Text="{Binding DurationLabel}" Foreground="{StaticResource MutedBrush}" FontFamily="{DynamicResource WorldsMonoFont}" FontSize="13" VerticalAlignment="Center"/>
+                  <CheckBox Grid.Column="4" IsChecked="{Binding Favorite, Mode=OneWay}" Click="FavoriteChanged" Style="{StaticResource FavoriteCheck}" VerticalAlignment="Center" ToolTip="收藏这首音乐" AutomationProperties.Name="收藏音乐"/>
+                </Grid></DataTemplate></ListBox.ItemTemplate>
+              </ListBox>
+              <StackPanel x:Name="EmptyState" Visibility="Collapsed" HorizontalAlignment="Center" VerticalAlignment="Center" MaxWidth="480" Margin="20,38"><Path Data="{StaticResource FluentMusic}" Fill="#8A8A8A" Width="34" Height="34" Stretch="Uniform" Margin="0,0,0,17"/><TextBlock x:Name="EmptyTitle" Text="这里还没有音乐" FontSize="20" FontWeight="Medium" HorizontalAlignment="Center"/><TextBlock x:Name="EmptyHint" Text="调整筛选，或导入你喜欢的开场。" TextWrapping="Wrap" TextAlignment="Center" Foreground="{StaticResource MutedBrush}" FontSize="13" LineHeight="23" Margin="0,12,0,18"/><Button x:Name="EmptyResetButton" Content="清除筛选" Click="ClearFilters" HorizontalAlignment="Center" Padding="17,10"/></StackPanel>
+            </Grid>
+            <TextBlock Visibility="Collapsed" x:Name="ResultLabel" Foreground="{StaticResource MutedBrush}" FontSize="12" TextWrapping="Wrap" Margin="14,15,14,0"/>
+          </StackPanel>
+        </ScrollViewer>
+
+        <Grid Grid.ColumnSpan="2" x:Name="SettingsOverlay" Visibility="Collapsed" Panel.ZIndex="30">
+          <Button x:Name="SettingsBackdrop" Click="SettingsCloseClick" Background="#48181818" BorderThickness="0" Padding="0" Focusable="False"><Button.Template><ControlTemplate TargetType="Button"><Border Background="{TemplateBinding Background}"/></ControlTemplate></Button.Template></Button>
+          <Border x:Name="SettingsPanel" Width="390" HorizontalAlignment="Right" Background="#F2F2F2" BorderBrush="#BDBDBD" BorderThickness="1,0,0,0" KeyboardNavigation.TabNavigation="Cycle" KeyboardNavigation.ControlTabNavigation="Cycle"><Border.RenderTransform><TranslateTransform x:Name="SettingsSlideTransform"/></Border.RenderTransform>
+            <Grid><Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+              <Grid Margin="24,21,16,13"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><StackPanel><TextBlock x:Name="SettingsDrawerHeading" Text="游戏开场 · 播放计划" FontFamily="{DynamicResource ChineseDisplayFont}" FontSize="20" FontWeight="Bold"/><TextBlock Text="浏览和试听，不会改变播放计划" FontSize="12" Foreground="{StaticResource MutedBrush}" Margin="0,7,0,0"/></StackPanel><Button x:Name="SettingsCloseButton" Grid.Column="1" Click="SettingsCloseClick" Content="&#xE8BB;" FontFamily="Segoe MDL2 Assets" Style="{StaticResource PlayerButton}" VerticalAlignment="Top" AutomationProperties.Name="关闭播放设置"/></Grid>
+              <ScrollViewer x:Name="SettingsScrollViewer" Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled"><StackPanel Margin="24,7,22,26">
+                <Border Style="{StaticResource GlassPanel}" Padding="15" Margin="0,0,0,22"><Grid><Grid.ColumnDefinitions><ColumnDefinition Width="78"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions><Image x:Name="SelectedCover" Width="64" Height="64" Stretch="Uniform" RenderOptions.BitmapScalingMode="HighQuality"><Image.Clip><RectangleGeometry Rect="0,0,64,64" RadiusX="2" RadiusY="2"/></Image.Clip></Image><StackPanel Grid.Column="1" VerticalAlignment="Center"><TextBlock x:Name="SelectionCategory" Text="当前自动播放" Foreground="{StaticResource GoldBrush}" FontSize="12"/><TextBlock x:Name="SelectionTitle" Text="还没有选择音乐" FontSize="15" FontWeight="Medium" TextWrapping="Wrap" Margin="0,6,0,0"/><TextBlock x:Name="SelectionDetail" Foreground="{StaticResource MutedBrush}" FontSize="12" TextWrapping="Wrap" LineHeight="20" Margin="0,6,0,0"/></StackPanel></Grid></Border>
+
+                <StackPanel x:Name="OpeningSettingsPanel">
+                  <Grid Margin="0,0,0,19"><StackPanel><TextBlock Text="自动开场" FontSize="16" FontWeight="Medium"/><TextBlock Text="进入峡谷后，播放一次" FontSize="12" Foreground="{StaticResource MutedBrush}" Margin="0,6,0,0"/></StackPanel><CheckBox x:Name="AutoToggle" HorizontalAlignment="Right" VerticalAlignment="Center" Style="{StaticResource Switch}" Checked="AutoChanged" Unchecked="AutoChanged" AutomationProperties.AutomationId="AutoToggle" AutomationProperties.Name="自动开场"/></Grid>
+                  <TextBlock Text="播放方式" Style="{StaticResource SmallLabel}" Margin="0,0,0,10"/>
+                  <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions><RadioButton x:Name="FixedMode" Content="固定一首" GroupName="Mode" IsChecked="True" Checked="ModeChanged" FontSize="13" Margin="0,0,9,0"/><RadioButton x:Name="RandomMode" Grid.Column="1" Content="每局随机" GroupName="Mode" Checked="ModeChanged" FontSize="13"/></Grid>
+                  <TextBlock Text="随机播放范围" Style="{StaticResource SmallLabel}" Margin="0,17,0,8"/><ComboBox x:Name="RandomScopeBox" DisplayMemberPath="Name" SelectedValuePath="Id" SelectionChanged="RandomScopeChanged" AutomationProperties.Name="随机播放范围"/>
+                  <TextBlock x:Name="ModeHint" TextWrapping="Wrap" Foreground="{StaticResource MutedBrush}" FontSize="12" LineHeight="21" Margin="0,11,0,20"/>
+                  <Border BorderBrush="{StaticResource LineBrush}" BorderThickness="0,1,0,0" Padding="0,16,0,0"><StackPanel><TextBlock x:Name="StatusLabel" Text="等待游戏" FontSize="14"/><TextBlock x:Name="DetailLabel" TextWrapping="Wrap" Foreground="{StaticResource MutedBrush}" FontSize="12" LineHeight="21" Margin="0,8,0,9"/><Expander Header="开场连接诊断" FontSize="13"><TextBlock x:Name="DiagnosticLabel" TextWrapping="Wrap" FontSize="12" Margin="0,7,0,0" LineHeight="21"/></Expander></StackPanel></Border>
+                </StackPanel>
+
+                <StackPanel x:Name="DraftPanel" Visibility="Collapsed">
+                  <Grid Margin="0,0,0,19"><StackPanel><TextBlock Text="自动 BP" FontSize="16" FontWeight="Medium"/><TextBlock Text="英雄选择阶段，循环播放" FontSize="12" Foreground="{StaticResource MutedBrush}" Margin="0,6,0,0"/></StackPanel><CheckBox x:Name="DraftToggle" HorizontalAlignment="Right" VerticalAlignment="Center" Style="{StaticResource Switch}" Checked="DraftChanged" Unchecked="DraftChanged" AutomationProperties.AutomationId="DraftToggle" AutomationProperties.Name="自动BP音乐"/></Grid>
+                  <TextBlock Text="播放方式" Style="{StaticResource SmallLabel}" Margin="0,0,0,9"/><ComboBox x:Name="DraftModeBox" SelectionChanged="DraftSettingChanged" AutomationProperties.Name="BP播放方式"/>
+                  <Grid Margin="0,17,0,0"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions><StackPanel Margin="0,0,9,0"><TextBlock Text="自动播放年份" Style="{StaticResource SmallLabel}" Margin="0,0,0,9"/><ComboBox x:Name="DraftYearBox" SelectionChanged="DraftSettingChanged" AutomationProperties.Name="BP年份"/></StackPanel><StackPanel Grid.Column="1"><TextBlock Text="自动播放赛事" Style="{StaticResource SmallLabel}" Margin="0,0,0,9"/><ComboBox x:Name="DraftCompetitionBox" SelectionChanged="DraftSettingChanged" AutomationProperties.Name="BP赛事"/></StackPanel></Grid>
+                  <TextBlock Text="这里的年份与赛事适用于自动播放；曲库筛选只影响浏览。" TextWrapping="Wrap" Foreground="{StaticResource MutedBrush}" FontSize="12" LineHeight="21" Margin="0,11,0,20"/>
+                  <Border BorderBrush="{StaticResource LineBrush}" BorderThickness="0,1,0,0" Padding="0,16,0,0"><StackPanel><TextBlock x:Name="DraftStatusLabel" Text="等待英雄选择" TextWrapping="Wrap" FontSize="14"/><Expander Header="BP 连接诊断" FontSize="13" Margin="0,8,0,0"><TextBlock x:Name="DraftDiagnosticLabel" TextWrapping="Wrap" FontSize="12" LineHeight="21" Margin="0,7,0,0"/></Expander></StackPanel></Border>
+                </StackPanel>
+
+                <Border x:Name="SourceSection" BorderBrush="{StaticResource LineBrush}" BorderThickness="0,1,0,0" Padding="0,19,0,0" Margin="0,19,0,0"><StackPanel><TextBlock Text="所选音乐" FontSize="15" FontWeight="Medium"/><TextBlock x:Name="SourceTrackTitle" Text="尚未选择曲目" TextWrapping="Wrap" FontSize="14" Margin="0,11,0,0"/><TextBlock x:Name="SourceArtist" Foreground="{StaticResource MutedBrush}" TextWrapping="Wrap" FontSize="12" Margin="0,5,0,0"/><Button x:Name="UseForAutomaticButton" Click="UseForAutomaticClick" Content="设为固定开场" Background="{StaticResource GoldBrush}" Foreground="White" BorderThickness="0" Margin="0,13,0,0" AutomationProperties.Name="将所选音乐设为当前模式的固定曲目"/><Grid Margin="0,10,0,8"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions><Button x:Name="EditButton" Content="编辑片段" Click="EditClick" Style="{StaticResource QuietButton}" FontSize="13"/><Button x:Name="RemoveButton" Grid.Column="1" Content="移出曲库" Click="RemoveClick" Style="{StaticResource QuietButton}" FontSize="13"/></Grid><Expander Header="所选音源与制作说明" FontSize="13"><StackPanel Margin="0,7,0,0"><TextBlock x:Name="SourceQuality" Foreground="{StaticResource GoldBrush}" FontSize="12" TextWrapping="Wrap"/><TextBlock x:Name="SourceText" TextWrapping="Wrap" FontSize="12" Margin="0,8,0,0" LineHeight="21"/></StackPanel></Expander></StackPanel></Border>
+                <Border BorderBrush="{StaticResource LineBrush}" BorderThickness="0,1,0,0" Padding="0,17,0,0" Margin="0,17,0,0"><StackPanel><TextBlock Text="界面与字体" FontFamily="{DynamicResource ChineseDisplayFont}" FontWeight="Bold" FontSize="15"/><CheckBox x:Name="MotionToggle" Content="界面动效" Checked="AppearanceChanged" Unchecked="AppearanceChanged" Margin="0,10,0,4" AutomationProperties.Name="界面动效"/><TextBlock x:Name="FontStatus" Text="世界赛视觉字体" FontSize="11" Foreground="{StaticResource MutedBrush}" TextWrapping="Wrap" LineHeight="19"/><Button Content="打开字体文件夹" Click="OpenFontsClick" Style="{StaticResource QuietButton}" HorizontalAlignment="Left" Margin="0,9,0,0" FontSize="12"/></StackPanel></Border>
+                <TextBlock Text="关闭主窗口后，播放计划继续在托盘运行。" TextWrapping="Wrap" Foreground="{StaticResource MutedBrush}" FontSize="12" LineHeight="21" Margin="0,18,0,0"/>
+              </StackPanel></ScrollViewer>
+            </Grid>
+          </Border>
+        </Grid>
+      </Grid>
+
+      <Border x:Name="PlayerBar" Grid.Row="2" Background="White" BorderBrush="#D4D4D4" BorderThickness="0,1,0,0" Padding="24,12">
+        <Grid x:Name="PlayerLayout"><Grid.ColumnDefinitions><ColumnDefinition Width="3*" MinWidth="300" MaxWidth="560"/><ColumnDefinition Width="5*" MinWidth="330"/><ColumnDefinition Width="190"/></Grid.ColumnDefinitions>
+          <Grid x:Name="PlayerInfo" Margin="0,0,20,0"><Grid.ColumnDefinitions><ColumnDefinition Width="110"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+            <Image x:Name="PlayerCover" Width="96" Height="80" Stretch="Uniform" HorizontalAlignment="Left" RenderOptions.BitmapScalingMode="HighQuality"/>
+            <TextBlock x:Name="PlayerGlyph" Text="&#xE8D6;" Style="{StaticResource Icon}" Visibility="Collapsed"/>
+            <StackPanel Grid.Column="1" VerticalAlignment="Center"><TextBlock x:Name="NowPlaying" Text="选择音乐" FontSize="18" FontWeight="Medium" TextTrimming="CharacterEllipsis" ToolTip="{Binding Text, RelativeSource={RelativeSource Self}}"/><TextBlock x:Name="PlayerSubtitle" Text="待播放" Foreground="{StaticResource MutedBrush}" FontSize="14" Margin="0,7,0,0" TextTrimming="CharacterEllipsis"/></StackPanel>
+          </Grid>
+          <Grid x:Name="PlayerCenter" Grid.Column="1" Margin="12,0,24,0"><Grid.RowDefinitions><RowDefinition Height="64"/><RowDefinition Height="40"/></Grid.RowDefinitions>
+            <StackPanel x:Name="TransportControls" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+              <Button x:Name="PreviousButton" Click="PreviousClick" Style="{StaticResource PlayerTransportButton}" ToolTip="上一首" AutomationProperties.Name="上一首"><Path Data="{StaticResource PlayerPrevious}" Style="{StaticResource PlayerTransportGlyph}"/></Button>
+              <Button x:Name="PreviewButton" Click="PreviewClick" Style="{StaticResource PlayerPlayButton}" Width="56" Height="56" Margin="8,0" AutomationProperties.AutomationId="PreviewButton" AutomationProperties.Name="播放或暂停" ToolTip="播放 / 暂停"><Path x:Name="PreviewIcon" Data="{StaticResource PlayerPlay}" Style="{StaticResource PlayerTransportGlyph}" Stroke="White"/></Button>
+              <Button x:Name="NextButton" Click="NextClick" Style="{StaticResource PlayerTransportButton}" ToolTip="下一首" AutomationProperties.Name="下一首"><Path Data="{StaticResource PlayerNext}" Style="{StaticResource PlayerTransportGlyph}"/></Button>
+              <Button x:Name="StopButton" Click="StopClick" Style="{StaticResource PlayerTransportButton}" Margin="8,0,0,0" ToolTip="停止播放" AutomationProperties.AutomationId="StopButton" AutomationProperties.Name="停止播放"><Path Data="{StaticResource PlayerStop}" Style="{StaticResource PlayerTransportGlyph}"/></Button>
+            </StackPanel>
+            <Grid x:Name="PlayerTimeline" Grid.Row="1"><Grid.ColumnDefinitions><ColumnDefinition Width="60"/><ColumnDefinition Width="*"/><ColumnDefinition Width="60"/></Grid.ColumnDefinitions><TextBlock x:Name="PositionLabel" Text="0:00" FontFamily="{DynamicResource WorldsMonoFont}" FontSize="14" Foreground="{StaticResource MutedBrush}" VerticalAlignment="Center"/><Slider Grid.Column="1" x:Name="PlaybackProgress" Minimum="0" Maximum="1" ValueChanged="SeekChanged" PreviewMouseLeftButtonDown="SeekStarted" PreviewMouseLeftButtonUp="SeekEnded" LostMouseCapture="SeekCaptureLost" AutomationProperties.Name="播放进度" ToolTip="点击或拖动调整播放位置"/><TextBlock x:Name="LengthLabel" Grid.Column="2" Text="0:00" FontFamily="{DynamicResource WorldsMonoFont}" FontSize="14" Foreground="{StaticResource MutedBrush}" HorizontalAlignment="Right" VerticalAlignment="Center"/></Grid>
+          </Grid>
+          <StackPanel x:Name="PlayerVolume" Grid.Column="2" VerticalAlignment="Center"><Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="60"/></Grid.ColumnDefinitions><StackPanel Orientation="Horizontal"><Path Data="{StaticResource PlayerVolumeGlyph}" Style="{StaticResource PlayerTransportGlyph}" Width="22" Height="22" Margin="0,0,8,0"/><TextBlock Text="音量" Foreground="{StaticResource MutedBrush}" FontSize="14" VerticalAlignment="Center"/></StackPanel><TextBlock Grid.Column="1" x:Name="VolumeLabel" Foreground="{StaticResource MutedBrush}" FontFamily="{DynamicResource WorldsMonoFont}" FontSize="14" HorizontalAlignment="Right" VerticalAlignment="Center"/></Grid><Slider x:Name="VolumeSlider" Minimum="0" Maximum="100" Value="35" ValueChanged="VolumeChanged" Margin="0,4,0,0" AutomationProperties.AutomationId="VolumeSlider" AutomationProperties.Name="音量" ToolTip="调整音乐音量"/></StackPanel>
+        </Grid>
+      </Border>
+    </Grid>
+  </Border>
+</Window>

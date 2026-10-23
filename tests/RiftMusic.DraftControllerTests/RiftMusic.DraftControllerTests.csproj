@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/RiftMusic.Core/RiftMusic.Core.csproj" />
+    <Compile Include="../../src/RiftMusic.App/GlobalUsings.cs" Link="GlobalUsings.cs" />
+    <Compile Include="../../src/RiftMusic.App/Services/AudioPlayer.cs" Link="Services/AudioPlayer.cs" />
+    <Compile Include="../../src/RiftMusic.App/Services/AppController.cs" Link="Services/AppController.cs" />
+    <Compile Include="../../src/RiftMusic.App/Services/DraftClient.cs" Link="Services/DraftClient.cs" />
+    <Compile Include="../../src/RiftMusic.App/Services/LiveGameClient.cs" Link="Services/LiveGameClient.cs" />
+    <EmbeddedResource Include="../../src/RiftMusic.App/Assets/riotgames.pem" LogicalName="RiftMusic.riotgames.pem" />
+  </ItemGroup>
+</Project>
