@@ -35,7 +35,7 @@ def request(method,url,body=None,upload=None):
             payload=str(Path(upload).resolve());config.append('header = "Content-Type: application/octet-stream"')
         command=['curl.exe','--config','-','--write-out','\n%{http_code}']
         if body is not None or upload:command+=['--data-binary','@'+payload]
-        result=subprocess.run(command,input='\n'.join(config)+'\n',text=True,capture_output=True,timeout=1210)
+        result=subprocess.run(command,input='\n'.join(config)+'\n',text=True,encoding='utf-8',capture_output=True,timeout=1210)
         if result.returncode:raise RuntimeError('GitHub transport failed: '+result.stderr[:240])
         content,status=result.stdout.rsplit('\n',1)
         data=json.loads(content) if content else {}
