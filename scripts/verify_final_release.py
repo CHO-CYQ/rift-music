@@ -29,9 +29,10 @@ else:
     immutable={name:sha for name,sha in original['files'].items() if name not in ('settings.json','settings.json.bak')}
     assert all(files.get(name)==sha for name,sha in immutable.items()),'Audio, artwork, font or appearance data changed'
     assert set(files)==set(original['files']),'Data files were added or omitted'
-    report={'version':'0.1.0-beta.1','tracks':len(settings['Tracks']),'opening':sum(t['Category']!='draft' for t in settings['Tracks']),
+    report={'version':'0.1.0-beta.2','tracks':len(settings['Tracks']),'opening':sum(t['Category']!='draft' for t in settings['Tracks']),
             'bp':sum(t['Category']=='draft' for t in settings['Tracks']),'immutable_files_verified':len(immutable),
             'all_settings_and_track_metadata_preserved':True,'settings_bytes_preserved':files['settings.json']==original['files']['settings.json'],
             'all_audio_artwork_fonts_and_appearance_preserved':True}
     if args.report:Path(args.report).write_text(json.dumps(report,ensure_ascii=False,indent=2),'utf-8')
     print(json.dumps(report,ensure_ascii=True))
+

@@ -3,10 +3,11 @@
     <OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework>
     <UseWPF>true</UseWPF><UseWindowsForms>true</UseWindowsForms><ImplicitUsings>disable</ImplicitUsings>
     <AssemblyName>RiftMusic</AssemblyName><RootNamespace>RiftMusic.App</RootNamespace>
-    <Version>0.1.0-beta.1</Version><Product>峡谷序曲 · LOL 音乐馆（测试版）</Product>
+    <Version>0.1.0-beta.2</Version><Product>峡谷序曲 · LOL 音乐馆（测试版）</Product>
     <ApplicationIcon>Assets/RiftMusic.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup><ProjectReference Include="../RiftMusic.Core/RiftMusic.Core.csproj" /><EmbeddedResource Include="Assets/riotgames.pem" LogicalName="RiftMusic.riotgames.pem" /><Resource Include="Assets/RiftMusic.ico" /><Resource Include="Assets/RiftMusic.png" /></ItemGroup>
   <ItemGroup><Resource Include="Assets/Art/*.jpg" /><Resource Include="Assets/Art/*.png" /><EmbeddedResource Include="../../docs/artwork-sources.json" LogicalName="RiftMusic.artwork.json" /></ItemGroup>
   <ItemGroup><Resource Include="Assets/Fonts/*.otf" /><Resource Include="Assets/Fonts/*.ttf" /></ItemGroup>
+  <ItemGroup><EmbeddedResource Include="../../docs/music-packs-v01.json" LogicalName="RiftMusic.music-packs.json" /></ItemGroup>
 </Project>

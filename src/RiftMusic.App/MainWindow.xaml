@@ -72,6 +72,7 @@
               </StackPanel>
             </ScrollViewer>
             <StackPanel Grid.Row="5" Margin="2,8,2,0">
+              <Button x:Name="DownloadMusicButton" Click="DownloadMusicClick" Background="{StaticResource GoldBrush}" Foreground="White" HorizontalContentAlignment="Left" Margin="0,0,0,7" AutomationProperties.Name="下载可选曲库"><StackPanel Orientation="Horizontal"><Path Data="{StaticResource FluentDownload}" Fill="White" Width="17" Height="17" Stretch="Uniform" Margin="0,0,9,0"/><TextBlock Text="下载曲库" FontSize="13"/></StackPanel></Button>
               <Button x:Name="ImportButton" Click="ImportClick" Background="#FFFFFF" BorderBrush="#D4D4D4" HorizontalContentAlignment="Left"><StackPanel Orientation="Horizontal"><Path Data="{StaticResource FluentDownload}" Fill="{StaticResource GoldBrush}" Width="17" Height="17" Stretch="Uniform" Margin="0,0,9,0"/><TextBlock Text="导入本地音乐" FontSize="13"/></StackPanel></Button>
               <TextBlock x:Name="WorkspaceHint" Text="自动播放设置分别保存" Visibility="Collapsed" FontSize="12" Foreground="{StaticResource MutedBrush}" TextWrapping="Wrap" LineHeight="19" Margin="11,13,8,0"/>
             </StackPanel>

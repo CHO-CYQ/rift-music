@@ -87,7 +87,7 @@ public partial class MainWindow : Window
         EmptyState.Visibility = tracks.Count == 0 ? Visibility.Visible : Visibility.Collapsed;
         var hasSearch=!string.IsNullOrWhiteSpace(SearchBox.Text) || ThemeFilter.SelectedIndex>0;
         EmptyTitle.Text = hasSearch ? "没有找到匹配的音乐" : scope == "favorites" ? "把喜欢的音乐留在这里" : "这里暂时没有可用音乐";
-        EmptyHint.Text = hasSearch ? "试试其他关键词，或清除搜索与主题筛选。" : scope == "favorites" ? "点击曲目旁的爱心，即可加入当前用途的收藏。" : draftWorkspace ? "当前年份或赛事还没有合格音源。可重置分类筛选，或导入本地 BP 音乐。" : "可重置分类筛选，或导入本地音乐。";
+        EmptyHint.Text = hasSearch ? "试试其他关键词，或清除搜索与主题筛选。" : scope == "favorites" ? "点击曲目旁的爱心，即可加入当前用途的收藏。" : controller.Settings.Tracks.Count==0 ? "点击左下角“下载曲库”选择分类，或导入本地音乐。" : draftWorkspace ? "当前年份或赛事还没有合格音源。可重置分类筛选、下载曲包或导入本地 BP 音乐。" : "可重置分类筛选、下载曲包或导入本地音乐。";
         EmptyResetButton.Content=hasSearch?"清除搜索与主题":"重置分类筛选";
         EmptyResetButton.Visibility=hasSearch || !browseSelection.ShowAll?Visibility.Visible:Visibility.Collapsed;
         SearchHint.Visibility = string.IsNullOrEmpty(SearchBox.Text) ? Visibility.Visible : Visibility.Collapsed;

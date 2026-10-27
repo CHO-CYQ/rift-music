@@ -1,0 +1,5603 @@
+[
+  {
+    "Id": "opening-worlds",
+    "Name": "开场 · 全球总决赛",
+    "Description": "保留各年份与已核实赛事用途；仅下载所选分类。",
+    "Asset": "RiftMusic-Music-opening-worlds-v0.1.zip",
+    "Bytes": 48386036,
+    "Sha256": "aebc09308c2fcf3cf1aed14f342269b33427541595b038331dd96145c58313bd",
+    "Tracks": [
+      {
+        "Id": "client-wmc2022-spawn",
+        "Name": "2022 全球总决赛 · 原版开场",
+        "Season": "S12 · 2022",
+        "Kind": "游戏内开场原版",
+        "File": "WMC2022_spawn.wav",
+        "Source": "本机国服资源 Common.wad.client；事件 Play_mus_map11_WMC2022_spawn。2022 曲名尚未通过听辨核实。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "worlds",
+        "Theme": "全球总决赛",
+        "Year": 2022,
+        "Quality": "原始游戏音频",
+        "SearchTags": "STAR WALKIN 逐星 WMC2022",
+        "Favorite": false,
+        "Duration": 84.50702947845805,
+        "Start": 0,
+        "End": 84.50702947845805,
+        "FadeIn": 0.8,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "2022 全球总决赛 · 原版开场",
+        "Subtitle": "S12 · 2022  ·  游戏内开场原版  ·  84.5 秒"
+      },
+      {
+        "Id": "worlds2020-spawn",
+        "Name": "2020 全球总决赛 · 原版开场",
+        "Season": "S10 · 2020",
+        "Kind": "游戏内开场原版",
+        "File": "Worlds2020_spawn.wav",
+        "Source": "本机国服资源 Common.wad.client；事件 Play_mus_map11_Worlds2020_spawn。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "worlds",
+        "Theme": "全球总决赛",
+        "Year": 2020,
+        "Quality": "原始游戏音频",
+        "SearchTags": "Take Over 所向无前",
+        "Favorite": false,
+        "Duration": 82.39997732426303,
+        "Start": 0,
+        "End": 82.39997732426303,
+        "FadeIn": 0.8,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "2020 全球总决赛 · 原版开场",
+        "Subtitle": "S10 · 2020  ·  游戏内开场原版  ·  82.4 秒"
+      },
+      {
+        "Id": "worlds-2013-hybrid_worlds",
+        "Name": "Hybrid Worlds · 器乐开局剪辑",
+        "Season": "S3 · 2013",
+        "Kind": "官方器乐剪辑",
+        "File": "worlds-2013-hybrid_worlds.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/6.mp3；腾讯官方音乐专题公开MP3，不声称游戏开场原版。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "worlds",
+        "Theme": "全球总决赛",
+        "Year": 2013,
+        "Quality": "官方音源",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 73.640249,
+        "Start": 0,
+        "End": 73.640249,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Hybrid Worlds · 器乐开局剪辑",
+        "Subtitle": "S3 · 2013  ·  官方器乐剪辑  ·  73.6 秒"
+      },
+      {
+        "Id": "worlds-2012-silver_scrapes",
+        "Name": "Silver Scrapes · 器乐开局剪辑",
+        "Season": "S2 · 2012",
+        "Kind": "官方器乐剪辑",
+        "File": "worlds-2012-silver_scrapes.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/7.mp3；腾讯官方音乐专题公开MP3，S2赛事关联器乐，不声称当年游戏开场原版。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "worlds",
+        "Theme": "全球总决赛",
+        "Year": 2012,
+        "Quality": "官方音源",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 68.684739,
+        "Start": 0,
+        "End": 68.684739,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Silver Scrapes · 器乐开局剪辑",
+        "Subtitle": "S2 · 2012  ·  官方器乐剪辑  ·  68.7 秒"
+      },
+      {
+        "Id": "worlds-2011-classic_theme",
+        "Name": "早期登录主题 · S1时期补编",
+        "Season": "S1 · 2011",
+        "Kind": "时期主题补编",
+        "File": "worlds-2011-classic_theme.mp3",
+        "Source": "https://www.youtube.com/watch?v=8dnmCJbmfxY；早期League of Legends登录主题；用作S1时期器乐补编，不是S1全球总决赛官方主题曲。Riot官方曲目清单列Welcome to League of Legends - Theme (From League of Legends: Season 1)。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "worlds",
+        "Theme": "全球总决赛",
+        "Year": 2011,
+        "Quality": "早期官方器乐 · 社区转载",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 74.936009,
+        "Start": 0,
+        "End": 74.936009,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "早期登录主题 · S1时期补编",
+        "Subtitle": "S1 · 2011  ·  时期主题补编  ·  74.9 秒"
+      },
+      {
+        "Id": "worlds-2014-warriors",
+        "Name": "Warriors · 伴奏开局剪辑",
+        "Season": "S4 · 2014",
+        "Kind": "伴奏剪辑",
+        "File": "worlds-2014-warriors.mp3",
+        "Source": "https://www.bilibili.com/video/BV1Dv411x7nY/?p=4；用户参考合集伴奏分P；上传者称官方伴奏，发布账号非Riot，未独立验证伴奏母带。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "worlds",
+        "Theme": "全球总决赛",
+        "Year": 2014,
+        "Quality": "社区伴奏音源",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 70.925283,
+        "Start": 0,
+        "End": 70.925283,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Warriors · 伴奏开局剪辑",
+        "Subtitle": "S4 · 2014  ·  伴奏剪辑  ·  70.9 秒"
+      },
+      {
+        "Id": "worlds-2015-worlds_collide",
+        "Name": "Worlds Collide · 伴奏开局剪辑",
+        "Season": "S5 · 2015",
+        "Kind": "伴奏剪辑",
+        "File": "worlds-2015-worlds_collide.mp3",
+        "Source": "https://www.bilibili.com/video/BV1H54y1m7P8/?p=4；分P原名2015 World Championship (w_o Vocals) - Login Screen；来源为社区转载无主唱登录音乐。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "worlds",
+        "Theme": "全球总决赛",
+        "Year": 2015,
+        "Quality": "社区伴奏音源",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 71.408503,
+        "Start": 0,
+        "End": 71.408503,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Worlds Collide · 伴奏开局剪辑",
+        "Subtitle": "S5 · 2015  ·  伴奏剪辑  ·  71.4 秒"
+      },
+      {
+        "Id": "worlds-2016-ignite",
+        "Name": "Ignite · 伴奏开局剪辑",
+        "Season": "S6 · 2016",
+        "Kind": "伴奏剪辑",
+        "File": "worlds-2016-ignite.mp3",
+        "Source": "https://www.bilibili.com/video/BV1Dv411x7nY/?p=6；用户参考合集伴奏分P；上传者称官方伴奏，未独立验证伴奏母带。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "worlds",
+        "Theme": "全球总决赛",
+        "Year": 2016,
+        "Quality": "社区伴奏音源",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 69.938934,
+        "Start": 0,
+        "End": 69.938934,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Ignite · 伴奏开局剪辑",
+        "Subtitle": "S6 · 2016  ·  伴奏剪辑  ·  69.9 秒"
+      },
+      {
+        "Id": "worlds-2017-legends_never_die",
+        "Name": "Legends Never Die · 游戏开场",
+        "Season": "S7 · 2017",
+        "Kind": "游戏开场音源",
+        "File": "worlds-2017-legends_never_die.mp3",
+        "Source": "https://www.youtube.com/watch?v=9V7pGAJ9xyI；Devvy发布Legends Never Die - Ingame Version HQ；B站BV1zu41167pc纯净分P亦可交叉参考。不是本机提取文件。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "worlds",
+        "Theme": "全球总决赛",
+        "Year": 2017,
+        "Quality": "社区转载游戏原曲",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 57.53551,
+        "Start": 0,
+        "End": 57.53551,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Legends Never Die · 游戏开场",
+        "Subtitle": "S7 · 2017  ·  游戏开场音源  ·  57.5 秒"
+      },
+      {
+        "Id": "worlds-2018-rise",
+        "Name": "RISE · 游戏开场",
+        "Season": "S8 · 2018",
+        "Kind": "游戏开场音源",
+        "File": "worlds-2018-rise.mp3",
+        "Source": "https://www.youtube.com/watch?v=KVm_KZMN4D8；Nelshare明确说明为召唤师峡谷开场的RISE器乐版本。实际源长55.941s，不虚改为65s；不是本机提取文件。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "worlds",
+        "Theme": "全球总决赛",
+        "Year": 2018,
+        "Quality": "社区转载游戏原曲",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 55.797551,
+        "Start": 0,
+        "End": 55.797551,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "RISE · 游戏开场",
+        "Subtitle": "S8 · 2018  ·  游戏开场音源  ·  55.8 秒"
+      },
+      {
+        "Id": "worlds-2019-phoenix",
+        "Name": "Phoenix · 伴奏开局剪辑",
+        "Season": "S9 · 2019",
+        "Kind": "伴奏剪辑",
+        "File": "worlds-2019-phoenix.mp3",
+        "Source": "https://www.bilibili.com/video/BV1Dv411x7nY/?p=9；用户参考合集伴奏。未找到可核验无播报S9原始spawn；本条明确是伴奏剪辑。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "worlds",
+        "Theme": "全球总决赛",
+        "Year": 2019,
+        "Quality": "社区伴奏音源",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 65,
+        "Start": 0,
+        "End": 65,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Phoenix · 伴奏开局剪辑",
+        "Subtitle": "S9 · 2019  ·  伴奏剪辑  ·  65 秒"
+      },
+      {
+        "Id": "worlds-2021-burn_it_all_down",
+        "Name": "Burn It All Down · 伴奏开局剪辑",
+        "Season": "S11 · 2021",
+        "Kind": "伴奏剪辑",
+        "File": "worlds-2021-burn_it_all_down.mp3",
+        "Source": "https://www.bilibili.com/video/BV1Dv411x7nY/?p=11；用户参考合集伴奏；非2021原始spawn。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "worlds",
+        "Theme": "全球总决赛",
+        "Year": 2021,
+        "Quality": "社区伴奏音源",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 70.904943,
+        "Start": 0,
+        "End": 70.904943,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Burn It All Down · 伴奏开局剪辑",
+        "Subtitle": "S11 · 2021  ·  伴奏剪辑  ·  70.9 秒"
+      },
+      {
+        "Id": "worlds-2023-gods",
+        "Name": "GODS · 伴奏处理剪辑",
+        "Season": "S13 · 2023",
+        "Kind": "伴奏处理剪辑",
+        "File": "worlds-2023-gods.mp3",
+        "Source": "https://www.bilibili.com/video/BV1qQ4y1s7Pu/；社区伴奏候选再经UVR-MDX-NET-Inst_HQ_3分离；原始源区间146–218s。自动检查，非人工听审。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "worlds",
+        "Theme": "全球总决赛",
+        "Year": 2023,
+        "Quality": "分离伴奏",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 72,
+        "Start": 0,
+        "End": 72,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "GODS · 伴奏处理剪辑",
+        "Subtitle": "S13 · 2023  ·  伴奏处理剪辑  ·  72 秒"
+      },
+      {
+        "Id": "worlds-2024-heavy_is_the_crown",
+        "Name": "Heavy Is the Crown · 伴奏处理剪辑",
+        "Season": "S14 · 2024",
+        "Kind": "伴奏处理剪辑",
+        "File": "worlds-2024-heavy_is_the_crown.mp3",
+        "Source": "https://www.bilibili.com/video/BV1mVseebEEv/；上传者明确使用UVR5-MDX23c-InstVoc HQ算法制作；非官方发行伴奏。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "worlds",
+        "Theme": "全球总决赛",
+        "Year": 2024,
+        "Quality": "分离伴奏",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 71.913832,
+        "Start": 0,
+        "End": 71.913832,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Heavy Is the Crown · 伴奏处理剪辑",
+        "Subtitle": "S14 · 2024  ·  伴奏处理剪辑  ·  71.9 秒"
+      },
+      {
+        "Id": "worlds-2025-sacrifice",
+        "Name": "Sacrifice 争 · 伴奏处理剪辑",
+        "Season": "S15 · 2025",
+        "Kind": "伴奏处理剪辑",
+        "File": "worlds-2025-sacrifice.mp3",
+        "Source": "https://www.bilibili.com/video/BV1F841zyEPM/；拳头游戏音乐官方MV音轨，经UVR-MDX-NET-Inst_HQ_3分离；原始源区间159–235s。非原始游戏开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "worlds",
+        "Theme": "全球总决赛",
+        "Year": 2025,
+        "Quality": "分离伴奏",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 76,
+        "Start": 0,
+        "End": 76,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Sacrifice 争 · 伴奏处理剪辑",
+        "Subtitle": "S15 · 2025  ·  伴奏处理剪辑  ·  76 秒"
+      }
+    ],
+    "Files": [
+      {
+        "Path": "Music/WMC2022_spawn.wav",
+        "Bytes": 14907084,
+        "Sha256": "9d87eda2bc4808a033c3c9a68cc16ff042a0a6038ff39147878038c583327d9c"
+      },
+      {
+        "Path": "Music/Worlds2020_spawn.wav",
+        "Bytes": 14535400,
+        "Sha256": "342582ba2a0133d2f07b4bf46f06de15711e099cdee26a96cf162753e583a884"
+      },
+      {
+        "Path": "Music/worlds-2011-classic_theme.mp3",
+        "Bytes": 1800032,
+        "Sha256": "87158bcc49f953be33d23c062164cb71d6006b0f16073d95c5a227265b77ac72"
+      },
+      {
+        "Path": "Music/worlds-2012-silver_scrapes.mp3",
+        "Bytes": 1650193,
+        "Sha256": "4d3fadbe51a1bc8a6098b2b6b0788a5cf84adbdca48ec4afc22d265657231c0d"
+      },
+      {
+        "Path": "Music/worlds-2013-hybrid_worlds.mp3",
+        "Bytes": 1769311,
+        "Sha256": "69b4835b38df72163c4095f9b36280fb046dd103b361146ccb467378c5f47197"
+      },
+      {
+        "Path": "Music/worlds-2014-warriors.mp3",
+        "Bytes": 1704104,
+        "Sha256": "20d45fc9342f1cde45de5ec2aac671db06455b885b0a1b3b8fd9dc73e9a50fbb"
+      },
+      {
+        "Path": "Music/worlds-2015-worlds_collide.mp3",
+        "Bytes": 1715395,
+        "Sha256": "ee339ee1c73a162b1ee65d1a29f0f0015c89464cd00a654c8b82738fd83ddf8d"
+      },
+      {
+        "Path": "Music/worlds-2016-ignite.mp3",
+        "Bytes": 1680279,
+        "Sha256": "721441ac54a2b6a2917fcf670509640a4cfbc14a73725344a502b3eb10dcef1d"
+      },
+      {
+        "Path": "Music/worlds-2017-legends_never_die.mp3",
+        "Bytes": 1382488,
+        "Sha256": "a2419ed41022db2cef632ba7b5761a0b10edf9be8649c24fc19a1d059d6fc722"
+      },
+      {
+        "Path": "Music/worlds-2018-rise.mp3",
+        "Bytes": 1340470,
+        "Sha256": "ac749afea0f01bf39b0567a4a6ad3b4bde3f6e85bf74a8669e55a483899c3877"
+      },
+      {
+        "Path": "Music/worlds-2019-phoenix.mp3",
+        "Bytes": 1561788,
+        "Sha256": "44992e0e0a7c219c9651cc47e5772f8dd50d354abfe581e06a6e0f4179830227"
+      },
+      {
+        "Path": "Music/worlds-2021-burn_it_all_down.mp3",
+        "Bytes": 1703485,
+        "Sha256": "873ea44fd2dde786b5da28cd2c1c1e3f9dc819be3e0dba0172c3880c4c1c5c93"
+      },
+      {
+        "Path": "Music/worlds-2023-gods.mp3",
+        "Bytes": 1729805,
+        "Sha256": "6e5304b985fced0222a05b8a7729cf066510df400cd103343703dd3ba88d51a3"
+      },
+      {
+        "Path": "Music/worlds-2024-heavy_is_the_crown.mp3",
+        "Bytes": 1727311,
+        "Sha256": "a5fb9a5a2858096ccc69131b033d7ec70c40f17792f3e0a643f9d295e0355d4a"
+      },
+      {
+        "Path": "Music/worlds-2025-sacrifice.mp3",
+        "Bytes": 1825735,
+        "Sha256": "dca8a967a80b54a03ee2b6097af5bdff670871dd401526749f6f3f3f1c7685f2"
+      }
+    ]
+  },
+  {
+    "Id": "opening-skins",
+    "Name": "开场 · 英雄与皮肤",
+    "Description": "保留各年份与已核实赛事用途；仅下载所选分类。",
+    "Asset": "RiftMusic-Music-opening-skins-v0.1.zip",
+    "Bytes": 51668567,
+    "Sha256": "a3ffee825e91b46590386ddccc4ab1d027eb92cce6d1bcfd9c0be512193e178f",
+    "Tracks": [
+      {
+        "Id": "local-play_mus_map11_starguardian_spawn",
+        "Name": "星之守护者 · 初代开场",
+        "Season": "初代",
+        "Kind": "游戏内开场原版",
+        "File": "starguardian_spawn.mp3",
+        "Source": "本机游戏资源；事件 Play_mus_map11_starguardian_spawn。保留事件身份，MP3转码用于减小体积。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "星之守护者",
+        "Year": 0,
+        "Quality": "原始游戏音频",
+        "SearchTags": "Star Guardian 星之守卫者",
+        "Favorite": false,
+        "Duration": 76.753243,
+        "Start": 0,
+        "End": 76.653243,
+        "FadeIn": 0.8,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "星之守护者 · 初代开场",
+        "Subtitle": "初代  ·  游戏内开场原版  ·  76.7 秒"
+      },
+      {
+        "Id": "local-play_mus_map11_starguardian2017_spawn",
+        "Name": "星之守护者 2017",
+        "Season": "2017",
+        "Kind": "游戏内开场原版",
+        "File": "starguardian2017_spawn.mp3",
+        "Source": "本机游戏资源；事件 Play_mus_map11_starguardian2017_spawn。保留事件身份，MP3转码用于减小体积。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "星之守护者",
+        "Year": 2017,
+        "Quality": "原始游戏音频",
+        "SearchTags": "Star Guardian 星之守卫者",
+        "Favorite": false,
+        "Duration": 109.657914,
+        "Start": 0,
+        "End": 109.55791400000001,
+        "FadeIn": 0.8,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "星之守护者 2017",
+        "Subtitle": "2017  ·  游戏内开场原版  ·  109.6 秒"
+      },
+      {
+        "Id": "local-play_mus_map11_starguardian2019_spawn",
+        "Name": "星之守护者 2019",
+        "Season": "2019",
+        "Kind": "游戏内开场原版",
+        "File": "starguardian2019_spawn.mp3",
+        "Source": "本机游戏资源；事件 Play_mus_map11_starguardian2019_spawn。保留事件身份，MP3转码用于减小体积。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "星之守护者",
+        "Year": 2019,
+        "Quality": "原始游戏音频",
+        "SearchTags": "Star Guardian 星之守卫者",
+        "Favorite": false,
+        "Duration": 95.505465,
+        "Start": 0,
+        "End": 95.405465,
+        "FadeIn": 0.8,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "星之守护者 2019",
+        "Subtitle": "2019  ·  游戏内开场原版  ·  95.4 秒"
+      },
+      {
+        "Id": "local-play_mus_map11_starguardian2022_spawn",
+        "Name": "星之守护者 2022",
+        "Season": "2022",
+        "Kind": "游戏内开场原版",
+        "File": "starguardian2022_spawn.mp3",
+        "Source": "本机游戏资源；事件 Play_mus_map11_starguardian2022_spawn。保留事件身份，MP3转码用于减小体积。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "星之守护者",
+        "Year": 2022,
+        "Quality": "原始游戏音频",
+        "SearchTags": "Star Guardian 星之守卫者",
+        "Favorite": false,
+        "Duration": 92.332744,
+        "Start": 0,
+        "End": 92.23274400000001,
+        "FadeIn": 0.8,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "星之守护者 2022",
+        "Subtitle": "2022  ·  游戏内开场原版  ·  92.2 秒"
+      },
+      {
+        "Id": "local-play_mus_map11_kda2020_spawn",
+        "Name": "K/DA 2020 · 原版开场",
+        "Season": "2020",
+        "Kind": "游戏内开场原版",
+        "File": "KDA2020_spawn.mp3",
+        "Source": "本机游戏资源；事件 Play_mus_map11_KDA2020_spawn。保留事件身份，MP3转码用于减小体积。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "K/DA",
+        "Year": 2020,
+        "Quality": "原始游戏音频",
+        "SearchTags": "KDA ALL OUT",
+        "Favorite": false,
+        "Duration": 88.732381,
+        "Start": 0,
+        "End": 88.63238100000001,
+        "FadeIn": 0.8,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "K/DA 2020 · 原版开场",
+        "Subtitle": "2020  ·  游戏内开场原版  ·  88.6 秒"
+      },
+      {
+        "Id": "local-play_mus_map11_demaciavice2019_spawn",
+        "Name": "德玛西亚警官",
+        "Season": "2019",
+        "Kind": "游戏内开场原版",
+        "File": "demaciavice2019_spawn.mp3",
+        "Source": "本机游戏资源；事件 Play_mus_map11_demaciavice2019_spawn。保留事件身份，MP3转码用于减小体积。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "德玛西亚警官",
+        "Year": 2019,
+        "Quality": "原始游戏音频",
+        "SearchTags": "Demacia Vice 卢锡安 盖伦",
+        "Favorite": false,
+        "Duration": 79.530249,
+        "Start": 0,
+        "End": 79.430249,
+        "FadeIn": 0.8,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "德玛西亚警官",
+        "Subtitle": "2019  ·  游戏内开场原版  ·  79.4 秒"
+      },
+      {
+        "Id": "local-play_mus_map11_teemo_spawn",
+        "Name": "迅捷斥候 · 提莫",
+        "Season": "",
+        "Kind": "游戏内开场原版",
+        "File": "teemo_spawn.mp3",
+        "Source": "本机游戏资源；事件 Play_mus_map11_teemo_spawn。保留事件身份，MP3转码用于减小体积。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "英雄主题",
+        "Year": 0,
+        "Quality": "原始游戏音频",
+        "SearchTags": "Teemo",
+        "Favorite": false,
+        "Duration": 91.3,
+        "Start": 0,
+        "End": 91.2,
+        "FadeIn": 0.8,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "迅捷斥候 · 提莫",
+        "Subtitle": "自定义  ·  游戏内开场原版  ·  91.2 秒"
+      },
+      {
+        "Id": "local-play_sfx_swain_music_firstmove",
+        "Name": "诺克萨斯统领 · 斯维因",
+        "Season": "",
+        "Kind": "游戏内开场原版",
+        "File": "Swain_FirstMove.mp3",
+        "Source": "本机游戏资源；事件 Play_sfx_Swain_Music_FirstMove。保留事件身份，MP3转码用于减小体积。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "英雄主题",
+        "Year": 2018,
+        "Quality": "原始游戏音频",
+        "SearchTags": "Swain 乌鸦",
+        "Favorite": false,
+        "Duration": 27.57059,
+        "Start": 0,
+        "End": 27.470589999999998,
+        "FadeIn": 0.8,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "诺克萨斯统领 · 斯维因",
+        "Subtitle": "自定义  ·  游戏内开场原版  ·  27.5 秒"
+      },
+      {
+        "Id": "official-theme-kaisa",
+        "Name": "卡莎 · 虚空之女 · 开场剪辑",
+        "Season": "英雄主题",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-kaisa-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/player/tes-ad.mp3；腾讯官方音乐专题独立音源，截取 0.0–69.3 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "英雄主题",
+        "Year": 2018,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 69.3,
+        "Start": 0,
+        "End": 69.3,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "卡莎 · 虚空之女 · 开场剪辑",
+        "Subtitle": "英雄主题  ·  官方纯音乐剪辑  ·  69.3 秒"
+      },
+      {
+        "Id": "official-theme-kayn",
+        "Name": "凯隐 · 影流之镰 · 开场剪辑",
+        "Season": "英雄主题",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-kayn-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/player/jdg-dy.mp3；腾讯官方音乐专题独立音源，截取 0.0–70.8 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "英雄主题",
+        "Year": 2017,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 70.8,
+        "Start": 0,
+        "End": 70.8,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "凯隐 · 影流之镰 · 开场剪辑",
+        "Subtitle": "英雄主题  ·  官方纯音乐剪辑  ·  70.8 秒"
+      },
+      {
+        "Id": "official-theme-ekko",
+        "Name": "艾克 · 时间刺客 · 开场剪辑",
+        "Season": "英雄主题",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-ekko-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/player/tes-zd.mp3；腾讯官方音乐专题独立音源，截取 0.0–72.9 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "英雄主题",
+        "Year": 2015,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 72.9,
+        "Start": 0,
+        "End": 72.9,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "艾克 · 时间刺客 · 开场剪辑",
+        "Subtitle": "英雄主题  ·  官方纯音乐剪辑  ·  72.9 秒"
+      },
+      {
+        "Id": "official-theme-braum",
+        "Name": "布隆 · 弗雷尔卓德之心 · 开场剪辑",
+        "Season": "英雄主题",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-braum-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/player/tes-fz.mp3；腾讯官方音乐专题独立音源，截取 0.0–69.8 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "英雄主题",
+        "Year": 2014,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 69.800249,
+        "Start": 0,
+        "End": 69.800249,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "布隆 · 弗雷尔卓德之心 · 开场剪辑",
+        "Subtitle": "英雄主题  ·  官方纯音乐剪辑  ·  69.8 秒"
+      },
+      {
+        "Id": "official-theme-zoe",
+        "Name": "佐伊 · 暮光星灵 · 开场剪辑",
+        "Season": "英雄主题",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-zoe-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/player/jdg-zd.mp3；腾讯官方音乐专题独立音源，截取 0.0–71.0 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "英雄主题",
+        "Year": 2017,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 71,
+        "Start": 0,
+        "End": 71,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "佐伊 · 暮光星灵 · 开场剪辑",
+        "Subtitle": "英雄主题  ·  官方纯音乐剪辑  ·  71 秒"
+      },
+      {
+        "Id": "official-theme-syndra",
+        "Name": "辛德拉 · 暗黑元首 · 开场剪辑",
+        "Season": "英雄主题",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-syndra-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/player/sn-zd.mp3；腾讯官方音乐专题独立音源，截取 0.0–65.8 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "英雄主题",
+        "Year": 2012,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 65.8,
+        "Start": 0,
+        "End": 65.8,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "辛德拉 · 暗黑元首 · 开场剪辑",
+        "Subtitle": "英雄主题  ·  官方纯音乐剪辑  ·  65.8 秒"
+      },
+      {
+        "Id": "official-theme-lillia",
+        "Name": "莉莉娅 · 含羞蓓蕾 · 开场剪辑",
+        "Season": "英雄主题",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-lillia-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/player/sn-dy.mp3；腾讯官方音乐专题独立音源，截取 0.0–70.7 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "英雄主题",
+        "Year": 2020,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 70.7,
+        "Start": 0,
+        "End": 70.7,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "莉莉娅 · 含羞蓓蕾 · 开场剪辑",
+        "Subtitle": "英雄主题  ·  官方纯音乐剪辑  ·  70.7 秒"
+      },
+      {
+        "Id": "official-theme-camille",
+        "Name": "卡蜜尔 · 青钢影 · 开场剪辑",
+        "Season": "英雄主题",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-camille-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/player/sn-sd.mp3；腾讯官方音乐专题独立音源，截取 0.0–68.1 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "英雄主题",
+        "Year": 2016,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 68.1,
+        "Start": 0,
+        "End": 68.1,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "卡蜜尔 · 青钢影 · 开场剪辑",
+        "Subtitle": "英雄主题  ·  官方纯音乐剪辑  ·  68.1 秒"
+      },
+      {
+        "Id": "official-theme-jhin",
+        "Name": "烬 · 戏命师 · 开场剪辑",
+        "Season": "英雄主题",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-jhin-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/player/sn-ad.mp3；腾讯官方音乐专题独立音源，截取 0.0–68.2 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "英雄主题",
+        "Year": 2016,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 68.2,
+        "Start": 0,
+        "End": 68.2,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "烬 · 戏命师 · 开场剪辑",
+        "Subtitle": "英雄主题  ·  官方纯音乐剪辑  ·  68.2 秒"
+      },
+      {
+        "Id": "official-theme-kindred",
+        "Name": "千珏 · 永猎双子 · 开场剪辑",
+        "Season": "英雄主题",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-kindred-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/player/lgd-dy.mp3；腾讯官方音乐专题独立音源，截取 0.0–74.5 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "英雄主题",
+        "Year": 2015,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 74.5,
+        "Start": 0,
+        "End": 74.5,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "千珏 · 永猎双子 · 开场剪辑",
+        "Subtitle": "英雄主题  ·  官方纯音乐剪辑  ·  74.5 秒"
+      },
+      {
+        "Id": "official-theme-sylas",
+        "Name": "塞拉斯 · 解脱者 · 开场剪辑",
+        "Season": "英雄主题",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-sylas-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/player/lgd-zd.mp3；腾讯官方音乐专题独立音源，截取 0.0–74.1 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "英雄主题",
+        "Year": 2019,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 74.1,
+        "Start": 0,
+        "End": 74.1,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "塞拉斯 · 解脱者 · 开场剪辑",
+        "Subtitle": "英雄主题  ·  官方纯音乐剪辑  ·  74.1 秒"
+      },
+      {
+        "Id": "official-theme-pulsefire-ezreal",
+        "Name": "未来战士 · 伊泽瑞尔 · 开场剪辑",
+        "Season": "未来战士",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-pulsefire-ezreal-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/player/lgd-ad.mp3；腾讯官方音乐专题独立音源，截取 0.0–65.4 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "未来战士",
+        "Year": 2012,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 65.4,
+        "Start": 0,
+        "End": 65.4,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "未来战士 · 伊泽瑞尔 · 开场剪辑",
+        "Subtitle": "未来战士  ·  官方纯音乐剪辑  ·  65.4 秒"
+      },
+      {
+        "Id": "official-theme-elementalist-lux",
+        "Name": "大元素使 · 拉克丝 · 开场剪辑",
+        "Season": "大元素使",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-elementalist-lux-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/player/lgd-fz.mp3；腾讯官方音乐专题独立音源，截取 0.0–69.2 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "大元素使",
+        "Year": 2016,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 69.2,
+        "Start": 0,
+        "End": 69.2,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "大元素使 · 拉克丝 · 开场剪辑",
+        "Subtitle": "大元素使  ·  官方纯音乐剪辑  ·  69.2 秒"
+      },
+      {
+        "Id": "official-theme-neeko",
+        "Name": "妮蔻 · 万花通灵 · 开场剪辑",
+        "Season": "英雄主题",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-neeko-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/37.mp3；腾讯官方音乐专题独立音源，截取 0.0–72.6 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "英雄主题",
+        "Year": 2018,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 72.6,
+        "Start": 0,
+        "End": 72.6,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "妮蔻 · 万花通灵 · 开场剪辑",
+        "Subtitle": "英雄主题  ·  官方纯音乐剪辑  ·  72.6 秒"
+      },
+      {
+        "Id": "official-theme-dj-sona-kinetic",
+        "Name": "DJ娑娜 · 动感 Kinetic · 开场剪辑",
+        "Season": "DJ娑娜",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-dj-sona-kinetic-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/28.mp3；腾讯官方音乐专题独立音源，截取 0.0–61.8 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "DJ娑娜",
+        "Year": 2015,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 61.8,
+        "Start": 0,
+        "End": 61.8,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "DJ娑娜 · 动感 Kinetic · 开场剪辑",
+        "Subtitle": "DJ娑娜  ·  官方纯音乐剪辑  ·  61.8 秒"
+      },
+      {
+        "Id": "official-theme-dj-sona-concussive",
+        "Name": "DJ娑娜 · 震荡 Concussive · 开场剪辑",
+        "Season": "DJ娑娜",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-dj-sona-concussive-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/29.mp3；腾讯官方音乐专题独立音源，截取 0.0–66.7 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "DJ娑娜",
+        "Year": 2015,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 66.7,
+        "Start": 0,
+        "End": 66.7,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "DJ娑娜 · 震荡 Concussive · 开场剪辑",
+        "Subtitle": "DJ娑娜  ·  官方纯音乐剪辑  ·  66.7 秒"
+      },
+      {
+        "Id": "official-theme-dj-sona-ethereal",
+        "Name": "DJ娑娜 · 空灵 Ethereal · 开场剪辑",
+        "Season": "DJ娑娜",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-dj-sona-ethereal-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/30.mp3；腾讯官方音乐专题独立音源，截取 0.0–67.4 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "DJ娑娜",
+        "Year": 2015,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 67.4,
+        "Start": 0,
+        "End": 67.4,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "DJ娑娜 · 空灵 Ethereal · 开场剪辑",
+        "Subtitle": "DJ娑娜  ·  官方纯音乐剪辑  ·  67.4 秒"
+      },
+      {
+        "Id": "official-theme-darkstar-chogath-2018",
+        "Name": "死兆星 · 科加斯主题 · 开场剪辑",
+        "Season": "死兆星",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-darkstar-chogath-2018-opening.mp3",
+        "Source": "https://www.youtube.com/watch?v=TKGeHMT6Ko4；Riot官方认证频道：Dark Star Cho’Gath Theme [OFFICIAL AUDIO] | League of Legends Music（20180713）。官方视频独立音轨截取0–69.1秒，低能量位置收尾、3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "死兆星",
+        "Year": 2018,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 69.093878,
+        "Start": 0,
+        "End": 69.093878,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "死兆星 · 科加斯主题 · 开场剪辑",
+        "Subtitle": "死兆星  ·  官方纯音乐剪辑  ·  69.1 秒"
+      },
+      {
+        "Id": "official-theme-darkstar-2017",
+        "Name": "死兆星 · 2017 登录主题 · 开场剪辑",
+        "Season": "死兆星",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-darkstar-2017-opening.mp3",
+        "Source": "https://www.youtube.com/watch?v=Nc7ul2Pf1hw；Riot认证官方频道2017-05-08发布《Dark Star 2017 | Login Screen》。截取12–67.5秒，0.35秒淡入/3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "死兆星",
+        "Year": 2017,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 55.5,
+        "Start": 0,
+        "End": 55.5,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "死兆星 · 2017 登录主题 · 开场剪辑",
+        "Subtitle": "死兆星  ·  官方纯音乐剪辑  ·  55.5 秒"
+      },
+      {
+        "Id": "local-sahnuzal-mordekaiser-spawn",
+        "Name": "萨恩·乌祖尔 莫德凯撒 · 开场",
+        "Season": "2025 · 萨恩·乌祖尔",
+        "Kind": "游戏内开场原版",
+        "File": "local-sahnuzal-mordekaiser-spawn.mp3",
+        "Source": "原始客户端音频；Mordekaiser.wad.client / mordekaiser_skin54_sfx_audio.wpk；事件 Play_mus_map11_SahnUzalMordekaiser_spawn；WEM 913165801；SHA256 996554277c3b4b1a449d33e38bdea02102765e123dde458af49d9f47bbe83971",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "萨恩·乌祖尔",
+        "Year": 2025,
+        "Quality": "原始游戏音频",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 91.898707,
+        "Start": 0,
+        "End": 91.898707,
+        "FadeIn": 0.5,
+        "FadeOut": 2,
+        "Enabled": true,
+        "Display": "萨恩·乌祖尔 莫德凯撒 · 开场",
+        "Subtitle": "2025 · 萨恩·乌祖尔  ·  游戏内开场原版  ·  91.9 秒"
+      },
+      {
+        "Id": "local-arcane-brawler-vi-spawn",
+        "Name": "双城之战2 斗士 蔚 · 开场",
+        "Season": "2024 · 双城之战",
+        "Kind": "游戏内开场原版",
+        "File": "local-arcane-brawler-vi-spawn.mp3",
+        "Source": "原始客户端音频；Vi.wad.client / vi_skin48_sfx_audio.wpk；事件 Play_mus_map11_brawler_spawn；WEM 822297804；SHA256 8c98090f416879e06d3395b09d44be5fe5489d143fe0802b2b5925efd0bd5f68",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "双城之战",
+        "Year": 2024,
+        "Quality": "原始游戏音频",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 86.962698,
+        "Start": 0,
+        "End": 86.96204081632654,
+        "FadeIn": 0.5,
+        "FadeOut": 2,
+        "Enabled": true,
+        "Display": "双城之战2 斗士 蔚 · 开场",
+        "Subtitle": "2024 · 双城之战  ·  游戏内开场原版  ·  87 秒"
+      },
+      {
+        "Id": "local-project-jhin-spawn",
+        "Name": "源计划：升华 烬 · 开场",
+        "Season": "2017 · 源计划",
+        "Kind": "游戏内开场原版",
+        "File": "local-project-jhin-spawn.mp3",
+        "Source": "原始客户端音频；Jhin.en_US.wad.client / jhin_skin04_vo_audio.wpk；事件 Play_vo_JhinSkin04_Move2DFirst；WEM 497749920；SHA256 39b185af62a54ddb12468da66ad41b112d2d547b42eba4b98c7cbaffb31cbb96",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "源计划",
+        "Year": 2017,
+        "Quality": "原始游戏音频",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 45.834649,
+        "Start": 0,
+        "End": 45.834648526077096,
+        "FadeIn": 0.5,
+        "FadeOut": 2,
+        "Enabled": true,
+        "Display": "源计划：升华 烬 · 开场",
+        "Subtitle": "2017 · 源计划  ·  游戏内开场原版  ·  45.8 秒"
+      },
+      {
+        "Id": "local-gun-goddess-missfortune-spawn",
+        "Name": "武装战姬 厄运小姐 · 开场",
+        "Season": "2018 · 武装战姬",
+        "Kind": "游戏内开场原版",
+        "File": "local-gun-goddess-missfortune-spawn.mp3",
+        "Source": "原始客户端音频；MissFortune.wad.client / missfortune_skin16_sfx_audio.wpk；事件 Play_mus_map11_MissFortuneSkin16_spawn；WEM 775269502；SHA256 a0fac97089f3e376faff8f59cf74846b271276574cf1f45962f2d10b014bc81c",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "武装战姬",
+        "Year": 2018,
+        "Quality": "原始游戏音频",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 92.429002,
+        "Start": 0,
+        "End": 92.429002,
+        "FadeIn": 0.5,
+        "FadeOut": 2,
+        "Enabled": true,
+        "Display": "武装战姬 厄运小姐 · 开场",
+        "Subtitle": "2018 · 武装战姬  ·  游戏内开场原版  ·  92.4 秒"
+      },
+      {
+        "Id": "local-ambessa-spawn",
+        "Name": "铁血狼母 安蓓萨 · 开场",
+        "Season": "2024 · 安蓓萨",
+        "Kind": "游戏内开场原版",
+        "File": "local-ambessa-spawn.mp3",
+        "Source": "原始客户端音频；Common.wad.client / misc_event_sfx_audio.wpk；事件 4009171037 (CAkEvent; 原事件文本名称未恢复)；WEM 1067465867；SHA256 39d523411fd2b17b7f7ec22fd70de1c321e710f317f0f622b5674a323da5bdc3",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "安蓓萨",
+        "Year": 2024,
+        "Quality": "原始游戏音频",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 107.027029,
+        "Start": 0,
+        "End": 107.027029,
+        "FadeIn": 0.5,
+        "FadeOut": 2,
+        "Enabled": true,
+        "Display": "铁血狼母 安蓓萨 · 开场",
+        "Subtitle": "2024 · 安蓓萨  ·  游戏内开场原版  ·  107 秒"
+      },
+      {
+        "Id": "local-anima-seraphine-passive",
+        "Name": "幻灵白鸽 萨勒芬妮 · 被动音乐",
+        "Season": "2024 · 幻灵",
+        "Kind": "游戏纯音乐剪辑",
+        "File": "local-anima-seraphine-passive.mp3",
+        "Source": "原始客户端 Seraphine.wad.client / seraphine_skin43_sfx_audio.wpk；被动背景音乐事件 Play_sfx_SeraphineSkin43_SeraphinePassiveNotes_music_loop，完整C段60.359秒，按RTPC=5混合3个生效音乐层；非原版spawn。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "幻灵",
+        "Year": 2024,
+        "Quality": "原始游戏音频",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 60.359274,
+        "Start": 0,
+        "End": 60.359274,
+        "FadeIn": 0.5,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "幻灵白鸽 萨勒芬妮 · 被动音乐",
+        "Subtitle": "2024 · 幻灵  ·  游戏纯音乐剪辑  ·  60.4 秒"
+      },
+      {
+        "Id": "community-truedamage-spawn-loop",
+        "Name": "真实伤害 · 开场音乐循环",
+        "Season": "2019 · 真实伤害",
+        "Kind": "社区游戏音乐剪辑",
+        "File": "community-truedamage-spawn-loop.mp3",
+        "Source": "Logical Regress公开视频《True Damage spawn music | 1 hour loop》（2021-02-15）；https://www.youtube.com/watch?v=dezG385GhnU；取前2个完整循环0–61.833333秒，非本机原版spawn；机器筛查未检出显著人声/噪声，未人工听审。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "skins",
+        "Theme": "真实伤害",
+        "Year": 2019,
+        "Quality": "社区游戏音乐音源",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 61.833333,
+        "Start": 0,
+        "End": 61.833333,
+        "FadeIn": 0.5,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "真实伤害 · 开场音乐循环",
+        "Subtitle": "2019 · 真实伤害  ·  社区游戏音乐剪辑  ·  61.8 秒"
+      }
+    ],
+    "Files": [
+      {
+        "Path": "Music/KDA2020_spawn.mp3",
+        "Bytes": 2041276,
+        "Sha256": "96d9854af0e93c3444fa9324fa35a5f88f42cc22a84450acd1ce45e0a92e2cfb"
+      },
+      {
+        "Path": "Music/Swain_FirstMove.mp3",
+        "Bytes": 580097,
+        "Sha256": "c7192d1232afd5baf4494e544a163f9399d3b1f5ce4151a13b32628d59640b97"
+      },
+      {
+        "Path": "Music/community-truedamage-spawn-loop.mp3",
+        "Bytes": 1335644,
+        "Sha256": "00a643cde253da6bd6910bab0f187ab3866ca721e09955a6b274409b600735ae"
+      },
+      {
+        "Path": "Music/demaciavice2019_spawn.mp3",
+        "Bytes": 1736921,
+        "Sha256": "66e86929a6d54f6228a6c99345bcccaf6ccff0616728a08716348fa8a868022e"
+      },
+      {
+        "Path": "Music/local-ambessa-spawn.mp3",
+        "Bytes": 2077040,
+        "Sha256": "4059d2a9a867be01f14b88f76fcecd582234f3cd62998e4388c487e6ee397933"
+      },
+      {
+        "Path": "Music/local-anima-seraphine-passive.mp3",
+        "Bytes": 1331554,
+        "Sha256": "38203dc10524eaf5e09b0b062acdb9a2b71103b85746cda5603271d64f9ebf78"
+      },
+      {
+        "Path": "Music/local-arcane-brawler-vi-spawn.mp3",
+        "Bytes": 1783868,
+        "Sha256": "bc6433ecb959e4ac90aac0fc4b4d253286466a1945c6f93d74a858518e2a0513"
+      },
+      {
+        "Path": "Music/local-gun-goddess-missfortune-spawn.mp3",
+        "Bytes": 2098689,
+        "Sha256": "705496cde09909b0548e5ab9bd3a80de5d7dca66e623e82c728e8cc19d6768f2"
+      },
+      {
+        "Path": "Music/local-project-jhin-spawn.mp3",
+        "Bytes": 1043942,
+        "Sha256": "0da44bed48350f89bbf133725837813e7006453c91c28f85a4e26ac4e75fc3fa"
+      },
+      {
+        "Path": "Music/local-sahnuzal-mordekaiser-spawn.mp3",
+        "Bytes": 1869230,
+        "Sha256": "963e61edddc1be0d42091fc8ecf8bb098e2bc76a1516baabd472bae752dbd47f"
+      },
+      {
+        "Path": "Music/starguardian2017_spawn.mp3",
+        "Bytes": 2269206,
+        "Sha256": "2cc9a11268806b6999dfa8591fb887ea639a1b47ea7ebfc59700684a9cf8537c"
+      },
+      {
+        "Path": "Music/starguardian2019_spawn.mp3",
+        "Bytes": 2037253,
+        "Sha256": "d91eb9331fff06f3175e0647e1720705dca899e11e7d9e16bad2ce1c055c5181"
+      },
+      {
+        "Path": "Music/starguardian2022_spawn.mp3",
+        "Bytes": 1849016,
+        "Sha256": "bbaf01bea7451c0b08c209ee8ce342596698c4c6308a01bdb9a6b861bb470cd8"
+      },
+      {
+        "Path": "Music/starguardian_spawn.mp3",
+        "Bytes": 1623589,
+        "Sha256": "bff23c0ec2882ef3e314c8a45463c1d3b965fae46e677ac94511ae34431dade6"
+      },
+      {
+        "Path": "Music/teemo_spawn.mp3",
+        "Bytes": 2004284,
+        "Sha256": "ae2cb9e5663b4dedebaa544e1cacce6721991b2adcc6738c85ad2f8242b67a42"
+      },
+      {
+        "Path": "Music/theme-braum-opening.mp3",
+        "Bytes": 1378432,
+        "Sha256": "42d14430d4602eb69d1ab99a4ed0ad9edc7ad4033770d54a62cb9e38bc69a594"
+      },
+      {
+        "Path": "Music/theme-camille-opening.mp3",
+        "Bytes": 1355114,
+        "Sha256": "33dab9bfd4bbfcf485ed23bad20c487fcc62f8ac7a25483490cd92d18647ae7b"
+      },
+      {
+        "Path": "Music/theme-darkstar-2017-opening.mp3",
+        "Bytes": 1322908,
+        "Sha256": "9d796f94f49588e3f3c99ecd3ad1c128ff1e26e51a153fc4eda01cbbc2bbc7b1"
+      },
+      {
+        "Path": "Music/theme-darkstar-chogath-2018-opening.mp3",
+        "Bytes": 1500224,
+        "Sha256": "7ad1ea4c70194d87a006a4563872c68941499d3c1d068522e41a74664e299aeb"
+      },
+      {
+        "Path": "Music/theme-dj-sona-concussive-opening.mp3",
+        "Bytes": 1395914,
+        "Sha256": "c2667d450644065652c507db9aca2f06484a1cc994c31108cbc8975c56f3cdee"
+      },
+      {
+        "Path": "Music/theme-dj-sona-ethereal-opening.mp3",
+        "Bytes": 1221667,
+        "Sha256": "f08b6a505b8c683fe4bbfc19ecb3fb716980583d35a378328a5e7a6a9fff160c"
+      },
+      {
+        "Path": "Music/theme-dj-sona-kinetic-opening.mp3",
+        "Bytes": 1266792,
+        "Sha256": "5feca388281af21733e43acdba23a5f546e64acc70ef31f3ab0bdddad38896a2"
+      },
+      {
+        "Path": "Music/theme-ekko-opening.mp3",
+        "Bytes": 1469276,
+        "Sha256": "1abe399bf80fcd4d3add5546be934042d14aaa6d21afceacbd5755ee8d11f63f"
+      },
+      {
+        "Path": "Music/theme-elementalist-lux-opening.mp3",
+        "Bytes": 1385071,
+        "Sha256": "5df66e2067b67304d6b5486b602ba6087c1f8366cb322420311c8bf77de08e9b"
+      },
+      {
+        "Path": "Music/theme-jhin-opening.mp3",
+        "Bytes": 1399948,
+        "Sha256": "dc3deaf245c4fb4b15c5c3adabacc75e692c7eed2e58676f59cfeec57bcbca75"
+      },
+      {
+        "Path": "Music/theme-kaisa-opening.mp3",
+        "Bytes": 1388981,
+        "Sha256": "d53a2d32c00dd719b576aa519d85464f59a8637b9122da3b22431a77634e5415"
+      },
+      {
+        "Path": "Music/theme-kayn-opening.mp3",
+        "Bytes": 1460836,
+        "Sha256": "817c1de96d08da7d7e2fc9774ca75bb53ceb7a3fba6b58c99454ed6a6b882637"
+      },
+      {
+        "Path": "Music/theme-kindred-opening.mp3",
+        "Bytes": 1396760,
+        "Sha256": "21f8dd4129783ee59790eea4b0af35eaba540c6a9d0d2876e52ace090342765d"
+      },
+      {
+        "Path": "Music/theme-lillia-opening.mp3",
+        "Bytes": 1376862,
+        "Sha256": "7809147e5083f732acbab435897f8b70b00773b70b0399dc8dd46bf8ddafd88b"
+      },
+      {
+        "Path": "Music/theme-neeko-opening.mp3",
+        "Bytes": 1400453,
+        "Sha256": "1b8e33e13b91ff2f62ed3d69e17fe046ddf50b20823570f0222bf0f75602b03e"
+      },
+      {
+        "Path": "Music/theme-pulsefire-ezreal-opening.mp3",
+        "Bytes": 1317576,
+        "Sha256": "d8fe5d82543ba1e670d5898d35502585411e074ecdd37634c0bdf9c8e7521f26"
+      },
+      {
+        "Path": "Music/theme-sylas-opening.mp3",
+        "Bytes": 1464626,
+        "Sha256": "47dba37a3756dfb2561faeff92d3ba48b2072b7c87bf5099c0deea223400b071"
+      },
+      {
+        "Path": "Music/theme-syndra-opening.mp3",
+        "Bytes": 1314238,
+        "Sha256": "81b9ee771cc3eb980802a3d9dee4825c7db62f2d6c05e332c176e045df7c1df3"
+      },
+      {
+        "Path": "Music/theme-zoe-opening.mp3",
+        "Bytes": 1382819,
+        "Sha256": "8158a02e13bebed1c35d5f72860e5fb014870f983b55fdd0387a76fbcb0909d4"
+      }
+    ]
+  },
+  {
+    "Id": "opening-events",
+    "Name": "开场 · 活动与宇宙",
+    "Description": "保留各年份与已核实赛事用途；仅下载所选分类。",
+    "Asset": "RiftMusic-Music-opening-events-v0.1.zip",
+    "Bytes": 9173567,
+    "Sha256": "f73ec6cc88a6f9f01530ab198fd6bff3fd43893854649e052941fad9b156c009",
+    "Tracks": [
+      {
+        "Id": "local-play_mus_map11_xp12021_spawn",
+        "Name": "双城之战 · 2021 开场",
+        "Season": "2021 · 双城之战",
+        "Kind": "游戏内开场原版",
+        "File": "XP12021_spawn.mp3",
+        "Source": "原始客户端misc_event_sfx_audio.bnk；事件Play_mus_map11_XP12021_spawn / WEM458590281；Event_Trueshot活动配置与2021 Into The Arcane开场参考连续3窗波形匹配（相关系数0.991–0.994）。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "events",
+        "Theme": "双城之战",
+        "Year": 2021,
+        "Quality": "原始游戏音频",
+        "SearchTags": "XP12021",
+        "Favorite": false,
+        "Duration": 89.441179,
+        "Start": 0,
+        "End": 89.34117900000001,
+        "FadeIn": 0.8,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "双城之战 · 2021 开场",
+        "Subtitle": "2021 · 双城之战  ·  游戏内开场原版  ·  89.3 秒"
+      },
+      {
+        "Id": "local-play_mus_map11_tournaments_spawn",
+        "Name": "冠军杯赛 · 原版开场",
+        "Season": "",
+        "Kind": "游戏内开场原版",
+        "File": "Tournaments_spawn.mp3",
+        "Source": "本机游戏资源；事件 Play_mus_map11_Tournaments_spawn。保留事件身份，MP3转码用于减小体积。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "events",
+        "Theme": "峡谷赛事",
+        "Year": 0,
+        "Quality": "原始游戏音频",
+        "SearchTags": "Clash Tournaments",
+        "Favorite": false,
+        "Duration": 51.360045,
+        "Start": 0,
+        "End": 51.260045,
+        "FadeIn": 0.8,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "冠军杯赛 · 原版开场",
+        "Subtitle": "自定义  ·  游戏内开场原版  ·  51.3 秒"
+      },
+      {
+        "Id": "official-theme-urf",
+        "Name": "无限火力 · 欢迎来到海牛星 · 开场剪辑",
+        "Season": "无限火力",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-urf-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/31.mp3；腾讯官方音乐专题独立音源，截取 0.0–80.3 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "events",
+        "Theme": "无限火力",
+        "Year": 2015,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 80.3,
+        "Start": 0,
+        "End": 80.3,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "无限火力 · 欢迎来到海牛星 · 开场剪辑",
+        "Subtitle": "无限火力  ·  官方纯音乐剪辑  ·  80.3 秒"
+      },
+      {
+        "Id": "official-theme-odyssey-2018",
+        "Name": "奥德赛 · 2018 登录主题 · 开场剪辑",
+        "Season": "奥德赛",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-odyssey-2018-opening.mp3",
+        "Source": "https://www.youtube.com/watch?v=Dy58gGFpagI；Riot官方认证频道：Odyssey | Login Screen - League of Legends（20180911）。官方视频独立音轨截取0–64.7秒，低能量位置收尾、3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "events",
+        "Theme": "奥德赛",
+        "Year": 2018,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 64.7,
+        "Start": 0,
+        "End": 64.7,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "奥德赛 · 2018 登录主题 · 开场剪辑",
+        "Subtitle": "奥德赛  ·  官方纯音乐剪辑  ·  64.7 秒"
+      },
+      {
+        "Id": "local-doombots-2025-opening",
+        "Name": "末日人工智能 · 2025 开场",
+        "Season": "2025 · 末日人工智能",
+        "Kind": "游戏内开场原版",
+        "File": "local-doombots-2025-opening.mp3",
+        "Source": "原始客户端音频；Map11.wad.client / mus_map11_ruby_audio.wpk；事件 Play_mus_map11_MODES_25s3_Ruby_game_start；WEM 835398823；SHA256 4c9675e70aa8bb3497d55c470c3b019f3a9d46c2b4c6e5811eeaef023804753b",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "events",
+        "Theme": "末日人工智能",
+        "Year": 2025,
+        "Quality": "原始游戏音频",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 51.951224,
+        "Start": 0,
+        "End": 51.951224,
+        "FadeIn": 0.5,
+        "FadeOut": 2,
+        "Enabled": true,
+        "Display": "末日人工智能 · 2025 开场",
+        "Subtitle": "2025 · 末日人工智能  ·  游戏内开场原版  ·  52 秒"
+      },
+      {
+        "Id": "local-arcade-rift-opening",
+        "Name": "电玩峡谷 · 开场",
+        "Season": "2017 · 电玩",
+        "Kind": "游戏内开场原版",
+        "File": "local-arcade-rift-opening.mp3",
+        "Source": "原始客户端音频；Map11.wad.client / mus_map11arcade_audio.wpk；事件 Play_mus_map11_phase_select_Arcade；WEM 549272032；SHA256 18a9f8c931cef99207a8b4d6933214dfc2d777ac6de4d5f62b091d977a0943ce",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "events",
+        "Theme": "电玩",
+        "Year": 2017,
+        "Quality": "原始游戏音频",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 108.749977,
+        "Start": 0,
+        "End": 108.749977,
+        "FadeIn": 0.5,
+        "FadeOut": 2,
+        "Enabled": true,
+        "Display": "电玩峡谷 · 开场",
+        "Subtitle": "2017 · 电玩  ·  游戏内开场原版  ·  108.7 秒"
+      }
+    ],
+    "Files": [
+      {
+        "Path": "Music/Tournaments_spawn.mp3",
+        "Bytes": 1086769,
+        "Sha256": "11c3a600727066478687f1d54985694464b7c640bab5d6a1babd4fc02bebfe46"
+      },
+      {
+        "Path": "Music/XP12021_spawn.mp3",
+        "Bytes": 1758112,
+        "Sha256": "75d5116196bfd1c0b9a933702a9533ba2f6a10f5c5e36c53438eb97394df796b"
+      },
+      {
+        "Path": "Music/local-arcade-rift-opening.mp3",
+        "Bytes": 2207610,
+        "Sha256": "ef0001d432cd2ac5d5573aa226a155935a2207030c49da6c1ad5bc6122de16c5"
+      },
+      {
+        "Path": "Music/local-doombots-2025-opening.mp3",
+        "Bytes": 1081044,
+        "Sha256": "4597986fca30b16e3db7e3118526cf0269c7c1f26ff8d29706e77c148624d19c"
+      },
+      {
+        "Path": "Music/theme-odyssey-2018-opening.mp3",
+        "Bytes": 1441817,
+        "Sha256": "a67fcd088f30c469ea57be3401b7da214818dc79551c2b9d5484755333738c8b"
+      },
+      {
+        "Path": "Music/theme-urf-opening.mp3",
+        "Bytes": 1646978,
+        "Sha256": "9beb4a9a15e0dd0e92da582d13a6ca6953007b1503c82e4be75712e139f6cca3"
+      }
+    ]
+  },
+  {
+    "Id": "opening-seasons",
+    "Name": "开场 · 赛季与地区",
+    "Description": "保留各年份与已核实赛事用途；仅下载所选分类。",
+    "Asset": "RiftMusic-Music-opening-seasons-v0.1.zip",
+    "Bytes": 13525864,
+    "Sha256": "62e3f99ba31fa6324a60069fabdb167e6febf8eb0d39e23245122196cc734366",
+    "Tracks": [
+      {
+        "Id": "local-play_mus_map11_sn2022_spawn",
+        "Name": "2022 赛季开场（SN2022）",
+        "Season": "2022",
+        "Kind": "游戏内开场原版",
+        "File": "SN2022_spawn.mp3",
+        "Source": "本机游戏资源；事件 Play_mus_map11_SN2022_spawn。保留事件身份，MP3转码用于减小体积。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "seasons",
+        "Theme": "赛季启幕",
+        "Year": 2022,
+        "Quality": "原始游戏音频",
+        "SearchTags": "Season 2022",
+        "Favorite": false,
+        "Duration": 34.999977,
+        "Start": 0,
+        "End": 34.899977,
+        "FadeIn": 0.8,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "2022 赛季开场（SN2022）",
+        "Subtitle": "2022  ·  游戏内开场原版  ·  34.9 秒"
+      },
+      {
+        "Id": "local-play_mus_map11_hope24_spawn",
+        "Name": "2024 赛季开场（Hope24）",
+        "Season": "2024",
+        "Kind": "游戏内开场原版",
+        "File": "hope24_spawn.mp3",
+        "Source": "本机游戏资源；事件 Play_mus_map11_hope24_spawn。保留事件身份，MP3转码用于减小体积。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "seasons",
+        "Theme": "赛季启幕",
+        "Year": 2024,
+        "Quality": "原始游戏音频",
+        "SearchTags": "Season 2024",
+        "Favorite": false,
+        "Duration": 76.499977,
+        "Start": 0,
+        "End": 76.399977,
+        "FadeIn": 0.8,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "2024 赛季开场（Hope24）",
+        "Subtitle": "2024  ·  游戏内开场原版  ·  76.4 秒"
+      },
+      {
+        "Id": "local-play_mus_map11_seasonal_phase_select_base",
+        "Name": "召唤师峡谷 · 地图序曲",
+        "Season": "",
+        "Kind": "游戏内地图开场",
+        "File": "Seasonal_map11_opening.mp3",
+        "Source": "本机游戏资源；事件 Play_mus_map11_SEASONAL_phase_select_base。保留事件身份，MP3转码用于减小体积。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "seasons",
+        "Theme": "召唤师峡谷",
+        "Year": 0,
+        "Quality": "原始游戏音频",
+        "SearchTags": "Seasonal map11",
+        "Favorite": false,
+        "Duration": 105,
+        "Start": 0,
+        "End": 60,
+        "FadeIn": 0.8,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "召唤师峡谷 · 地图序曲",
+        "Subtitle": "自定义  ·  游戏内地图开场  ·  60 秒"
+      },
+      {
+        "Id": "official-theme-challengers",
+        "Name": "挑战者 · Challengers · 开场剪辑",
+        "Season": "联盟经典",
+        "Kind": "官方纯音乐剪辑",
+        "File": "theme-challengers-opening.mp3",
+        "Source": "https://game.gtimg.cn/images/lol/act/a20200915music/32.mp3；腾讯官方音乐专题独立音源，截取 0.0–70.0 秒，低能量位置收尾并作3.2秒淡出；非游戏内原始开场。",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "seasons",
+        "Theme": "联盟经典",
+        "Year": 2015,
+        "Quality": "官方纯音乐",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 70,
+        "Start": 0,
+        "End": 70,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "挑战者 · Challengers · 开场剪辑",
+        "Subtitle": "联盟经典  ·  官方纯音乐剪辑  ·  70 秒"
+      },
+      {
+        "Id": "local-noxus-2025-opening",
+        "Name": "诺克萨斯 · 2025 第一赛季开场",
+        "Season": "2025 · 诺克萨斯",
+        "Kind": "游戏内开场原版",
+        "File": "local-noxus-2025-opening.mp3",
+        "Source": "原始客户端音频；Map11.wad.client / mus_map11_seasonal_25s1_boba_audio.wpk；事件 Play_mus_map11_SEASONAL_25s1_BOBA_phase_select_base；WEM 981638657；SHA256 d5220f14339152ecbeb2edd8a95dc2cd4bb0a684ed70591193d51ac4825ed69d",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "seasons",
+        "Theme": "诺克萨斯",
+        "Year": 2025,
+        "Quality": "原始游戏音频",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 95.555578,
+        "Start": 0,
+        "End": 95.555578,
+        "FadeIn": 0.5,
+        "FadeOut": 2,
+        "Enabled": true,
+        "Display": "诺克萨斯 · 2025 第一赛季开场",
+        "Subtitle": "2025 · 诺克萨斯  ·  游戏内开场原版  ·  95.6 秒"
+      },
+      {
+        "Id": "local-spirit-blossom-2025-opening",
+        "Name": "绽灵节 · 2025 第二赛季开场",
+        "Season": "2025 · 绽灵节",
+        "Kind": "游戏内开场原版",
+        "File": "local-spirit-blossom-2025-opening.mp3",
+        "Source": "原始客户端音频；Map11.wad.client / mus_map11_seasonal_25s2_bloom_audio.wpk；事件 Play_mus_map11_SEASONAL_25s2_BLOOM_phase_select_base；WEM 68182309；SHA256 d6b41e7a73688109f98861aff772e02e10a1b33796d4d987d1c0ddc8bf00cacc",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "seasons",
+        "Theme": "绽灵节",
+        "Year": 2025,
+        "Quality": "原始游戏音频",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 96.176485,
+        "Start": 0,
+        "End": 96.176485,
+        "FadeIn": 0.5,
+        "FadeOut": 2,
+        "Enabled": true,
+        "Display": "绽灵节 · 2025 第二赛季开场",
+        "Subtitle": "2025 · 绽灵节  ·  游戏内开场原版  ·  96.2 秒"
+      },
+      {
+        "Id": "local-trials-twilight-2025-opening",
+        "Name": "暮光试炼 · 2025 第三赛季开场",
+        "Season": "2025 · 暮光试炼",
+        "Kind": "游戏内开场原版",
+        "File": "local-trials-twilight-2025-opening.mp3",
+        "Source": "原始客户端音频；Map11.wad.client / mus_map11_seasonal_25s3_milkshake_audio.wpk；事件 Play_mus_map11_SEASONAL_25s3_MILKSHAKE_phase_select_base；WEM 1025756252；SHA256 ed5b877ef3c2f21da830f4aade6ddd1b9eaeaf33d20d09509a46159c03e510e6",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "seasons",
+        "Theme": "暮光试炼",
+        "Year": 2025,
+        "Quality": "原始游戏音频",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 106.644263,
+        "Start": 0,
+        "End": 106.644263,
+        "FadeIn": 0.5,
+        "FadeOut": 2,
+        "Enabled": true,
+        "Display": "暮光试炼 · 2025 第三赛季开场",
+        "Subtitle": "2025 · 暮光试炼  ·  游戏内开场原版  ·  106.6 秒"
+      },
+      {
+        "Id": "local-demacia-2026-opening",
+        "Name": "德玛西亚 · 2026 第一赛季开场",
+        "Season": "2026 · 德玛西亚",
+        "Kind": "游戏内开场原版",
+        "File": "local-demacia-2026-opening.mp3",
+        "Source": "原始客户端音频；Map11.wad.client / mus_map11_seasonal_26s1_sodapop_audio.wpk；事件 ；WEM 737715717；SHA256 f3525db2b7b2e500f5ef75413b2d9f205569dd6b6d6a26db2b9d153fbacc963f",
+        "Artist": "",
+        "CoverFile": "",
+        "DraftUses": [],
+        "Category": "seasons",
+        "Theme": "德玛西亚",
+        "Year": 2026,
+        "Quality": "原始游戏音频",
+        "SearchTags": "",
+        "Favorite": false,
+        "Duration": 99.199955,
+        "Start": 0,
+        "End": 99.19995464852607,
+        "FadeIn": 0.5,
+        "FadeOut": 2,
+        "Enabled": true,
+        "Display": "德玛西亚 · 2026 第一赛季开场",
+        "Subtitle": "2026 · 德玛西亚  ·  游戏内开场原版  ·  99.2 秒"
+      }
+    ],
+    "Files": [
+      {
+        "Path": "Music/SN2022_spawn.mp3",
+        "Bytes": 736434,
+        "Sha256": "deabf4b624da5036bd4289d46da9033b23595b65c207744f2a0a94a88767d7fa"
+      },
+      {
+        "Path": "Music/Seasonal_map11_opening.mp3",
+        "Bytes": 2190126,
+        "Sha256": "69cc8cc8e2b4cf3d283e0db4ea6709a9cbea690adb657634ef056d0fdae1c9d8"
+      },
+      {
+        "Path": "Music/hope24_spawn.mp3",
+        "Bytes": 1584602,
+        "Sha256": "8648af3d85d4bb08628b920b680915fc3afce32ec534e2e0c61acc2a2fdf4cbb"
+      },
+      {
+        "Path": "Music/local-demacia-2026-opening.mp3",
+        "Bytes": 1758054,
+        "Sha256": "903d310ba258b2028e8dc8a23019beaebecc235c2735d04813fe748239f6bec2"
+      },
+      {
+        "Path": "Music/local-noxus-2025-opening.mp3",
+        "Bytes": 1878287,
+        "Sha256": "83893e36905f3c2df074a8b5bf25602028ad696ee8b2e23e4017035eddba77c3"
+      },
+      {
+        "Path": "Music/local-spirit-blossom-2025-opening.mp3",
+        "Bytes": 1913405,
+        "Sha256": "3285e288b9d43a39aa452500bb86211b335e3194f1479e5b0901603a4391c632"
+      },
+      {
+        "Path": "Music/local-trials-twilight-2025-opening.mp3",
+        "Bytes": 2144057,
+        "Sha256": "1d437e3a01ea64f49afd945a51126329f6807353f82d4c6d8a12500ce24bf76b"
+      },
+      {
+        "Path": "Music/theme-challengers-opening.mp3",
+        "Bytes": 1406524,
+        "Sha256": "38b9518a5583fc46116e8a5cbf15001b9c6b523807e6e7026b837368f2bf481c"
+      }
+    ]
+  },
+  {
+    "Id": "bp-worlds",
+    "Name": "BP · 全球总决赛",
+    "Description": "保留各年份与已核实赛事用途；仅下载所选分类。",
+    "Asset": "RiftMusic-Music-bp-worlds-v0.1.zip",
+    "Bytes": 119721079,
+    "Sha256": "0a01dc2a1677a1f03686bb83c261a2234ea62d1585159aa3af9437f79331307e",
+    "Tracks": [
+      {
+        "Id": "bp-worlds2025-radioactive-dreams",
+        "Name": "Radioactive Dreams",
+        "Season": "2025",
+        "Kind": "官方完整音源",
+        "File": "worlds2025-radioactive-dreams.mp3",
+        "Source": "https://www.youtube.com/watch?v=VkbGBv2lznk",
+        "Artist": "Locked / Cybernetic Symphony",
+        "CoverFile": "bp-worlds2025-radioactive-dreams.jpg",
+        "DraftUses": [
+          {
+            "Year": 2025,
+            "Competition": "Worlds",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.reddit.com/r/leagueoflegends/comments/1oeuv1m/"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "Worlds BP",
+        "Year": 2025,
+        "Quality": "官方完整音源 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Radioactive Dreams Worlds",
+        "Favorite": false,
+        "Duration": 159.945854,
+        "Start": 0,
+        "End": 159.945854,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Radioactive Dreams",
+        "Subtitle": "2025  ·  官方完整音源  ·  159.9 秒"
+      },
+      {
+        "Id": "bp-worlds2024-phases",
+        "Name": "Phases",
+        "Season": "2024",
+        "Kind": "社区循环延长版",
+        "File": "worlds2024-phases.mp3",
+        "Source": "https://www.youtube.com/watch?v=N0fC7nqiInM",
+        "Artist": "Benjamin Davies / Timothy John Adam Gosden",
+        "CoverFile": "bp-worlds2024-phases.jpg",
+        "DraftUses": [
+          {
+            "Year": 2024,
+            "Competition": "Worlds",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.youtube.com/watch?v=N0fC7nqiInM"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "Worlds BP",
+        "Year": 2024,
+        "Quality": "社区循环延长版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Phases Worlds",
+        "Favorite": false,
+        "Duration": 940.928021,
+        "Start": 0,
+        "End": 940.928021,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Phases",
+        "Subtitle": "2024  ·  社区循环延长版  ·  940.9 秒"
+      },
+      {
+        "Id": "bp-worlds2021-releasing-greatness",
+        "Name": "Releasing Greatness",
+        "Season": "2021 / 2023",
+        "Kind": "社区独立音乐版",
+        "File": "worlds2021-releasing-greatness.mp3",
+        "Source": "https://www.youtube.com/watch?v=7x64Qif3HNA",
+        "Artist": "Craig Donald Erwin / John K. Sands / Josquin des Pres / Marc Ferrari",
+        "CoverFile": "bp-worlds2021-releasing-greatness.jpg",
+        "DraftUses": [
+          {
+            "Year": 2021,
+            "Competition": "Worlds",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.youtube.com/watch?v=7x64Qif3HNA"
+          },
+          {
+            "Year": 2023,
+            "Competition": "Worlds",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1A84y127ot/"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "Worlds BP",
+        "Year": 2023,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Releasing Greatness Worlds",
+        "Favorite": false,
+        "Duration": 114.486,
+        "Start": 0,
+        "End": 114.486,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Releasing Greatness",
+        "Subtitle": "2021 / 2023  ·  社区独立音乐版  ·  114.5 秒"
+      },
+      {
+        "Id": "bp-worlds2022-demons-hide",
+        "Name": "Where The Demons Hide",
+        "Season": "2022",
+        "Kind": "社区独立音乐版",
+        "File": "worlds2022-demons-hide.mp3",
+        "Source": "https://www.youtube.com/watch?v=Bj42YKBNqaM",
+        "Artist": "Steven David Fay",
+        "CoverFile": "bp-worlds2022-demons-hide.jpg",
+        "DraftUses": [
+          {
+            "Year": 2022,
+            "Competition": "Worlds",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://music.amazon.in/albums/B0CNKHJQC6"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "Worlds BP",
+        "Year": 2022,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Where The Demons Hide Worlds",
+        "Favorite": false,
+        "Duration": 172.802917,
+        "Start": 0,
+        "End": 172.802917,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Where The Demons Hide",
+        "Subtitle": "2022  ·  社区独立音乐版  ·  172.8 秒"
+      },
+      {
+        "Id": "bp-worlds2022-we-hustlin",
+        "Name": "We Hustlin'",
+        "Season": "2022",
+        "Kind": "社区独立音乐版",
+        "File": "worlds2022-we-hustlin.mp3",
+        "Source": "https://www.youtube.com/watch?v=ZDX9RVHJEBI",
+        "Artist": "Asaf Fulks",
+        "CoverFile": "bp-worlds2022-we-hustlin.jpg",
+        "DraftUses": [
+          {
+            "Year": 2022,
+            "Competition": "Worlds",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://music.amazon.in/albums/B0CNKHJQC6"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "Worlds BP",
+        "Year": 2022,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select We Hustlin' Worlds",
+        "Favorite": false,
+        "Duration": 203.290708,
+        "Start": 0,
+        "End": 203.290708,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "We Hustlin'",
+        "Subtitle": "2022  ·  社区独立音乐版  ·  203.3 秒"
+      },
+      {
+        "Id": "bp-worlds2022-slow-roller",
+        "Name": "Slow Roller",
+        "Season": "2022",
+        "Kind": "社区循环延长版",
+        "File": "worlds2022-slow-roller.mp3",
+        "Source": "https://www.youtube.com/watch?v=S_jrU-h9naY",
+        "Artist": "Steven David Fay",
+        "CoverFile": "bp-worlds2022-slow-roller.jpg",
+        "DraftUses": [
+          {
+            "Year": 2022,
+            "Competition": "Worlds",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://music.amazon.in/albums/B0CNKHJQC6"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "Worlds BP",
+        "Year": 2022,
+        "Quality": "社区循环延长版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Slow Roller Worlds",
+        "Favorite": false,
+        "Duration": 1227.008,
+        "Start": 0,
+        "End": 1227.008,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Slow Roller",
+        "Subtitle": "2022  ·  社区循环延长版  ·  1227 秒"
+      },
+      {
+        "Id": "bp-worlds2022-now-or-never",
+        "Name": "Now or it's Never",
+        "Season": "2022",
+        "Kind": "社区独立音乐版",
+        "File": "worlds2022-now-or-never.mp3",
+        "Source": "https://www.youtube.com/watch?v=gbuK40nSSlE",
+        "Artist": "Aaron McCain / Wally Gagel / Xandy Barry",
+        "CoverFile": "bp-worlds2022-now-or-never.jpg",
+        "DraftUses": [
+          {
+            "Year": 2022,
+            "Competition": "Worlds",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://music.amazon.in/albums/B0CNKHJQC6"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "Worlds BP",
+        "Year": 2022,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Now or it's Never Worlds",
+        "Favorite": false,
+        "Duration": 167.752563,
+        "Start": 0,
+        "End": 167.752563,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Now or it's Never",
+        "Subtitle": "2022  ·  社区独立音乐版  ·  167.8 秒"
+      },
+      {
+        "Id": "bp-worlds2022-night-after-night",
+        "Name": "Night After Night",
+        "Season": "2022",
+        "Kind": "社区独立音乐版",
+        "File": "worlds2022-night-after-night.mp3",
+        "Source": "https://www.youtube.com/watch?v=yp1CjiDqCSo",
+        "Artist": "DubXX / Alexander Hitchens / Tezo",
+        "CoverFile": "bp-worlds2022-night-after-night.jpg",
+        "DraftUses": [
+          {
+            "Year": 2022,
+            "Competition": "Worlds",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://music.amazon.in/albums/B0CNKHJQC6"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "Worlds BP",
+        "Year": 2022,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Night After Night Worlds",
+        "Favorite": false,
+        "Duration": 148.851521,
+        "Start": 0,
+        "End": 148.851521,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Night After Night",
+        "Subtitle": "2022  ·  社区独立音乐版  ·  148.9 秒"
+      },
+      {
+        "Id": "bp-worlds2022-cant-stop",
+        "Name": "Can't Stop",
+        "Season": "2022",
+        "Kind": "社区循环延长版",
+        "File": "worlds2022-cant-stop.mp3",
+        "Source": "https://www.youtube.com/watch?v=c87_3GooGv8",
+        "Artist": "David Schoenwetter",
+        "CoverFile": "bp-worlds2022-cant-stop.jpg",
+        "DraftUses": [
+          {
+            "Year": 2022,
+            "Competition": "Worlds",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.youtube.com/watch?v=c87_3GooGv8"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "Worlds BP",
+        "Year": 2022,
+        "Quality": "社区循环延长版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Can't Stop Worlds",
+        "Favorite": false,
+        "Duration": 1225.856,
+        "Start": 0,
+        "End": 1225.856,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Can't Stop",
+        "Subtitle": "2022  ·  社区循环延长版  ·  1225.9 秒"
+      },
+      {
+        "Id": "bp-worlds2022-all-or-nothing",
+        "Name": "All or Nothing",
+        "Season": "2022",
+        "Kind": "社区独立音乐版",
+        "File": "worlds2022-all-or-nothing.mp3",
+        "Source": "https://www.youtube.com/watch?v=CkRzrwKpMg8",
+        "Artist": "Daniel Delaney / Leo Eli",
+        "CoverFile": "bp-worlds2022-all-or-nothing.jpg",
+        "DraftUses": [
+          {
+            "Year": 2022,
+            "Competition": "Worlds",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://music.amazon.in/albums/B0CNKHJQC6"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "Worlds BP",
+        "Year": 2022,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select All or Nothing Worlds",
+        "Favorite": false,
+        "Duration": 138.727625,
+        "Start": 0,
+        "End": 138.727625,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "All or Nothing",
+        "Subtitle": "2022  ·  社区独立音乐版  ·  138.7 秒"
+      },
+      {
+        "Id": "bp-worlds2021-my-rules",
+        "Name": "My Rules",
+        "Season": "2021",
+        "Kind": "社区独立音乐版",
+        "File": "worlds2021-my-rules.mp3",
+        "Source": "https://www.youtube.com/watch?v=Qci2rQGV9iQ",
+        "Artist": "Canon / Max Cameron Concors",
+        "CoverFile": "bp-worlds2021-my-rules.jpg",
+        "DraftUses": [
+          {
+            "Year": 2021,
+            "Competition": "Worlds",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.youtube.com/watch?v=Qci2rQGV9iQ"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "Worlds BP",
+        "Year": 2021,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select My Rules Worlds",
+        "Favorite": false,
+        "Duration": 130.56,
+        "Start": 0,
+        "End": 130.56,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "My Rules",
+        "Subtitle": "2021  ·  社区独立音乐版  ·  130.6 秒"
+      },
+      {
+        "Id": "bp-worlds2019-orchestral",
+        "Name": "2019 World Championship | Orchestral Theme",
+        "Season": "2019",
+        "Kind": "官方完整音源",
+        "File": "worlds2019-orchestral.mp3",
+        "Source": "https://www.youtube.com/watch?v=nLC2lUyy6eo",
+        "Artist": "Riot Music Team",
+        "CoverFile": "bp-worlds2019-orchestral.jpg",
+        "DraftUses": [
+          {
+            "Year": 2019,
+            "Competition": "Worlds",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.reddit.com/r/leagueoflegends/comments/dut84u/"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "Worlds BP",
+        "Year": 2019,
+        "Quality": "官方完整音源 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select 2019 World Championship | Orchestral Theme Worlds",
+        "Favorite": false,
+        "Duration": 152.218417,
+        "Start": 0,
+        "End": 152.218417,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "2019 World Championship | Orchestral Theme",
+        "Subtitle": "2019  ·  官方完整音源  ·  152.2 秒"
+      },
+      {
+        "Id": "bp-worlds2024-viper-cyrene",
+        "Name": "Viper",
+        "Season": "2024",
+        "Kind": "社区独立音乐版",
+        "File": "worlds2024-viper-cyrene.mp3",
+        "Source": "https://www.bilibili.com/video/BV1br4EzHEvd/",
+        "Artist": "原作者待核",
+        "CoverFile": "",
+        "DraftUses": [
+          {
+            "Year": 2024,
+            "Competition": "Worlds",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1br4EzHEvd/"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "Worlds BP",
+        "Year": 2024,
+        "Quality": "社区纯净流音轨 · 整曲严格解码、整曲机器语音检查通过（未经人工听审）",
+        "SearchTags": "BP 选人 Banpick Champ Select Viper Worlds",
+        "Favorite": false,
+        "Duration": 196.778667,
+        "Start": 0,
+        "End": 196.778667,
+        "FadeIn": 0.5,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "Viper",
+        "Subtitle": "2024  ·  社区独立音乐版  ·  196.8 秒"
+      }
+    ],
+    "Files": [
+      {
+        "Path": "Artwork/bp-worlds2019-orchestral.jpg",
+        "Bytes": 182860,
+        "Sha256": "0d626eb170cff3456e08eaec002dc0e6486e98df5d59904a95d70b7d71da58e5"
+      },
+      {
+        "Path": "Artwork/bp-worlds2021-my-rules.jpg",
+        "Bytes": 85034,
+        "Sha256": "234c9d99951ae736c886cd870538e9545ecc544cc7ca16f29891b8665f27e4d6"
+      },
+      {
+        "Path": "Artwork/bp-worlds2021-releasing-greatness.jpg",
+        "Bytes": 102072,
+        "Sha256": "a7cd5a4e0f34c86be2050b0f1db94ff446ba47829091b64366942b30d395ea0f"
+      },
+      {
+        "Path": "Artwork/bp-worlds2022-all-or-nothing.jpg",
+        "Bytes": 41324,
+        "Sha256": "04a9f07896fa8a4ddaa698027ba60f399c022da0dc893f7f0f761a30e92aed3a"
+      },
+      {
+        "Path": "Artwork/bp-worlds2022-cant-stop.jpg",
+        "Bytes": 42499,
+        "Sha256": "a1870a01fb414f8559fc9d2af83fa8dd859bb716d0c8ed918c6a7aa616d85bed"
+      },
+      {
+        "Path": "Artwork/bp-worlds2022-demons-hide.jpg",
+        "Bytes": 48753,
+        "Sha256": "b27c9eb8503fd372dcb9c0fb9f96a0515dfb8a4ea1a832b8ce11db96c95e1311"
+      },
+      {
+        "Path": "Artwork/bp-worlds2022-night-after-night.jpg",
+        "Bytes": 43441,
+        "Sha256": "40324be30bc3614e5094c147bebf262dc9a81a91379f7c09a6d7fe565f573aed"
+      },
+      {
+        "Path": "Artwork/bp-worlds2022-now-or-never.jpg",
+        "Bytes": 44821,
+        "Sha256": "013e37780cf130f00dcfa77d5a7538bc30029c43b31bf24d4668068c0d94903a"
+      },
+      {
+        "Path": "Artwork/bp-worlds2022-slow-roller.jpg",
+        "Bytes": 44012,
+        "Sha256": "a66973df7a41d0ae27390423860bcf6065f5fff97041af1d98c9f712ef1c46bf"
+      },
+      {
+        "Path": "Artwork/bp-worlds2022-we-hustlin.jpg",
+        "Bytes": 38258,
+        "Sha256": "6e8aca6620ad33308f6b5b61ecd4e497da3ec22c26b5ec82929ef3c450e38b60"
+      },
+      {
+        "Path": "Artwork/bp-worlds2024-phases.jpg",
+        "Bytes": 67635,
+        "Sha256": "562505b684368323d9f252ada340be3e517d9b686351aae19e12b440bfc89598"
+      },
+      {
+        "Path": "Artwork/bp-worlds2025-radioactive-dreams.jpg",
+        "Bytes": 201641,
+        "Sha256": "8f8c346ce08ade2741d65113546ca3cc9f7f79443da7b89df55bbfd75e2a399f"
+      },
+      {
+        "Path": "Music/worlds2019-orchestral.mp3",
+        "Bytes": 3654909,
+        "Sha256": "2a7b2e66f616e8d21c57d094be3d8de9f07e0b6132040345f89818b64637545f"
+      },
+      {
+        "Path": "Music/worlds2021-my-rules.mp3",
+        "Bytes": 3134756,
+        "Sha256": "9972509b6f7ea9812aee44338c6f882d8e7ad06178dd34212251cc44a2990595"
+      },
+      {
+        "Path": "Music/worlds2021-releasing-greatness.mp3",
+        "Bytes": 2749423,
+        "Sha256": "1d8e9550047c26d005d2051639ecf19ca49c75dd1be1f4839f2a437de9164d32"
+      },
+      {
+        "Path": "Music/worlds2022-all-or-nothing.mp3",
+        "Bytes": 3331178,
+        "Sha256": "71b87c5915d4c1135112178f03f6470f52ea690d205f41e9b25ba982d9463781"
+      },
+      {
+        "Path": "Music/worlds2022-cant-stop.mp3",
+        "Bytes": 29422265,
+        "Sha256": "dacf3de28a5a2aaaa74d36d5303a2edd2e806ea4f720b6619b64462a696f0f1b"
+      },
+      {
+        "Path": "Music/worlds2022-demons-hide.mp3",
+        "Bytes": 4149105,
+        "Sha256": "d9736db857172c8d25e8cbd64ebfeeab39df9daa293934ab8de2cf8302890054"
+      },
+      {
+        "Path": "Music/worlds2022-night-after-night.mp3",
+        "Bytes": 3574253,
+        "Sha256": "7f3aa67251a7c10fa293ea90637e63558bffc0203786f2ef93626c59fbddb0b0"
+      },
+      {
+        "Path": "Music/worlds2022-now-or-never.mp3",
+        "Bytes": 4027565,
+        "Sha256": "e80b1aacee9bb4e00781d8bac4874dd94dbaa8a74557db83c740af014b8d2d7a"
+      },
+      {
+        "Path": "Music/worlds2022-slow-roller.mp3",
+        "Bytes": 29449914,
+        "Sha256": "829f077df4e7d06983c6d2d52196b2a43bed0877237e0f19003eaf72f1799571"
+      },
+      {
+        "Path": "Music/worlds2022-we-hustlin.mp3",
+        "Bytes": 4880615,
+        "Sha256": "3b4c8d954975340abea26a47ef08af4b9b7b4d8fe789657d3d8304e8c28809ac"
+      },
+      {
+        "Path": "Music/worlds2024-phases.mp3",
+        "Bytes": 22583992,
+        "Sha256": "6bcb296c1b2995090873c4fc25879e00e4cb959af6ca2cb4d91a839431c01833"
+      },
+      {
+        "Path": "Music/worlds2024-viper-cyrene.mp3",
+        "Bytes": 4724576,
+        "Sha256": "6e43ba0c4e543402dea66c11f39dc608ce2402d0150bd33275a27a78ee5da529"
+      },
+      {
+        "Path": "Music/worlds2025-radioactive-dreams.mp3",
+        "Bytes": 3840337,
+        "Sha256": "96acee02d3471e83db1c4892429e7ee86145097894bc5e2485cb26b5936e1df4"
+      }
+    ]
+  },
+  {
+    "Id": "bp-msi",
+    "Name": "BP · MSI 季中赛",
+    "Description": "保留各年份与已核实赛事用途；仅下载所选分类。",
+    "Asset": "RiftMusic-Music-bp-msi-v0.1.zip",
+    "Bytes": 73904636,
+    "Sha256": "936d0c5c88e1c0df0aa0dbbb0d662c6110df98c05a82d3c8afba4208a5d70756",
+    "Tracks": [
+      {
+        "Id": "bp-msi2026-distraction",
+        "Name": "Distraction",
+        "Season": "2026",
+        "Kind": "社区循环延长版",
+        "File": "msi2026-distraction.mp3",
+        "Source": "https://www.youtube.com/watch?v=96cRshI9XVs",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-msi2026-distraction.jpg",
+        "DraftUses": [
+          {
+            "Year": 2026,
+            "Competition": "MSI",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.youtube.com/watch?v=96cRshI9XVs"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "MSI BP",
+        "Year": 2026,
+        "Quality": "社区循环延长版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Distraction MSI",
+        "Favorite": false,
+        "Duration": 732.053333,
+        "Start": 0,
+        "End": 732.053333,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Distraction",
+        "Subtitle": "2026  ·  社区循环延长版  ·  732.1 秒"
+      },
+      {
+        "Id": "bp-msi2024-starting-grid",
+        "Name": "Starting Grid",
+        "Season": "2024",
+        "Kind": "社区独立音乐版",
+        "File": "msi2024-starting-grid.mp3",
+        "Source": "https://www.bilibili.com/video/BV12r421u7W1?p=2",
+        "Artist": "Gresby Race Nash / Neil John Pollard",
+        "CoverFile": "bp-msi2024-starting-grid.jpg",
+        "DraftUses": [
+          {
+            "Year": 2024,
+            "Competition": "MSI",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/av1403925989/?p=27"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "MSI BP",
+        "Year": 2024,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Starting Grid MSI",
+        "Favorite": false,
+        "Duration": 138.808889,
+        "Start": 0,
+        "End": 138.808889,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Starting Grid",
+        "Subtitle": "2024  ·  社区独立音乐版  ·  138.8 秒"
+      },
+      {
+        "Id": "bp-msi2024-signature",
+        "Name": "Signature",
+        "Season": "2024",
+        "Kind": "社区循环延长版",
+        "File": "msi2024-signature.mp3",
+        "Source": "https://www.bilibili.com/video/BV12r421u7W1?p=4",
+        "Artist": "Mike Sarge",
+        "CoverFile": "bp-msi2024-signature.jpg",
+        "DraftUses": [
+          {
+            "Year": 2024,
+            "Competition": "MSI",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/av1403925989/?p=27"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "MSI BP",
+        "Year": 2024,
+        "Quality": "社区循环延长版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Signature MSI",
+        "Favorite": false,
+        "Duration": 428.524263,
+        "Start": 0,
+        "End": 428.524263,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Signature",
+        "Subtitle": "2024  ·  社区循环延长版  ·  428.5 秒"
+      },
+      {
+        "Id": "bp-msi2024-on-a-hunnid",
+        "Name": "On A Hunnid",
+        "Season": "2024",
+        "Kind": "社区独立音乐版",
+        "File": "msi2024-on-a-hunnid.mp3",
+        "Source": "https://www.bilibili.com/video/BV12r421u7W1?p=1",
+        "Artist": "Alexander Hitchens / Brandon Terrill Lowe",
+        "CoverFile": "bp-msi2024-on-a-hunnid.jpg",
+        "DraftUses": [
+          {
+            "Year": 2024,
+            "Competition": "MSI",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/av1403925989/?p=27"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "MSI BP",
+        "Year": 2024,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select On A Hunnid MSI",
+        "Favorite": false,
+        "Duration": 152.322902,
+        "Start": 0,
+        "End": 152.322902,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "On A Hunnid",
+        "Subtitle": "2024  ·  社区独立音乐版  ·  152.3 秒"
+      },
+      {
+        "Id": "bp-msi2024-all-stars",
+        "Name": "All-Stars",
+        "Season": "2024",
+        "Kind": "社区独立音乐版",
+        "File": "msi2024-all-stars.mp3",
+        "Source": "https://www.bilibili.com/video/BV12r421u7W1?p=3",
+        "Artist": "Smooth Beats / Slip.stream",
+        "CoverFile": "bp-msi2024-all-stars.jpg",
+        "DraftUses": [
+          {
+            "Year": 2024,
+            "Competition": "MSI",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/av1403925989/?p=27"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "MSI BP",
+        "Year": 2024,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select All-Stars MSI",
+        "Favorite": false,
+        "Duration": 81.293061,
+        "Start": 0,
+        "End": 81.293061,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "All-Stars",
+        "Subtitle": "2024  ·  社区独立音乐版  ·  81.3 秒"
+      },
+      {
+        "Id": "bp-bitten-bullet",
+        "Name": "Bitten Bullet",
+        "Season": "2021 / 2022 / 2023",
+        "Kind": "社区循环延长版",
+        "File": "bitten-bullet.mp3",
+        "Source": "https://www.youtube.com/watch?v=nbFSMBsVxic",
+        "Artist": "Boris Nonte / Tommy Gunn Müller",
+        "CoverFile": "bp-bitten-bullet.jpg",
+        "DraftUses": [
+          {
+            "Year": 2021,
+            "Competition": "MSI",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://lol.fandom.com/wiki/Broadcast_Music/MSI"
+          },
+          {
+            "Year": 2022,
+            "Competition": "MSI",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://lol.fandom.com/wiki/Broadcast_Music/MSI"
+          },
+          {
+            "Year": 2022,
+            "Competition": "Worlds",
+            "Stage": "决胜局 BP",
+            "Evidence": "https://www.bilibili.com/video/BV1gd4y1B7Tv/"
+          },
+          {
+            "Year": 2023,
+            "Competition": "Worlds",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1A84y127ot/"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "MSI / Worlds BP",
+        "Year": 2023,
+        "Quality": "社区循环延长版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Bitten Bullet MSI Worlds",
+        "Favorite": false,
+        "Duration": 1230.924646,
+        "Start": 0,
+        "End": 1230.924646,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Bitten Bullet",
+        "Subtitle": "2021 / 2022 / 2023  ·  社区循环延长版  ·  1230.9 秒"
+      },
+      {
+        "Id": "bp-msi2022-masterpiece",
+        "Name": "Masterpiece",
+        "Season": "2022",
+        "Kind": "社区独立音乐版",
+        "File": "msi2022-masterpiece.mp3",
+        "Source": "https://www.youtube.com/watch?v=ghG_V8SlxIk",
+        "Artist": "Nathan Foreman / Bernard Xavier King / Sebastian Barnaby Robertson",
+        "CoverFile": "bp-msi2022-masterpiece.jpg",
+        "DraftUses": [
+          {
+            "Year": 2022,
+            "Competition": "MSI",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.youtube.com/watch?v=ghG_V8SlxIk"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "MSI BP",
+        "Year": 2022,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Masterpiece MSI",
+        "Favorite": false,
+        "Duration": 166.370979,
+        "Start": 0,
+        "End": 166.370979,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Masterpiece",
+        "Subtitle": "2022  ·  社区独立音乐版  ·  166.4 秒"
+      },
+      {
+        "Id": "bp-msi2022-eyes-on-fire",
+        "Name": "Eyes On Fire",
+        "Season": "2022",
+        "Kind": "社区独立音乐版",
+        "File": "msi2022-eyes-on-fire.mp3",
+        "Source": "https://www.youtube.com/watch?v=wiYRHqBaQZY",
+        "Artist": "Alexander Sergeevich Cherevkov",
+        "CoverFile": "bp-msi2022-eyes-on-fire.jpg",
+        "DraftUses": [
+          {
+            "Year": 2022,
+            "Competition": "MSI",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://lol.fandom.com/wiki/Broadcast_Music/MSI"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "MSI BP",
+        "Year": 2022,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Eyes On Fire MSI",
+        "Favorite": false,
+        "Duration": 131.889354,
+        "Start": 0,
+        "End": 131.889354,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Eyes On Fire",
+        "Subtitle": "2022  ·  社区独立音乐版  ·  131.9 秒"
+      }
+    ],
+    "Files": [
+      {
+        "Path": "Artwork/bp-bitten-bullet.jpg",
+        "Bytes": 42869,
+        "Sha256": "850846b3305d24c2c21ad8d552f061a6080820daf5f19eb2d9a0964bcc1598e3"
+      },
+      {
+        "Path": "Artwork/bp-msi2022-eyes-on-fire.jpg",
+        "Bytes": 176975,
+        "Sha256": "3f04fed3fc9cd84ff15b8898328af6459ed488a1a67e9cc6b7bab3c5c2e23fcc"
+      },
+      {
+        "Path": "Artwork/bp-msi2022-masterpiece.jpg",
+        "Bytes": 185043,
+        "Sha256": "6593630ce1f65a261ed5e33cdc09254cf19c94f327d044c7cce481dbc0b5e87d"
+      },
+      {
+        "Path": "Artwork/bp-msi2024-all-stars.jpg",
+        "Bytes": 41638,
+        "Sha256": "8fa2b57a3fabafe5976a75eba590b4af52e615585496c3e8a78d1a17ac5a25fb"
+      },
+      {
+        "Path": "Artwork/bp-msi2024-on-a-hunnid.jpg",
+        "Bytes": 41638,
+        "Sha256": "8fa2b57a3fabafe5976a75eba590b4af52e615585496c3e8a78d1a17ac5a25fb"
+      },
+      {
+        "Path": "Artwork/bp-msi2024-signature.jpg",
+        "Bytes": 41638,
+        "Sha256": "8fa2b57a3fabafe5976a75eba590b4af52e615585496c3e8a78d1a17ac5a25fb"
+      },
+      {
+        "Path": "Artwork/bp-msi2024-starting-grid.jpg",
+        "Bytes": 41638,
+        "Sha256": "8fa2b57a3fabafe5976a75eba590b4af52e615585496c3e8a78d1a17ac5a25fb"
+      },
+      {
+        "Path": "Artwork/bp-msi2026-distraction.jpg",
+        "Bytes": 207198,
+        "Sha256": "fe173c0ad85d544d7bd5a7233050361bdc3829b6e8cbd0273ec207433f128895"
+      },
+      {
+        "Path": "Music/bitten-bullet.mp3",
+        "Bytes": 29543804,
+        "Sha256": "834c4a3dcf874792e01f6e83f8f9d32a9123c9cffc9b8aa7a037fb712ca0f290"
+      },
+      {
+        "Path": "Music/msi2022-eyes-on-fire.mp3",
+        "Bytes": 3167013,
+        "Sha256": "c9e25443f79a47b46d2f9e7864e5faf7704ef1a79a7e56c59d5a6010ec8da4cc"
+      },
+      {
+        "Path": "Music/msi2022-masterpiece.mp3",
+        "Bytes": 3994724,
+        "Sha256": "7f46b411ff5023114d54c70959bae185b22c202c163fd98aba3fb6bd2238f5c8"
+      },
+      {
+        "Path": "Music/msi2024-all-stars.mp3",
+        "Bytes": 1952498,
+        "Sha256": "2fb01d5905e8c48a86bc8478e25a369291c3a5a53e52f92e77e8b068a98390fc"
+      },
+      {
+        "Path": "Music/msi2024-on-a-hunnid.mp3",
+        "Bytes": 3657773,
+        "Sha256": "8b36013096c54df5f72a655abb0d6efdbf34e4ebb6e86f8d88b8417858747381"
+      },
+      {
+        "Path": "Music/msi2024-signature.mp3",
+        "Bytes": 10286395,
+        "Sha256": "05fbfd8745f402c7bf9242758bb36a0be9be4e6e2ba00e762d9a97fa2a2ee7ff"
+      },
+      {
+        "Path": "Music/msi2024-starting-grid.mp3",
+        "Bytes": 3333021,
+        "Sha256": "dbe3a99da823304f053069e9656b9fdc58bd22a908fc3b74f8b53b532d6653e3"
+      },
+      {
+        "Path": "Music/msi2026-distraction.mp3",
+        "Bytes": 17571042,
+        "Sha256": "26a0e1b3de5c06c828518dcee92368e2f0494e2905ee7c462367795df05f719b"
+      }
+    ]
+  },
+  {
+    "Id": "bp-firststand",
+    "Name": "BP · 全球先锋赛",
+    "Description": "保留各年份与已核实赛事用途；仅下载所选分类。",
+    "Asset": "RiftMusic-Music-bp-firststand-v0.1.zip",
+    "Bytes": 43281356,
+    "Sha256": "4ba53668fc1762bcc2d71e0a1bcfa470c3b01d4b2a282968f1ba1db9b5170463",
+    "Tracks": [
+      {
+        "Id": "bp-fst2025-the-one",
+        "Name": "The One",
+        "Season": "2025",
+        "Kind": "社区循环延长版",
+        "File": "fst2025-the-one.mp3",
+        "Source": "https://www.youtube.com/watch?v=18TL5sQpjw0",
+        "Artist": "Shaki & Kairo（社区标注）",
+        "CoverFile": "",
+        "DraftUses": [
+          {
+            "Year": 2025,
+            "Competition": "FirstStand",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.youtube.com/watch?v=18TL5sQpjw0"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "FirstStand BP",
+        "Year": 2025,
+        "Quality": "社区器乐循环延长版 · 整曲严格解码、整曲机器语音检查通过（未经人工听审）",
+        "SearchTags": "BP 选人 Banpick Champ Select The One FirstStand 先锋赛 FST",
+        "Favorite": false,
+        "Duration": 774.176521,
+        "Start": 0,
+        "End": 774.176521,
+        "FadeIn": 0.5,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "The One",
+        "Subtitle": "2025  ·  社区循环延长版  ·  774.2 秒"
+      },
+      {
+        "Id": "bp-fst2025-limitless",
+        "Name": "Limitless",
+        "Season": "2025",
+        "Kind": "社区独立音乐版",
+        "File": "fst2025-limitless.mp3",
+        "Source": "https://www.bilibili.com/video/BV12HRjYNEdq/?p=1",
+        "Artist": "Shaki & Kairo（社区标注）",
+        "CoverFile": "",
+        "DraftUses": [
+          {
+            "Year": 2025,
+            "Competition": "FirstStand",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV12HRjYNEdq/?p=1"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "FirstStand BP",
+        "Year": 2025,
+        "Quality": "社区独立音轨 · 整曲严格解码、整曲机器语音检查通过（未经人工听审）",
+        "SearchTags": "BP 选人 Banpick Champ Select Limitless FirstStand 先锋赛 FST",
+        "Favorite": false,
+        "Duration": 205.543039,
+        "Start": 0,
+        "End": 205.543039,
+        "FadeIn": 0.5,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "Limitless",
+        "Subtitle": "2025  ·  社区独立音乐版  ·  205.5 秒"
+      },
+      {
+        "Id": "bp-fst2026-do-my-thing",
+        "Name": "Do My Thing",
+        "Season": "2026",
+        "Kind": "社区独立音乐版",
+        "File": "fst2026-do-my-thing.mp3",
+        "Source": "https://www.youtube.com/watch?v=FXwQ5sUcsxU",
+        "Artist": "M A E S T R O",
+        "CoverFile": "",
+        "DraftUses": [
+          {
+            "Year": 2026,
+            "Competition": "FirstStand",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.youtube.com/watch?v=FXwQ5sUcsxU"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "FirstStand BP",
+        "Year": 2026,
+        "Quality": "社区器乐音轨 · 整曲严格解码、整曲机器语音检查通过（未经人工听审）",
+        "SearchTags": "BP 选人 Banpick Champ Select Do My Thing FirstStand 先锋赛 FST",
+        "Favorite": false,
+        "Duration": 171.242667,
+        "Start": 0,
+        "End": 171.242667,
+        "FadeIn": 0.5,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "Do My Thing",
+        "Subtitle": "2026  ·  社区独立音乐版  ·  171.2 秒"
+      },
+      {
+        "Id": "bp-fst2026-creme",
+        "Name": "Crème De La Crème",
+        "Season": "2026",
+        "Kind": "社区独立音乐版",
+        "File": "fst2026-creme.mp3",
+        "Source": "https://www.bilibili.com/video/BV1PtAWzAEPp/?p=1",
+        "Artist": "原作者待核",
+        "CoverFile": "",
+        "DraftUses": [
+          {
+            "Year": 2026,
+            "Competition": "FirstStand",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1PtAWzAEPp/?p=1"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "FirstStand BP",
+        "Year": 2026,
+        "Quality": "社区合集 Banpick 分P · 整曲严格解码、整曲机器语音检查通过（未经人工听审）",
+        "SearchTags": "BP 选人 Banpick Champ Select Crème De La Crème FirstStand 先锋赛 FST",
+        "Favorite": false,
+        "Duration": 164.977778,
+        "Start": 0,
+        "End": 164.977778,
+        "FadeIn": 0.5,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "Crème De La Crème",
+        "Subtitle": "2026  ·  社区独立音乐版  ·  165 秒"
+      },
+      {
+        "Id": "bp-fst2026-go-get-it",
+        "Name": "Go Get It",
+        "Season": "2026",
+        "Kind": "社区独立音乐版",
+        "File": "fst2026-go-get-it.mp3",
+        "Source": "https://www.bilibili.com/video/BV1PtAWzAEPp/?p=3",
+        "Artist": "原作者待核",
+        "CoverFile": "",
+        "DraftUses": [
+          {
+            "Year": 2026,
+            "Competition": "FirstStand",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1PtAWzAEPp/?p=3"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "FirstStand BP",
+        "Year": 2026,
+        "Quality": "社区合集 Banpick 分P · 整曲严格解码、整曲机器语音检查通过（未经人工听审）",
+        "SearchTags": "BP 选人 Banpick Champ Select Go Get It FirstStand 先锋赛 FST",
+        "Favorite": false,
+        "Duration": 174.26576,
+        "Start": 0,
+        "End": 174.26576,
+        "FadeIn": 0.5,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "Go Get It",
+        "Subtitle": "2026  ·  社区独立音乐版  ·  174.3 秒"
+      },
+      {
+        "Id": "bp-fst2026-new-new",
+        "Name": "New New",
+        "Season": "2026",
+        "Kind": "社区独立音乐版",
+        "File": "fst2026-new-new.mp3",
+        "Source": "https://www.bilibili.com/video/BV1PtAWzAEPp/?p=4",
+        "Artist": "原作者待核",
+        "CoverFile": "",
+        "DraftUses": [
+          {
+            "Year": 2026,
+            "Competition": "FirstStand",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1PtAWzAEPp/?p=4"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "FirstStand BP",
+        "Year": 2026,
+        "Quality": "社区合集 Banpick 分P · 整曲严格解码、整曲机器语音检查通过（未经人工听审）",
+        "SearchTags": "BP 选人 Banpick Champ Select New New FirstStand 先锋赛 FST",
+        "Favorite": false,
+        "Duration": 149.815147,
+        "Start": 0,
+        "End": 149.815147,
+        "FadeIn": 0.5,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "New New",
+        "Subtitle": "2026  ·  社区独立音乐版  ·  149.8 秒"
+      },
+      {
+        "Id": "bp-fst2026-phonkadelic",
+        "Name": "Phonkadelic",
+        "Season": "2026",
+        "Kind": "社区独立音乐版",
+        "File": "fst2026-phonkadelic.mp3",
+        "Source": "https://www.bilibili.com/video/BV1PtAWzAEPp/?p=5",
+        "Artist": "原作者待核",
+        "CoverFile": "",
+        "DraftUses": [
+          {
+            "Year": 2026,
+            "Competition": "FirstStand",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1PtAWzAEPp/?p=5"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "FirstStand BP",
+        "Year": 2026,
+        "Quality": "社区合集 Banpick 分P · 整曲严格解码、整曲机器语音检查通过（未经人工听审）",
+        "SearchTags": "BP 选人 Banpick Champ Select Phonkadelic FirstStand 先锋赛 FST",
+        "Favorite": false,
+        "Duration": 173.592381,
+        "Start": 0,
+        "End": 173.592381,
+        "FadeIn": 0.5,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "Phonkadelic",
+        "Subtitle": "2026  ·  社区独立音乐版  ·  173.6 秒"
+      }
+    ],
+    "Files": [
+      {
+        "Path": "Music/fst2025-limitless.mp3",
+        "Bytes": 4934835,
+        "Sha256": "b691378e0911952d52ebe3517cae473b81dcc68df50dc1a8f738b47504136ba3"
+      },
+      {
+        "Path": "Music/fst2025-the-one.mp3",
+        "Bytes": 18581946,
+        "Sha256": "25bcc93126160a02a01049ccf517a5284fa2c232bf3ea804b77d65142c67874e"
+      },
+      {
+        "Path": "Music/fst2026-creme.mp3",
+        "Bytes": 3961214,
+        "Sha256": "7255d31437133aa2f301fa07e4d0e147515aac33ef63cdb3cab21fc163061d0f"
+      },
+      {
+        "Path": "Music/fst2026-do-my-thing.mp3",
+        "Bytes": 4111658,
+        "Sha256": "d7cef881aef8bc250516ab1a2e75b0227c716e12406bff68f5f8c8ae55d1aa93"
+      },
+      {
+        "Path": "Music/fst2026-go-get-it.mp3",
+        "Bytes": 4184394,
+        "Sha256": "d807864bec4ed98b6db1308a63400643f8bd1899adfcdd8b8dc33d979aaacf29"
+      },
+      {
+        "Path": "Music/fst2026-new-new.mp3",
+        "Bytes": 3597577,
+        "Sha256": "aa72bdabd63386ca0e8b3f807c6d4c6f091655adc7388e0fc04a18597952b01d"
+      },
+      {
+        "Path": "Music/fst2026-phonkadelic.mp3",
+        "Bytes": 4168096,
+        "Sha256": "6866fc1efd362699f11c0c60989cf4fa1d6ebffda67ff24897a27c84992a5792"
+      }
+    ]
+  },
+  {
+    "Id": "bp-lck",
+    "Name": "BP · LCK",
+    "Description": "保留各年份与已核实赛事用途；仅下载所选分类。",
+    "Asset": "RiftMusic-Music-bp-lck-v0.1.zip",
+    "Bytes": 29147687,
+    "Sha256": "e66c382db75c06b2a98e6f15ac8c8393092f7056e92426cedd86b6189afdc30e",
+    "Tracks": [
+      {
+        "Id": "bp-lck2025-start-a-fight",
+        "Name": "Start a Fight",
+        "Season": "2025 / 2026",
+        "Kind": "社区独立音乐版",
+        "File": "lck2025-start-a-fight.mp3",
+        "Source": "https://www.youtube.com/watch?v=TBvJNHV3vHQ",
+        "Artist": "Thomas Gallicani",
+        "CoverFile": "bp-lck2025-start-a-fight.jpg",
+        "DraftUses": [
+          {
+            "Year": 2025,
+            "Competition": "LCK",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://namu.moe/w/2025%20LoL%20Champions%20Korea/%EC%98%81%EC%83%81%20%EB%B0%8F%20%EC%82%BD%EC%9E%85%EA%B3%A1"
+          },
+          {
+            "Year": 2026,
+            "Competition": "LCK",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.youtube.com/watch?v=TBvJNHV3vHQ"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LCK BP",
+        "Year": 2026,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Start a Fight LCK",
+        "Favorite": false,
+        "Duration": 110.387667,
+        "Start": 0,
+        "End": 110.387667,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Start a Fight",
+        "Subtitle": "2025 / 2026  ·  社区独立音乐版  ·  110.4 秒"
+      },
+      {
+        "Id": "bp-lck2025-compete-to-win",
+        "Name": "Compete To Win",
+        "Season": "2025",
+        "Kind": "社区独立音乐版",
+        "File": "lck2025-compete-to-win.mp3",
+        "Source": "https://www.youtube.com/watch?v=58NIx2xx39E",
+        "Artist": "John K. Sands / Marc Ferrari / Addie Finch",
+        "CoverFile": "bp-lck2025-compete-to-win.jpg",
+        "DraftUses": [
+          {
+            "Year": 2025,
+            "Competition": "LCK",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://namu.moe/w/2025%20LoL%20Champions%20Korea/%EC%98%81%EC%83%81%20%EB%B0%8F%20%EC%82%BD%EC%9E%85%EA%B3%A1"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LCK BP",
+        "Year": 2025,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Compete To Win LCK",
+        "Favorite": false,
+        "Duration": 164.443729,
+        "Start": 0,
+        "End": 164.443729,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Compete To Win",
+        "Subtitle": "2025  ·  社区独立音乐版  ·  164.4 秒"
+      },
+      {
+        "Id": "bp-lck-dimensions-collide",
+        "Name": "Dimensions Collide",
+        "Season": "2023 / 2024",
+        "Kind": "社区独立音乐版",
+        "File": "lck-dimensions-collide.mp3",
+        "Source": "https://www.youtube.com/watch?v=gXtXWjhhQJo",
+        "Artist": "Chris Brett / Hypersonic Music",
+        "CoverFile": "bp-lck-dimensions-collide.jpg",
+        "DraftUses": [
+          {
+            "Year": 2023,
+            "Competition": "LCK",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.namu.moe/w/2024%20LoL%20Champions%20Korea/%EC%98%81%EC%83%81%20%EB%B0%8F%20%EC%82%BD%EC%9E%85%EA%B3%A1"
+          },
+          {
+            "Year": 2024,
+            "Competition": "LCK",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.namu.moe/w/2024%20LoL%20Champions%20Korea/%EC%98%81%EC%83%81%20%EB%B0%8F%20%EC%82%BD%EC%9E%85%EA%B3%A1"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LCK BP",
+        "Year": 2024,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Dimensions Collide LCK",
+        "Favorite": false,
+        "Duration": 184.61025,
+        "Start": 0,
+        "End": 184.61025,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Dimensions Collide",
+        "Subtitle": "2023 / 2024  ·  社区独立音乐版  ·  184.6 秒"
+      },
+      {
+        "Id": "bp-lck-aerolite",
+        "Name": "Aerolite",
+        "Season": "2023 / 2024",
+        "Kind": "社区独立音乐版",
+        "File": "lck-aerolite.mp3",
+        "Source": "https://www.youtube.com/watch?v=2zW39MPhgu4",
+        "Artist": "Alec Justice / Emperia Musicworks",
+        "CoverFile": "bp-lck-aerolite.jpg",
+        "DraftUses": [
+          {
+            "Year": 2023,
+            "Competition": "LCK",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.namu.moe/w/2024%20LoL%20Champions%20Korea/%EC%98%81%EC%83%81%20%EB%B0%8F%20%EC%82%BD%EC%9E%85%EA%B3%A1"
+          },
+          {
+            "Year": 2024,
+            "Competition": "LCK",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.namu.moe/w/2024%20LoL%20Champions%20Korea/%EC%98%81%EC%83%81%20%EB%B0%8F%20%EC%82%BD%EC%9E%85%EA%B3%A1"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LCK BP",
+        "Year": 2024,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Aerolite LCK",
+        "Favorite": false,
+        "Duration": 161.578667,
+        "Start": 0,
+        "End": 161.578667,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Aerolite",
+        "Subtitle": "2023 / 2024  ·  社区独立音乐版  ·  161.6 秒"
+      },
+      {
+        "Id": "bp-lck-escalating-events",
+        "Name": "Escalating Events",
+        "Season": "2019 / 2020",
+        "Kind": "社区独立音乐版",
+        "File": "lck-escalating-events.mp3",
+        "Source": "https://www.youtube.com/watch?v=kkK4_98qWS8",
+        "Artist": "Jeff Cardoni",
+        "CoverFile": "bp-lck-escalating-events.jpg",
+        "DraftUses": [
+          {
+            "Year": 2019,
+            "Competition": "LCK",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://lol.fandom.com/wiki/Broadcast_Music/LCK"
+          },
+          {
+            "Year": 2020,
+            "Competition": "LCK",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://lol.fandom.com/wiki/Broadcast_Music/LCK"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LCK BP",
+        "Year": 2020,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Escalating Events LCK",
+        "Favorite": false,
+        "Duration": 123.959729,
+        "Start": 0,
+        "End": 123.959729,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Escalating Events",
+        "Subtitle": "2019 / 2020  ·  社区独立音乐版  ·  124 秒"
+      },
+      {
+        "Id": "bp-lck2025-prelude-to-battle",
+        "Name": "Prelude To Battle",
+        "Season": "2025",
+        "Kind": "官方纯音乐",
+        "File": "lck2025-prelude-to-battle.mp3",
+        "Source": "https://www.youtube.com/watch?v=QnVPwKkCzD0",
+        "Artist": "The Trilogy",
+        "CoverFile": "",
+        "DraftUses": [
+          {
+            "Year": 2025,
+            "Competition": "LCK",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.youtube.com/watch?v=QnVPwKkCzD0"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LCK BP",
+        "Year": 2025,
+        "Quality": "LCK 官方频道明确标注 Champ Select · 整曲严格解码、整曲机器语音检查通过（未经人工听审）",
+        "SearchTags": "BP 选人 Banpick Champ Select Prelude To Battle LCK",
+        "Favorite": false,
+        "Duration": 457.301333,
+        "Start": 0,
+        "End": 457.301333,
+        "FadeIn": 0.5,
+        "FadeOut": 3,
+        "Enabled": true,
+        "Display": "Prelude To Battle",
+        "Subtitle": "2025  ·  官方纯音乐  ·  457.3 秒"
+      }
+    ],
+    "Files": [
+      {
+        "Path": "Artwork/bp-lck-aerolite.jpg",
+        "Bytes": 47298,
+        "Sha256": "b6ab791e704d39d58b8d52aa5825543140f1604759b5684efa0b1948e70d6d87"
+      },
+      {
+        "Path": "Artwork/bp-lck-dimensions-collide.jpg",
+        "Bytes": 162886,
+        "Sha256": "1191be07fb3cfcfcaed863f2a2b533f74555aa0ce0fb42b3dd1940493ccc8107"
+      },
+      {
+        "Path": "Artwork/bp-lck-escalating-events.jpg",
+        "Bytes": 72599,
+        "Sha256": "57f3e531f838e2ad76903d04fc60edba97128c2b2ba739f9e3ce9a91ac24143d"
+      },
+      {
+        "Path": "Artwork/bp-lck2025-compete-to-win.jpg",
+        "Bytes": 73882,
+        "Sha256": "ea842169f44512d904cc966508a2096705f22bff9e2fb3cf728c7cbdd08420ce"
+      },
+      {
+        "Path": "Artwork/bp-lck2025-start-a-fight.jpg",
+        "Bytes": 73819,
+        "Sha256": "5a61b845f5244d6231507c0677f59d27d16c384a34df96473dfb209d68cba5fe"
+      },
+      {
+        "Path": "Music/lck-aerolite.mp3",
+        "Bytes": 3879601,
+        "Sha256": "f8dd2f46ee08fd46fc53721af610539d6ae62e4a7ad86cf73e79cf49fc3d514c"
+      },
+      {
+        "Path": "Music/lck-dimensions-collide.mp3",
+        "Bytes": 4432516,
+        "Sha256": "7afe141eef72e17b762464034c271561a6b38749cd62c0cfb9d407f06d981453"
+      },
+      {
+        "Path": "Music/lck-escalating-events.mp3",
+        "Bytes": 2976351,
+        "Sha256": "69a09c0c6132c337aa94e3495385e850c4dd1a6b5042e20a554bd78cc13e3bbf"
+      },
+      {
+        "Path": "Music/lck2025-compete-to-win.mp3",
+        "Bytes": 3948073,
+        "Sha256": "9704a602c71546cbbd628faeac85119e93825ed0f64d060ca0a006e657372931"
+      },
+      {
+        "Path": "Music/lck2025-prelude-to-battle.mp3",
+        "Bytes": 10977031,
+        "Sha256": "f05fbe63b5171d91a605f057d88f9dd6c24df77ec870801e38484efe1c1b9adb"
+      },
+      {
+        "Path": "Music/lck2025-start-a-fight.mp3",
+        "Bytes": 2650931,
+        "Sha256": "f1dc66632995a40f458506f2314fa8a5107474f05a7658f975277e4cd6d7a573"
+      }
+    ]
+  },
+  {
+    "Id": "bp-lpl",
+    "Name": "BP · LPL",
+    "Description": "保留各年份与已核实赛事用途；仅下载所选分类。",
+    "Asset": "RiftMusic-Music-bp-lpl-v0.1.zip",
+    "Bytes": 181390572,
+    "Sha256": "4ff46063d5d33b8b5feccc6644c4d78eb5e9bbbcd26c03443f3e68e4d3f8b8ae",
+    "Tracks": [
+      {
+        "Id": "bp-lpl2026-we-up",
+        "Name": "We Up",
+        "Season": "2026",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2026-we-up.mp3",
+        "Source": "https://www.bilibili.com/video/BV13frWBxEW2?p=1",
+        "Artist": "Nathan Bodiker / Jaron Takach / Derek Long",
+        "CoverFile": "bp-lpl2026-we-up.jpg",
+        "DraftUses": [
+          {
+            "Year": 2026,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1158960915883753472"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2026,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select We Up LPL",
+        "Favorite": false,
+        "Duration": 148.050431,
+        "Start": 0,
+        "End": 148.050431,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "We Up",
+        "Subtitle": "2026  ·  社区独立音乐版  ·  148.1 秒"
+      },
+      {
+        "Id": "bp-lpl-prime-time",
+        "Name": "Prime Time",
+        "Season": "2025 / 2026",
+        "Kind": "社区独立音乐版",
+        "File": "lpl-prime-time.mp3",
+        "Source": "https://www.bilibili.com/video/BV1AmXxYHE5k?p=8",
+        "Artist": "Aaron Albert Srdoc",
+        "CoverFile": "bp-lpl-prime-time.jpg",
+        "DraftUses": [
+          {
+            "Year": 2025,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1029452215781163012"
+          },
+          {
+            "Year": 2026,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1158960915883753472"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2026,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Prime Time LPL",
+        "Favorite": false,
+        "Duration": 144.706757,
+        "Start": 0,
+        "End": 144.706757,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Prime Time",
+        "Subtitle": "2025 / 2026  ·  社区独立音乐版  ·  144.7 秒"
+      },
+      {
+        "Id": "bp-lpl2026-la-batalla",
+        "Name": "La Batalla",
+        "Season": "2026",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2026-la-batalla.mp3",
+        "Source": "https://www.bilibili.com/video/BV13frWBxEW2?p=8",
+        "Artist": "Juan Alejandro Contento Bermudez / Gadzz",
+        "CoverFile": "bp-lpl2026-la-batalla.jpg",
+        "DraftUses": [
+          {
+            "Year": 2026,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1158960915883753472"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2026,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select La Batalla LPL",
+        "Favorite": false,
+        "Duration": 176.773515,
+        "Start": 0,
+        "End": 176.773515,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "La Batalla",
+        "Subtitle": "2026  ·  社区独立音乐版  ·  176.8 秒"
+      },
+      {
+        "Id": "bp-lpl2026-im-a-winner",
+        "Name": "I'm A Winner",
+        "Season": "2026",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2026-im-a-winner.mp3",
+        "Source": "https://www.bilibili.com/video/BV13frWBxEW2?p=2",
+        "Artist": "Jamie Westgarth Shield / Paul Umbrella",
+        "CoverFile": "bp-lpl2026-im-a-winner.jpg",
+        "DraftUses": [
+          {
+            "Year": 2026,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1158960915883753472"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2026,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select I'm A Winner LPL",
+        "Favorite": false,
+        "Duration": 140.411066,
+        "Start": 0,
+        "End": 140.411066,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "I'm A Winner",
+        "Subtitle": "2026  ·  社区独立音乐版  ·  140.4 秒"
+      },
+      {
+        "Id": "bp-lpl2026-fearless-beat",
+        "Name": "Fearless Beat",
+        "Season": "2026",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2026-fearless-beat.mp3",
+        "Source": "https://www.bilibili.com/video/BV13frWBxEW2?p=3",
+        "Artist": "John K. Sands / Marc Ferrari / Trevor Roy Lewallen / Edgars Dzenitis",
+        "CoverFile": "bp-lpl2026-fearless-beat.jpg",
+        "DraftUses": [
+          {
+            "Year": 2026,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1158960915883753472"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2026,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Fearless Beat LPL",
+        "Favorite": false,
+        "Duration": 114.009977,
+        "Start": 0,
+        "End": 114.009977,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Fearless Beat",
+        "Subtitle": "2026  ·  社区独立音乐版  ·  114 秒"
+      },
+      {
+        "Id": "bp-lpl-enmity",
+        "Name": "Enmity",
+        "Season": "2025 / 2026",
+        "Kind": "社区独立音乐版",
+        "File": "lpl-enmity.mp3",
+        "Source": "https://www.bilibili.com/video/BV13frWBxEW2?p=5",
+        "Artist": "Edgard Jaude",
+        "CoverFile": "bp-lpl-enmity.jpg",
+        "DraftUses": [
+          {
+            "Year": 2025,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1029452215781163012"
+          },
+          {
+            "Year": 2026,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1158960915883753472"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2026,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Enmity LPL",
+        "Favorite": false,
+        "Duration": 163.027302,
+        "Start": 0,
+        "End": 163.027302,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Enmity",
+        "Subtitle": "2025 / 2026  ·  社区独立音乐版  ·  163 秒"
+      },
+      {
+        "Id": "bp-lpl-endless-fear",
+        "Name": "Endless Fear",
+        "Season": "2025 / 2026",
+        "Kind": "社区独立音乐版",
+        "File": "lpl-endless-fear.mp3",
+        "Source": "https://www.bilibili.com/video/BV13frWBxEW2?p=6",
+        "Artist": "Edgard Jaude",
+        "CoverFile": "bp-lpl-endless-fear.jpg",
+        "DraftUses": [
+          {
+            "Year": 2025,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1029452215781163012"
+          },
+          {
+            "Year": 2026,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1158960915883753472"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2026,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Endless Fear LPL",
+        "Favorite": false,
+        "Duration": 116.773152,
+        "Start": 0,
+        "End": 116.773152,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Endless Fear",
+        "Subtitle": "2025 / 2026  ·  社区独立音乐版  ·  116.8 秒"
+      },
+      {
+        "Id": "bp-lpl-code-breaker",
+        "Name": "Code Breaker",
+        "Season": "2025 / 2026",
+        "Kind": "社区独立音乐版",
+        "File": "lpl-code-breaker.mp3",
+        "Source": "https://www.bilibili.com/video/BV13frWBxEW2?p=4",
+        "Artist": "Dylan Love / Emperia Musicworks",
+        "CoverFile": "bp-lpl-code-breaker.jpg",
+        "DraftUses": [
+          {
+            "Year": 2025,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1029452215781163012"
+          },
+          {
+            "Year": 2026,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1158960915883753472"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2026,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Code Breaker LPL",
+        "Favorite": false,
+        "Duration": 129.799546,
+        "Start": 0,
+        "End": 129.799546,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Code Breaker",
+        "Subtitle": "2025 / 2026  ·  社区独立音乐版  ·  129.8 秒"
+      },
+      {
+        "Id": "bp-lpl-raid",
+        "Name": "Raid",
+        "Season": "2025",
+        "Kind": "社区独立音乐版",
+        "File": "lpl-raid.mp3",
+        "Source": "https://www.bilibili.com/video/BV1AmXxYHE5k?p=4",
+        "Artist": "Alec Justice / Emperia Musicworks",
+        "CoverFile": "bp-lpl-raid.jpg",
+        "DraftUses": [
+          {
+            "Year": 2025,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1029452215781163012"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2025,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Raid LPL",
+        "Favorite": false,
+        "Duration": 168.460771,
+        "Start": 0,
+        "End": 168.460771,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Raid",
+        "Subtitle": "2025  ·  社区独立音乐版  ·  168.5 秒"
+      },
+      {
+        "Id": "bp-lpl-network-disruption",
+        "Name": "Network Disruption",
+        "Season": "2025",
+        "Kind": "社区独立音乐版",
+        "File": "lpl-network-disruption.mp3",
+        "Source": "https://www.bilibili.com/video/BV1AmXxYHE5k?p=6",
+        "Artist": "Jason Blank / Emperia Musicworks",
+        "CoverFile": "bp-lpl-network-disruption.jpg",
+        "DraftUses": [
+          {
+            "Year": 2025,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1029452215781163012"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2025,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Network Disruption LPL",
+        "Favorite": false,
+        "Duration": 187.059955,
+        "Start": 0,
+        "End": 187.059955,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Network Disruption",
+        "Subtitle": "2025  ·  社区独立音乐版  ·  187.1 秒"
+      },
+      {
+        "Id": "bp-lpl-here-to-conquer",
+        "Name": "Here To Conquer",
+        "Season": "2025",
+        "Kind": "社区独立音乐版",
+        "File": "lpl-here-to-conquer.mp3",
+        "Source": "https://www.bilibili.com/video/BV1AmXxYHE5k?p=2",
+        "Artist": "Ziggy Sullivin / Arlo Beckett",
+        "CoverFile": "bp-lpl-here-to-conquer.jpg",
+        "DraftUses": [
+          {
+            "Year": 2025,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1029452215781163012"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2025,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Here To Conquer LPL",
+        "Favorite": false,
+        "Duration": 148.70059,
+        "Start": 0,
+        "End": 148.70059,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Here To Conquer",
+        "Subtitle": "2025  ·  社区独立音乐版  ·  148.7 秒"
+      },
+      {
+        "Id": "bp-lpl-heart-of-a-champion",
+        "Name": "Heart of a Champion",
+        "Season": "2025",
+        "Kind": "社区独立音乐版",
+        "File": "lpl-heart-of-a-champion.mp3",
+        "Source": "https://www.bilibili.com/video/BV1AmXxYHE5k?p=5",
+        "Artist": "Amaury Louvet",
+        "CoverFile": "bp-lpl-heart-of-a-champion.jpg",
+        "DraftUses": [
+          {
+            "Year": 2025,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1029452215781163012"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2025,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Heart of a Champion LPL",
+        "Favorite": false,
+        "Duration": 111.989841,
+        "Start": 0,
+        "End": 111.989841,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Heart of a Champion",
+        "Subtitle": "2025  ·  社区独立音乐版  ·  112 秒"
+      },
+      {
+        "Id": "bp-lpl-breaking-records",
+        "Name": "Breaking Records",
+        "Season": "2025",
+        "Kind": "社区独立音乐版",
+        "File": "lpl-breaking-records.mp3",
+        "Source": "https://www.bilibili.com/video/BV1AmXxYHE5k?p=1",
+        "Artist": "Philippe Villar",
+        "CoverFile": "bp-lpl-breaking-records.jpg",
+        "DraftUses": [
+          {
+            "Year": 2025,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1029452215781163012"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2025,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Breaking Records LPL",
+        "Favorite": false,
+        "Duration": 126.362993,
+        "Start": 0,
+        "End": 126.362993,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Breaking Records",
+        "Subtitle": "2025  ·  社区独立音乐版  ·  126.4 秒"
+      },
+      {
+        "Id": "bp-lpl-bow-and-beat",
+        "Name": "Bow And Beat",
+        "Season": "2025",
+        "Kind": "社区独立音乐版",
+        "File": "lpl-bow-and-beat.mp3",
+        "Source": "https://www.bilibili.com/video/BV1AmXxYHE5k?p=3",
+        "Artist": "Michael Andrew MacLennan",
+        "CoverFile": "bp-lpl-bow-and-beat.jpg",
+        "DraftUses": [
+          {
+            "Year": 2025,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1029452215781163012"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2025,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Bow And Beat LPL",
+        "Favorite": false,
+        "Duration": 133.25932,
+        "Start": 0,
+        "End": 133.25932,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Bow And Beat",
+        "Subtitle": "2025  ·  社区独立音乐版  ·  133.3 秒"
+      },
+      {
+        "Id": "bp-lpl-battle-arena-trap",
+        "Name": "Battle Arena Trap",
+        "Season": "2025",
+        "Kind": "社区独立音乐版",
+        "File": "lpl-battle-arena-trap.mp3",
+        "Source": "https://www.bilibili.com/video/BV1AmXxYHE5k?p=7",
+        "Artist": "SIFU",
+        "CoverFile": "bp-lpl-battle-arena-trap.jpg",
+        "DraftUses": [
+          {
+            "Year": 2025,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/opus/1029452215781163012"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2025,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Battle Arena Trap LPL",
+        "Favorite": false,
+        "Duration": 154.552018,
+        "Start": 0,
+        "End": 154.552018,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Battle Arena Trap",
+        "Subtitle": "2025  ·  社区独立音乐版  ·  154.6 秒"
+      },
+      {
+        "Id": "bp-lpl2024-rake-it-up",
+        "Name": "Rake It Up",
+        "Season": "2024",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2024-rake-it-up.mp3",
+        "Source": "https://www.bilibili.com/video/BV1si4y1W7x3?p=6",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2024-rake-it-up.jpg",
+        "DraftUses": [
+          {
+            "Year": 2024,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1si4y1W7x3/"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2024,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Rake It Up LPL",
+        "Favorite": false,
+        "Duration": 125.828934,
+        "Start": 0,
+        "End": 125.828934,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Rake It Up",
+        "Subtitle": "2024  ·  社区独立音乐版  ·  125.8 秒"
+      },
+      {
+        "Id": "bp-lpl2024-pandemonium",
+        "Name": "Pandemonium",
+        "Season": "2024",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2024-pandemonium.mp3",
+        "Source": "https://www.bilibili.com/video/BV1si4y1W7x3?p=8",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2024-pandemonium.jpg",
+        "DraftUses": [
+          {
+            "Year": 2024,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1si4y1W7x3/"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2024,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Pandemonium LPL",
+        "Favorite": false,
+        "Duration": 164.931338,
+        "Start": 0,
+        "End": 164.931338,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Pandemonium",
+        "Subtitle": "2024  ·  社区独立音乐版  ·  164.9 秒"
+      },
+      {
+        "Id": "bp-lpl2024-let-it-blow",
+        "Name": "Let It Blow",
+        "Season": "2024",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2024-let-it-blow.mp3",
+        "Source": "https://www.bilibili.com/video/BV1si4y1W7x3?p=9",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2024-let-it-blow.jpg",
+        "DraftUses": [
+          {
+            "Year": 2024,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1si4y1W7x3/"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2024,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Let It Blow LPL",
+        "Favorite": false,
+        "Duration": 180.326168,
+        "Start": 0,
+        "End": 180.326168,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Let It Blow",
+        "Subtitle": "2024  ·  社区独立音乐版  ·  180.3 秒"
+      },
+      {
+        "Id": "bp-lpl2024-intense-match",
+        "Name": "Intense Match",
+        "Season": "2024",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2024-intense-match.mp3",
+        "Source": "https://www.bilibili.com/video/BV1si4y1W7x3?p=7",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2024-intense-match.jpg",
+        "DraftUses": [
+          {
+            "Year": 2024,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1si4y1W7x3/"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2024,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Intense Match LPL",
+        "Favorite": false,
+        "Duration": 129.428027,
+        "Start": 0,
+        "End": 129.428027,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Intense Match",
+        "Subtitle": "2024  ·  社区独立音乐版  ·  129.4 秒"
+      },
+      {
+        "Id": "bp-lpl2024-go",
+        "Name": "Go!",
+        "Season": "2024",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2024-go.mp3",
+        "Source": "https://www.bilibili.com/video/BV1si4y1W7x3?p=3",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2024-go.jpg",
+        "DraftUses": [
+          {
+            "Year": 2024,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1si4y1W7x3/"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2024,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Go! LPL",
+        "Favorite": false,
+        "Duration": 130.565805,
+        "Start": 0,
+        "End": 130.565805,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Go!",
+        "Subtitle": "2024  ·  社区独立音乐版  ·  130.6 秒"
+      },
+      {
+        "Id": "bp-lpl2024-getting-rowdy",
+        "Name": "Getting Rowdy",
+        "Season": "2024",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2024-getting-rowdy.mp3",
+        "Source": "https://www.bilibili.com/video/BV1si4y1W7x3?p=11",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2024-getting-rowdy.jpg",
+        "DraftUses": [
+          {
+            "Year": 2024,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1si4y1W7x3/"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2024,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Getting Rowdy LPL",
+        "Favorite": false,
+        "Duration": 131.192744,
+        "Start": 0,
+        "End": 131.192744,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Getting Rowdy",
+        "Subtitle": "2024  ·  社区独立音乐版  ·  131.2 秒"
+      },
+      {
+        "Id": "bp-lpl2024-epic-or-bust",
+        "Name": "Epic Or Bust",
+        "Season": "2024",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2024-epic-or-bust.mp3",
+        "Source": "https://www.bilibili.com/video/BV1si4y1W7x3?p=12",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2024-epic-or-bust.jpg",
+        "DraftUses": [
+          {
+            "Year": 2024,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1si4y1W7x3/"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2024,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Epic Or Bust LPL",
+        "Favorite": false,
+        "Duration": 134.025578,
+        "Start": 0,
+        "End": 134.025578,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Epic Or Bust",
+        "Subtitle": "2024  ·  社区独立音乐版  ·  134 秒"
+      },
+      {
+        "Id": "bp-lpl2024-devil-s-advocate",
+        "Name": "Devil's Advocate",
+        "Season": "2024",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2024-devil-s-advocate.mp3",
+        "Source": "https://www.bilibili.com/video/BV1si4y1W7x3?p=5",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2024-devil-s-advocate.jpg",
+        "DraftUses": [
+          {
+            "Year": 2024,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1si4y1W7x3/"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2024,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Devil's Advocate LPL",
+        "Favorite": false,
+        "Duration": 124.691156,
+        "Start": 0,
+        "End": 124.691156,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Devil's Advocate",
+        "Subtitle": "2024  ·  社区独立音乐版  ·  124.7 秒"
+      },
+      {
+        "Id": "bp-lpl2024-coming-at-you",
+        "Name": "Coming At You",
+        "Season": "2024",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2024-coming-at-you.mp3",
+        "Source": "https://www.bilibili.com/video/BV1si4y1W7x3?p=1",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2024-coming-at-you.jpg",
+        "DraftUses": [
+          {
+            "Year": 2024,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1si4y1W7x3/"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2024,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Coming At You LPL",
+        "Favorite": false,
+        "Duration": 140.875465,
+        "Start": 0,
+        "End": 140.875465,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Coming At You",
+        "Subtitle": "2024  ·  社区独立音乐版  ·  140.9 秒"
+      },
+      {
+        "Id": "bp-lpl2024-beat-it-up",
+        "Name": "Beat It Up",
+        "Season": "2024",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2024-beat-it-up.mp3",
+        "Source": "https://www.bilibili.com/video/BV1si4y1W7x3?p=10",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2024-beat-it-up.jpg",
+        "DraftUses": [
+          {
+            "Year": 2024,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1si4y1W7x3/"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2024,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Beat It Up LPL",
+        "Favorite": false,
+        "Duration": 175.798277,
+        "Start": 0,
+        "End": 175.798277,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Beat It Up",
+        "Subtitle": "2024  ·  社区独立音乐版  ·  175.8 秒"
+      },
+      {
+        "Id": "bp-lpl2024-angry-roads",
+        "Name": "Angry Roads",
+        "Season": "2024",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2024-angry-roads.mp3",
+        "Source": "https://www.bilibili.com/video/BV1si4y1W7x3?p=4",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2024-angry-roads.jpg",
+        "DraftUses": [
+          {
+            "Year": 2024,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1si4y1W7x3/"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2024,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Angry Roads LPL",
+        "Favorite": false,
+        "Duration": 140.898685,
+        "Start": 0,
+        "End": 140.898685,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Angry Roads",
+        "Subtitle": "2024  ·  社区独立音乐版  ·  140.9 秒"
+      },
+      {
+        "Id": "bp-lpl2023-we-trappin",
+        "Name": "We Trappin'",
+        "Season": "2023",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2023-we-trappin.mp3",
+        "Source": "https://www.bilibili.com/video/BV1he4y1F7eq?p=6",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2023-we-trappin.jpg",
+        "DraftUses": [
+          {
+            "Year": 2023,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1he4y1F7eq?p=6"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2023,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select We Trappin' LPL",
+        "Favorite": false,
+        "Duration": 189.24263,
+        "Start": 0,
+        "End": 189.24263,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "We Trappin'",
+        "Subtitle": "2023  ·  社区独立音乐版  ·  189.2 秒"
+      },
+      {
+        "Id": "bp-lpl2023-trap-games",
+        "Name": "Trap Games",
+        "Season": "2023",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2023-trap-games.mp3",
+        "Source": "https://www.bilibili.com/video/BV1he4y1F7eq?p=8",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2023-trap-games.jpg",
+        "DraftUses": [
+          {
+            "Year": 2023,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1he4y1F7eq?p=8"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2023,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Trap Games LPL",
+        "Favorite": false,
+        "Duration": 138.36771,
+        "Start": 0,
+        "End": 138.36771,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Trap Games",
+        "Subtitle": "2023  ·  社区独立音乐版  ·  138.4 秒"
+      },
+      {
+        "Id": "bp-lpl2023-the-scrolls-of-taurus",
+        "Name": "The Scrolls Of Taurus",
+        "Season": "2023",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2023-the-scrolls-of-taurus.mp3",
+        "Source": "https://www.bilibili.com/video/BV1he4y1F7eq?p=3",
+        "Artist": "Alessandro Rizzo / Elliot Greenway Ireland / Ian James Britt",
+        "CoverFile": "bp-lpl2023-the-scrolls-of-taurus.jpg",
+        "DraftUses": [
+          {
+            "Year": 2023,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1he4y1F7eq?p=3"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2023,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select The Scrolls Of Taurus LPL",
+        "Favorite": false,
+        "Duration": 227.671655,
+        "Start": 0,
+        "End": 227.671655,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "The Scrolls Of Taurus",
+        "Subtitle": "2023  ·  社区独立音乐版  ·  227.7 秒"
+      },
+      {
+        "Id": "bp-lpl2023-keep-working",
+        "Name": "Keep Working",
+        "Season": "2023",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2023-keep-working.mp3",
+        "Source": "https://www.bilibili.com/video/BV1he4y1F7eq?p=10",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2023-keep-working.jpg",
+        "DraftUses": [
+          {
+            "Year": 2023,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1he4y1F7eq?p=10"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2023,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Keep Working LPL",
+        "Favorite": false,
+        "Duration": 131.633923,
+        "Start": 0,
+        "End": 131.633923,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Keep Working",
+        "Subtitle": "2023  ·  社区独立音乐版  ·  131.6 秒"
+      },
+      {
+        "Id": "bp-lpl2023-hunted",
+        "Name": "Hunted",
+        "Season": "2023",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2023-hunted.mp3",
+        "Source": "https://www.bilibili.com/video/BV1he4y1F7eq?p=1",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2023-hunted.jpg",
+        "DraftUses": [
+          {
+            "Year": 2023,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1VB4y1M7sj?p=7"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2023,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Hunted LPL",
+        "Favorite": false,
+        "Duration": 163.027302,
+        "Start": 0,
+        "End": 163.027302,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Hunted",
+        "Subtitle": "2023  ·  社区独立音乐版  ·  163 秒"
+      },
+      {
+        "Id": "bp-lpl2023-good-stomps",
+        "Name": "Good Stomps",
+        "Season": "2023",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2023-good-stomps.mp3",
+        "Source": "https://www.bilibili.com/video/BV1he4y1F7eq?p=4",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2023-good-stomps.jpg",
+        "DraftUses": [
+          {
+            "Year": 2023,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1he4y1F7eq?p=4"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2023,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Good Stomps LPL",
+        "Favorite": false,
+        "Duration": 142.872381,
+        "Start": 0,
+        "End": 142.872381,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Good Stomps",
+        "Subtitle": "2023  ·  社区独立音乐版  ·  142.9 秒"
+      },
+      {
+        "Id": "bp-lpl2023-get-dropped",
+        "Name": "Get Dropped",
+        "Season": "2021 / 2023",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2023-get-dropped.mp3",
+        "Source": "https://www.bilibili.com/video/BV1he4y1F7eq?p=9",
+        "Artist": "Brett Engel",
+        "CoverFile": "bp-lpl2023-get-dropped.jpg",
+        "DraftUses": [
+          {
+            "Year": 2023,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1he4y1F7eq?p=9"
+          },
+          {
+            "Year": 2021,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://m.hupu.com/bbs/44753450.html"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2023,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Get Dropped LPL",
+        "Favorite": false,
+        "Duration": 150.442086,
+        "Start": 0,
+        "End": 150.442086,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Get Dropped",
+        "Subtitle": "2021 / 2023  ·  社区独立音乐版  ·  150.4 秒"
+      },
+      {
+        "Id": "bp-lpl2023-exoplanet",
+        "Name": "Exoplanet",
+        "Season": "2023",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2023-exoplanet.mp3",
+        "Source": "https://www.bilibili.com/video/BV1he4y1F7eq?p=5",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2023-exoplanet.jpg",
+        "DraftUses": [
+          {
+            "Year": 2023,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1he4y1F7eq?p=5"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2023,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Exoplanet LPL",
+        "Favorite": false,
+        "Duration": 178.607891,
+        "Start": 0,
+        "End": 178.607891,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Exoplanet",
+        "Subtitle": "2023  ·  社区独立音乐版  ·  178.6 秒"
+      },
+      {
+        "Id": "bp-lpl2023-enter-the-stadium",
+        "Name": "Enter the Stadium",
+        "Season": "2023",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2023-enter-the-stadium.mp3",
+        "Source": "https://www.bilibili.com/video/BV1he4y1F7eq?p=7",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2023-enter-the-stadium.jpg",
+        "DraftUses": [
+          {
+            "Year": 2023,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1he4y1F7eq?p=7"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2023,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Enter the Stadium LPL",
+        "Favorite": false,
+        "Duration": 137.090612,
+        "Start": 0,
+        "End": 137.090612,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Enter the Stadium",
+        "Subtitle": "2023  ·  社区独立音乐版  ·  137.1 秒"
+      },
+      {
+        "Id": "bp-lpl2023-beat-bleep-repeat",
+        "Name": "Beat Bleep Repeat",
+        "Season": "2023",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2023-beat-bleep-repeat.mp3",
+        "Source": "https://www.bilibili.com/video/BV1he4y1F7eq?p=2",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2023-beat-bleep-repeat.jpg",
+        "DraftUses": [
+          {
+            "Year": 2023,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1he4y1F7eq?p=2"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2023,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Beat Bleep Repeat LPL",
+        "Favorite": false,
+        "Duration": 144.242358,
+        "Start": 0,
+        "End": 144.242358,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Beat Bleep Repeat",
+        "Subtitle": "2023  ·  社区独立音乐版  ·  144.2 秒"
+      },
+      {
+        "Id": "bp-lpl2022-up-in-flames",
+        "Name": "Up In Flames",
+        "Season": "2022",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2022-up-in-flames.mp3",
+        "Source": "https://www.bilibili.com/video/BV1yY41187eb?p=9",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2022-up-in-flames.jpg",
+        "DraftUses": [
+          {
+            "Year": 2022,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1VB4y1M7sj?p=7"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2022,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Up In Flames LPL",
+        "Favorite": false,
+        "Duration": 127.686531,
+        "Start": 0,
+        "End": 127.686531,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Up In Flames",
+        "Subtitle": "2022  ·  社区独立音乐版  ·  127.7 秒"
+      },
+      {
+        "Id": "bp-lpl2022-titan",
+        "Name": "Titan",
+        "Season": "2022",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2022-titan.mp3",
+        "Source": "https://www.bilibili.com/video/BV1yY41187eb?p=8",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2022-titan.jpg",
+        "DraftUses": [
+          {
+            "Year": 2022,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1VB4y1M7sj?p=7"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2022,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Titan LPL",
+        "Favorite": false,
+        "Duration": 196.324717,
+        "Start": 0,
+        "End": 196.324717,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Titan",
+        "Subtitle": "2022  ·  社区独立音乐版  ·  196.3 秒"
+      },
+      {
+        "Id": "bp-lpl2022-ready-for-it",
+        "Name": "Ready for It",
+        "Season": "2022",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2022-ready-for-it.mp3",
+        "Source": "https://www.bilibili.com/video/BV1yY41187eb?p=4",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2022-ready-for-it.jpg",
+        "DraftUses": [
+          {
+            "Year": 2022,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1VB4y1M7sj?p=7"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2022,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Ready for It LPL",
+        "Favorite": false,
+        "Duration": 153.8322,
+        "Start": 0,
+        "End": 153.8322,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Ready for It",
+        "Subtitle": "2022  ·  社区独立音乐版  ·  153.8 秒"
+      },
+      {
+        "Id": "bp-lpl2022-kill-for-me",
+        "Name": "Kill For Me",
+        "Season": "2022",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2022-kill-for-me.mp3",
+        "Source": "https://www.bilibili.com/video/BV1yY41187eb?p=7",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2022-kill-for-me.jpg",
+        "DraftUses": [
+          {
+            "Year": 2022,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1VB4y1M7sj?p=7"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2022,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Kill For Me LPL",
+        "Favorite": false,
+        "Duration": 143.081361,
+        "Start": 0,
+        "End": 143.081361,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Kill For Me",
+        "Subtitle": "2022  ·  社区独立音乐版  ·  143.1 秒"
+      },
+      {
+        "Id": "bp-lpl2022-incinerator",
+        "Name": "Incinerator",
+        "Season": "2022",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2022-incinerator.mp3",
+        "Source": "https://www.bilibili.com/video/BV1yY41187eb?p=6",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2022-incinerator.jpg",
+        "DraftUses": [
+          {
+            "Year": 2022,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1VB4y1M7sj?p=7"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2022,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Incinerator LPL",
+        "Favorite": false,
+        "Duration": 137.833651,
+        "Start": 0,
+        "End": 137.833651,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Incinerator",
+        "Subtitle": "2022  ·  社区独立音乐版  ·  137.8 秒"
+      },
+      {
+        "Id": "bp-lpl2022-feel-the-heat",
+        "Name": "Feel the Heat",
+        "Season": "2022",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2022-feel-the-heat.mp3",
+        "Source": "https://www.bilibili.com/video/BV1yY41187eb?p=3",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2022-feel-the-heat.jpg",
+        "DraftUses": [
+          {
+            "Year": 2022,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1VB4y1M7sj?p=7"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2022,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Feel the Heat LPL",
+        "Favorite": false,
+        "Duration": 172.919002,
+        "Start": 0,
+        "End": 172.919002,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Feel the Heat",
+        "Subtitle": "2022  ·  社区独立音乐版  ·  172.9 秒"
+      },
+      {
+        "Id": "bp-lpl2022-break-free",
+        "Name": "Break Free",
+        "Season": "2022",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2022-break-free.mp3",
+        "Source": "https://www.bilibili.com/video/BV1yY41187eb?p=2",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2022-break-free.jpg",
+        "DraftUses": [
+          {
+            "Year": 2022,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1VB4y1M7sj?p=7"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2022,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Break Free LPL",
+        "Favorite": false,
+        "Duration": 144.010159,
+        "Start": 0,
+        "End": 144.010159,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Break Free",
+        "Subtitle": "2022  ·  社区独立音乐版  ·  144 秒"
+      },
+      {
+        "Id": "bp-lpl2022-boom-or-bust",
+        "Name": "Boom or Bust",
+        "Season": "2022",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2022-boom-or-bust.mp3",
+        "Source": "https://www.bilibili.com/video/BV1yY41187eb?p=1",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2022-boom-or-bust.jpg",
+        "DraftUses": [
+          {
+            "Year": 2022,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1VB4y1M7sj?p=7"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2022,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Boom or Bust LPL",
+        "Favorite": false,
+        "Duration": 129.288707,
+        "Start": 0,
+        "End": 129.288707,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Boom or Bust",
+        "Subtitle": "2022  ·  社区独立音乐版  ·  129.3 秒"
+      },
+      {
+        "Id": "bp-lpl2022-balanced",
+        "Name": "Balanced",
+        "Season": "2022",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2022-balanced.mp3",
+        "Source": "https://www.bilibili.com/video/BV1yY41187eb?p=5",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2022-balanced.jpg",
+        "DraftUses": [
+          {
+            "Year": 2022,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://www.bilibili.com/video/BV1VB4y1M7sj?p=7"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2022,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Balanced LPL",
+        "Favorite": false,
+        "Duration": 99.451066,
+        "Start": 0,
+        "End": 99.451066,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Balanced",
+        "Subtitle": "2022  ·  社区独立音乐版  ·  99.5 秒"
+      },
+      {
+        "Id": "bp-lpl2021-plates-of-steel",
+        "Name": "Plates of Steel",
+        "Season": "2021",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2021-plates-of-steel.mp3",
+        "Source": "https://www.bilibili.com/video/BV1VB4y1M7sj?p=1",
+        "Artist": "Devin Bronson",
+        "CoverFile": "bp-lpl2021-plates-of-steel.jpg",
+        "DraftUses": [
+          {
+            "Year": 2021,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://m.hupu.com/bbs/44753450.html"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2021,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Plates of Steel LPL",
+        "Favorite": false,
+        "Duration": 137.833651,
+        "Start": 0,
+        "End": 137.833651,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Plates of Steel",
+        "Subtitle": "2021  ·  社区独立音乐版  ·  137.8 秒"
+      },
+      {
+        "Id": "bp-lpl2021-get-it-going",
+        "Name": "Get It Going",
+        "Season": "2021",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2021-get-it-going.mp3",
+        "Source": "https://www.bilibili.com/video/BV1VB4y1M7sj?p=4",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2021-get-it-going.jpg",
+        "DraftUses": [
+          {
+            "Year": 2021,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://m.hupu.com/bbs/44753450.html"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2021,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Get It Going LPL",
+        "Favorite": false,
+        "Duration": 162.121723,
+        "Start": 0,
+        "End": 162.121723,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Get It Going",
+        "Subtitle": "2021  ·  社区独立音乐版  ·  162.1 秒"
+      },
+      {
+        "Id": "bp-lpl2021-diamonds-stunts",
+        "Name": "Diamonds Stunts",
+        "Season": "2021",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2021-diamonds-stunts.mp3",
+        "Source": "https://www.bilibili.com/video/BV1VB4y1M7sj?p=6",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2021-diamonds-stunts.jpg",
+        "DraftUses": [
+          {
+            "Year": 2021,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://bbs.hupu.com/41006411.html"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2021,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Diamonds Stunts LPL",
+        "Favorite": false,
+        "Duration": 174.730159,
+        "Start": 0,
+        "End": 174.730159,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Diamonds Stunts",
+        "Subtitle": "2021  ·  社区独立音乐版  ·  174.7 秒"
+      },
+      {
+        "Id": "bp-lpl2021-corpus",
+        "Name": "Corpus",
+        "Season": "2021",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2021-corpus.mp3",
+        "Source": "https://www.bilibili.com/video/BV1VB4y1M7sj?p=3",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2021-corpus.jpg",
+        "DraftUses": [
+          {
+            "Year": 2021,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://m.hupu.com/bbs/44753450.html"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2021,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Corpus LPL",
+        "Favorite": false,
+        "Duration": 154.087619,
+        "Start": 0,
+        "End": 154.087619,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Corpus",
+        "Subtitle": "2021  ·  社区独立音乐版  ·  154.1 秒"
+      },
+      {
+        "Id": "bp-lpl2021-born-for-this",
+        "Name": "Born for This",
+        "Season": "2021",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2021-born-for-this.mp3",
+        "Source": "https://www.bilibili.com/video/BV1VB4y1M7sj?p=8",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2021-born-for-this.jpg",
+        "DraftUses": [
+          {
+            "Year": 2021,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://m.hupu.com/bbs/44753450.html"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2021,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Born for This LPL",
+        "Favorite": false,
+        "Duration": 152.531882,
+        "Start": 0,
+        "End": 152.531882,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Born for This",
+        "Subtitle": "2021  ·  社区独立音乐版  ·  152.5 秒"
+      },
+      {
+        "Id": "bp-lpl2021-better-than-great",
+        "Name": "Better Than Great",
+        "Season": "2021",
+        "Kind": "社区独立音乐版",
+        "File": "lpl2021-better-than-great.mp3",
+        "Source": "https://www.bilibili.com/video/BV1VB4y1M7sj?p=2",
+        "Artist": "原作者待核",
+        "CoverFile": "bp-lpl2021-better-than-great.jpg",
+        "DraftUses": [
+          {
+            "Year": 2021,
+            "Competition": "LPL",
+            "Stage": "选人 / Banpick",
+            "Evidence": "https://m.hupu.com/bbs/44753450.html"
+          }
+        ],
+        "Category": "draft",
+        "Theme": "LPL BP",
+        "Year": 2021,
+        "Quality": "社区独立音乐版 · 三段语音抽检未检出解说 · MP3兼容转码",
+        "SearchTags": "BP 选人 Banpick Champ Select Better Than Great LPL",
+        "Favorite": false,
+        "Duration": 116.958912,
+        "Start": 0,
+        "End": 116.958912,
+        "FadeIn": 0,
+        "FadeOut": 0,
+        "Enabled": true,
+        "Display": "Better Than Great",
+        "Subtitle": "2021  ·  社区独立音乐版  ·  117 秒"
+      }
+    ],
+    "Files": [
+      {
+        "Path": "Artwork/bp-lpl-battle-arena-trap.jpg",
+        "Bytes": 36889,
+        "Sha256": "cde92f4b33ac77fc61ebbb4993e6c90392b91841763a3d860d422c9d6fefbb1d"
+      },
+      {
+        "Path": "Artwork/bp-lpl-bow-and-beat.jpg",
+        "Bytes": 36889,
+        "Sha256": "cde92f4b33ac77fc61ebbb4993e6c90392b91841763a3d860d422c9d6fefbb1d"
+      },
+      {
+        "Path": "Artwork/bp-lpl-breaking-records.jpg",
+        "Bytes": 36889,
+        "Sha256": "cde92f4b33ac77fc61ebbb4993e6c90392b91841763a3d860d422c9d6fefbb1d"
+      },
+      {
+        "Path": "Artwork/bp-lpl-code-breaker.jpg",
+        "Bytes": 30209,
+        "Sha256": "9057bee927a3fd0ed0dff2c7a5b9bf7722658119cb6b435f40034d523b1c3180"
+      },
+      {
+        "Path": "Artwork/bp-lpl-endless-fear.jpg",
+        "Bytes": 30209,
+        "Sha256": "9057bee927a3fd0ed0dff2c7a5b9bf7722658119cb6b435f40034d523b1c3180"
+      },
+      {
+        "Path": "Artwork/bp-lpl-enmity.jpg",
+        "Bytes": 30209,
+        "Sha256": "9057bee927a3fd0ed0dff2c7a5b9bf7722658119cb6b435f40034d523b1c3180"
+      },
+      {
+        "Path": "Artwork/bp-lpl-heart-of-a-champion.jpg",
+        "Bytes": 36889,
+        "Sha256": "cde92f4b33ac77fc61ebbb4993e6c90392b91841763a3d860d422c9d6fefbb1d"
+      },
+      {
+        "Path": "Artwork/bp-lpl-here-to-conquer.jpg",
+        "Bytes": 36889,
+        "Sha256": "cde92f4b33ac77fc61ebbb4993e6c90392b91841763a3d860d422c9d6fefbb1d"
+      },
+      {
+        "Path": "Artwork/bp-lpl-network-disruption.jpg",
+        "Bytes": 36889,
+        "Sha256": "cde92f4b33ac77fc61ebbb4993e6c90392b91841763a3d860d422c9d6fefbb1d"
+      },
+      {
+        "Path": "Artwork/bp-lpl-prime-time.jpg",
+        "Bytes": 36889,
+        "Sha256": "cde92f4b33ac77fc61ebbb4993e6c90392b91841763a3d860d422c9d6fefbb1d"
+      },
+      {
+        "Path": "Artwork/bp-lpl-raid.jpg",
+        "Bytes": 36889,
+        "Sha256": "cde92f4b33ac77fc61ebbb4993e6c90392b91841763a3d860d422c9d6fefbb1d"
+      },
+      {
+        "Path": "Artwork/bp-lpl2021-better-than-great.jpg",
+        "Bytes": 39120,
+        "Sha256": "56caf859755b8520d9f41a097c82b7a7f1acc39a65ed95df9be650ebc7264cc6"
+      },
+      {
+        "Path": "Artwork/bp-lpl2021-born-for-this.jpg",
+        "Bytes": 39120,
+        "Sha256": "56caf859755b8520d9f41a097c82b7a7f1acc39a65ed95df9be650ebc7264cc6"
+      },
+      {
+        "Path": "Artwork/bp-lpl2021-corpus.jpg",
+        "Bytes": 39120,
+        "Sha256": "56caf859755b8520d9f41a097c82b7a7f1acc39a65ed95df9be650ebc7264cc6"
+      },
+      {
+        "Path": "Artwork/bp-lpl2021-diamonds-stunts.jpg",
+        "Bytes": 39120,
+        "Sha256": "56caf859755b8520d9f41a097c82b7a7f1acc39a65ed95df9be650ebc7264cc6"
+      },
+      {
+        "Path": "Artwork/bp-lpl2021-get-it-going.jpg",
+        "Bytes": 39120,
+        "Sha256": "56caf859755b8520d9f41a097c82b7a7f1acc39a65ed95df9be650ebc7264cc6"
+      },
+      {
+        "Path": "Artwork/bp-lpl2021-plates-of-steel.jpg",
+        "Bytes": 39120,
+        "Sha256": "56caf859755b8520d9f41a097c82b7a7f1acc39a65ed95df9be650ebc7264cc6"
+      },
+      {
+        "Path": "Artwork/bp-lpl2022-balanced.jpg",
+        "Bytes": 34638,
+        "Sha256": "0aec5fbd89e802962bb51d4ee38836b59ab0501a53d49bff531d84dcc28d1394"
+      },
+      {
+        "Path": "Artwork/bp-lpl2022-boom-or-bust.jpg",
+        "Bytes": 34638,
+        "Sha256": "0aec5fbd89e802962bb51d4ee38836b59ab0501a53d49bff531d84dcc28d1394"
+      },
+      {
+        "Path": "Artwork/bp-lpl2022-break-free.jpg",
+        "Bytes": 34638,
+        "Sha256": "0aec5fbd89e802962bb51d4ee38836b59ab0501a53d49bff531d84dcc28d1394"
+      },
+      {
+        "Path": "Artwork/bp-lpl2022-feel-the-heat.jpg",
+        "Bytes": 34638,
+        "Sha256": "0aec5fbd89e802962bb51d4ee38836b59ab0501a53d49bff531d84dcc28d1394"
+      },
+      {
+        "Path": "Artwork/bp-lpl2022-incinerator.jpg",
+        "Bytes": 34638,
+        "Sha256": "0aec5fbd89e802962bb51d4ee38836b59ab0501a53d49bff531d84dcc28d1394"
+      },
+      {
+        "Path": "Artwork/bp-lpl2022-kill-for-me.jpg",
+        "Bytes": 34638,
+        "Sha256": "0aec5fbd89e802962bb51d4ee38836b59ab0501a53d49bff531d84dcc28d1394"
+      },
+      {
+        "Path": "Artwork/bp-lpl2022-ready-for-it.jpg",
+        "Bytes": 34638,
+        "Sha256": "0aec5fbd89e802962bb51d4ee38836b59ab0501a53d49bff531d84dcc28d1394"
+      },
+      {
+        "Path": "Artwork/bp-lpl2022-titan.jpg",
+        "Bytes": 34638,
+        "Sha256": "0aec5fbd89e802962bb51d4ee38836b59ab0501a53d49bff531d84dcc28d1394"
+      },
+      {
+        "Path": "Artwork/bp-lpl2022-up-in-flames.jpg",
+        "Bytes": 34638,
+        "Sha256": "0aec5fbd89e802962bb51d4ee38836b59ab0501a53d49bff531d84dcc28d1394"
+      },
+      {
+        "Path": "Artwork/bp-lpl2023-beat-bleep-repeat.jpg",
+        "Bytes": 52159,
+        "Sha256": "d501f89db9d37e5a39361888e099b0f28764a87cbec4122dfdd02572547c15f8"
+      },
+      {
+        "Path": "Artwork/bp-lpl2023-enter-the-stadium.jpg",
+        "Bytes": 52159,
+        "Sha256": "d501f89db9d37e5a39361888e099b0f28764a87cbec4122dfdd02572547c15f8"
+      },
+      {
+        "Path": "Artwork/bp-lpl2023-exoplanet.jpg",
+        "Bytes": 52159,
+        "Sha256": "d501f89db9d37e5a39361888e099b0f28764a87cbec4122dfdd02572547c15f8"
+      },
+      {
+        "Path": "Artwork/bp-lpl2023-get-dropped.jpg",
+        "Bytes": 52159,
+        "Sha256": "d501f89db9d37e5a39361888e099b0f28764a87cbec4122dfdd02572547c15f8"
+      },
+      {
+        "Path": "Artwork/bp-lpl2023-good-stomps.jpg",
+        "Bytes": 52159,
+        "Sha256": "d501f89db9d37e5a39361888e099b0f28764a87cbec4122dfdd02572547c15f8"
+      },
+      {
+        "Path": "Artwork/bp-lpl2023-hunted.jpg",
+        "Bytes": 52159,
+        "Sha256": "d501f89db9d37e5a39361888e099b0f28764a87cbec4122dfdd02572547c15f8"
+      },
+      {
+        "Path": "Artwork/bp-lpl2023-keep-working.jpg",
+        "Bytes": 52159,
+        "Sha256": "d501f89db9d37e5a39361888e099b0f28764a87cbec4122dfdd02572547c15f8"
+      },
+      {
+        "Path": "Artwork/bp-lpl2023-the-scrolls-of-taurus.jpg",
+        "Bytes": 52159,
+        "Sha256": "d501f89db9d37e5a39361888e099b0f28764a87cbec4122dfdd02572547c15f8"
+      },
+      {
+        "Path": "Artwork/bp-lpl2023-trap-games.jpg",
+        "Bytes": 52159,
+        "Sha256": "d501f89db9d37e5a39361888e099b0f28764a87cbec4122dfdd02572547c15f8"
+      },
+      {
+        "Path": "Artwork/bp-lpl2023-we-trappin.jpg",
+        "Bytes": 52159,
+        "Sha256": "d501f89db9d37e5a39361888e099b0f28764a87cbec4122dfdd02572547c15f8"
+      },
+      {
+        "Path": "Artwork/bp-lpl2024-angry-roads.jpg",
+        "Bytes": 33700,
+        "Sha256": "e79ca5bb1733aca9d35f8eaa9709e72befbf5d03768347dbe67b19211dfc19e6"
+      },
+      {
+        "Path": "Artwork/bp-lpl2024-beat-it-up.jpg",
+        "Bytes": 33700,
+        "Sha256": "e79ca5bb1733aca9d35f8eaa9709e72befbf5d03768347dbe67b19211dfc19e6"
+      },
+      {
+        "Path": "Artwork/bp-lpl2024-coming-at-you.jpg",
+        "Bytes": 33700,
+        "Sha256": "e79ca5bb1733aca9d35f8eaa9709e72befbf5d03768347dbe67b19211dfc19e6"
+      },
+      {
+        "Path": "Artwork/bp-lpl2024-devil-s-advocate.jpg",
+        "Bytes": 33700,
+        "Sha256": "e79ca5bb1733aca9d35f8eaa9709e72befbf5d03768347dbe67b19211dfc19e6"
+      },
+      {
+        "Path": "Artwork/bp-lpl2024-epic-or-bust.jpg",
+        "Bytes": 33700,
+        "Sha256": "e79ca5bb1733aca9d35f8eaa9709e72befbf5d03768347dbe67b19211dfc19e6"
+      },
+      {
+        "Path": "Artwork/bp-lpl2024-getting-rowdy.jpg",
+        "Bytes": 33700,
+        "Sha256": "e79ca5bb1733aca9d35f8eaa9709e72befbf5d03768347dbe67b19211dfc19e6"
+      },
+      {
+        "Path": "Artwork/bp-lpl2024-go.jpg",
+        "Bytes": 33700,
+        "Sha256": "e79ca5bb1733aca9d35f8eaa9709e72befbf5d03768347dbe67b19211dfc19e6"
+      },
+      {
+        "Path": "Artwork/bp-lpl2024-intense-match.jpg",
+        "Bytes": 33700,
+        "Sha256": "e79ca5bb1733aca9d35f8eaa9709e72befbf5d03768347dbe67b19211dfc19e6"
+      },
+      {
+        "Path": "Artwork/bp-lpl2024-let-it-blow.jpg",
+        "Bytes": 33700,
+        "Sha256": "e79ca5bb1733aca9d35f8eaa9709e72befbf5d03768347dbe67b19211dfc19e6"
+      },
+      {
+        "Path": "Artwork/bp-lpl2024-pandemonium.jpg",
+        "Bytes": 33700,
+        "Sha256": "e79ca5bb1733aca9d35f8eaa9709e72befbf5d03768347dbe67b19211dfc19e6"
+      },
+      {
+        "Path": "Artwork/bp-lpl2024-rake-it-up.jpg",
+        "Bytes": 33700,
+        "Sha256": "e79ca5bb1733aca9d35f8eaa9709e72befbf5d03768347dbe67b19211dfc19e6"
+      },
+      {
+        "Path": "Artwork/bp-lpl2026-fearless-beat.jpg",
+        "Bytes": 30209,
+        "Sha256": "9057bee927a3fd0ed0dff2c7a5b9bf7722658119cb6b435f40034d523b1c3180"
+      },
+      {
+        "Path": "Artwork/bp-lpl2026-im-a-winner.jpg",
+        "Bytes": 30209,
+        "Sha256": "9057bee927a3fd0ed0dff2c7a5b9bf7722658119cb6b435f40034d523b1c3180"
+      },
+      {
+        "Path": "Artwork/bp-lpl2026-la-batalla.jpg",
+        "Bytes": 30209,
+        "Sha256": "9057bee927a3fd0ed0dff2c7a5b9bf7722658119cb6b435f40034d523b1c3180"
+      },
+      {
+        "Path": "Artwork/bp-lpl2026-we-up.jpg",
+        "Bytes": 30209,
+        "Sha256": "9057bee927a3fd0ed0dff2c7a5b9bf7722658119cb6b435f40034d523b1c3180"
+      },
+      {
+        "Path": "Music/lpl-battle-arena-trap.mp3",
+        "Bytes": 3711053,
+        "Sha256": "73e9c08cdd31343c55bd902b98e8fb35a56ea4d1533a5ae66b382884b0db111c"
+      },
+      {
+        "Path": "Music/lpl-bow-and-beat.mp3",
+        "Bytes": 3200102,
+        "Sha256": "ffe636b464dc3375ed569e0eccf8726c556d1a756ae5cc60627e991ecdaf9a60"
+      },
+      {
+        "Path": "Music/lpl-breaking-records.mp3",
+        "Bytes": 3034591,
+        "Sha256": "d39f4767c9951bf85fc4f5b01a4a69e63faf997faf425766da79c301b88ed3e8"
+      },
+      {
+        "Path": "Music/lpl-code-breaker.mp3",
+        "Bytes": 3116728,
+        "Sha256": "c185303f0da6ff616f0356ac613a5623c81351cda75029a72833e6d52cd8369a"
+      },
+      {
+        "Path": "Music/lpl-endless-fear.mp3",
+        "Bytes": 2804513,
+        "Sha256": "7d144e372af702822257dd55ef7603636172378a7438a79bb0044f5c2d38fb36"
+      },
+      {
+        "Path": "Music/lpl-enmity.mp3",
+        "Bytes": 3914188,
+        "Sha256": "e79da77bdbce7aed5ec71c6794e8461d1095c56e546d4547082895dc66c59ed8"
+      },
+      {
+        "Path": "Music/lpl-heart-of-a-champion.mp3",
+        "Bytes": 2689772,
+        "Sha256": "e509c96530c7509f2ec7e86f58ead263dfda3dc00ffedb7e4676cf9d3d22bf49"
+      },
+      {
+        "Path": "Music/lpl-here-to-conquer.mp3",
+        "Bytes": 3570623,
+        "Sha256": "8e210f49b7127071b84740d16650d69f93c34950768eca1a57a6ffa9926571b9"
+      },
+      {
+        "Path": "Music/lpl-network-disruption.mp3",
+        "Bytes": 4490966,
+        "Sha256": "5e5a06ec95b6f959389f8d0d22622ffb9aea09706462f5b3a2c6e586641bdec3"
+      },
+      {
+        "Path": "Music/lpl-prime-time.mp3",
+        "Bytes": 3474690,
+        "Sha256": "3e63f0836c0ce5fa3ac4b14bc6aca9e4c267e91090dc3e9337beb5dcfd334e30"
+      },
+      {
+        "Path": "Music/lpl-raid.mp3",
+        "Bytes": 4044572,
+        "Sha256": "71623447d1bc730e377c83af8794b99e8359068434f86079b8395676691b3a4c"
+      },
+      {
+        "Path": "Music/lpl2021-better-than-great.mp3",
+        "Bytes": 2808898,
+        "Sha256": "7816b8baab5f6051f5e55f920e2b086f24e09a38a7faf3606cd0f11963f133b5"
+      },
+      {
+        "Path": "Music/lpl2021-born-for-this.mp3",
+        "Bytes": 3662796,
+        "Sha256": "e60f880d8d4245fda626ad6f7abda50340d05b0913e1b548f76871f0c3860ab2"
+      },
+      {
+        "Path": "Music/lpl2021-corpus.mp3",
+        "Bytes": 3699767,
+        "Sha256": "7d2a3e52618a43114b7526c59c1f36c0066211b3daef1d04232812f7ff6541fc"
+      },
+      {
+        "Path": "Music/lpl2021-diamonds-stunts.mp3",
+        "Bytes": 4195069,
+        "Sha256": "c2c3ce4c33d987a3a22857ce8f40285118e150994f0e35404227ffd6534a8e2f"
+      },
+      {
+        "Path": "Music/lpl2021-get-it-going.mp3",
+        "Bytes": 3892881,
+        "Sha256": "652d5c3f53c221b69b03215404aa1c5c49be0671d33c8c5c3954dcfa2f02a1d6"
+      },
+      {
+        "Path": "Music/lpl2021-plates-of-steel.mp3",
+        "Bytes": 3309820,
+        "Sha256": "e10080ae67c4c6e1003f943d42664e4efb53b3516f2939d285e1d9df79b2c8f4"
+      },
+      {
+        "Path": "Music/lpl2022-balanced.mp3",
+        "Bytes": 2388840,
+        "Sha256": "5699ebcc2c6f9760723fedc7f764f19bc422a6c09aeb25992ee6655418bff166"
+      },
+      {
+        "Path": "Music/lpl2022-boom-or-bust.mp3",
+        "Bytes": 3104808,
+        "Sha256": "b46bcf9ed0ee5a63db19258eb84b706e1db30316f1013a0510abbbf171ce3663"
+      },
+      {
+        "Path": "Music/lpl2022-break-free.mp3",
+        "Bytes": 3457773,
+        "Sha256": "a41dea0d42668b49b142279ef11149aa118c29a538596a69396205fd28657061"
+      },
+      {
+        "Path": "Music/lpl2022-feel-the-heat.mp3",
+        "Bytes": 4151797,
+        "Sha256": "40dd18ca2b11e3d5548b7c002a5edbb368dd5818fe6de6edbab9582e994d491f"
+      },
+      {
+        "Path": "Music/lpl2022-incinerator.mp3",
+        "Bytes": 3309816,
+        "Sha256": "8f2afa23c056fca5368c5333240cce6445f9b7a0ce9f5b1733df05b8d01b22a1"
+      },
+      {
+        "Path": "Music/lpl2022-kill-for-me.mp3",
+        "Bytes": 3435831,
+        "Sha256": "11b97d0bd6f4dd44d9dfa89625d2f3a5ebb7247f216f68bbc27728499bbce59d"
+      },
+      {
+        "Path": "Music/lpl2022-ready-for-it.mp3",
+        "Bytes": 3693504,
+        "Sha256": "2cbd0b57cd86c2a99112db6aebab767380a2af176f2b09da8c6b02f7efabe31a"
+      },
+      {
+        "Path": "Music/lpl2022-titan.mp3",
+        "Bytes": 4713526,
+        "Sha256": "386c58d1c98e2025c767510c42b2d719e6082f243b0d6737a1712897ab2d2e23"
+      },
+      {
+        "Path": "Music/lpl2022-up-in-flames.mp3",
+        "Bytes": 3065938,
+        "Sha256": "018963f488690c1f8d0c7b68f1c52efb6a37653b334bdb8e403e546849d501b3"
+      },
+      {
+        "Path": "Music/lpl2023-beat-bleep-repeat.mp3",
+        "Bytes": 3463455,
+        "Sha256": "9ef1ad07f9789217047a165aab9ab2010fe6c59901b34cc599da9ceb124fb8b7"
+      },
+      {
+        "Path": "Music/lpl2023-enter-the-stadium.mp3",
+        "Bytes": 3291694,
+        "Sha256": "f7b95765791e386de8919f3b67ab1f2c41dcb8d3f277f8c201d679fcd658a23f"
+      },
+      {
+        "Path": "Music/lpl2023-exoplanet.mp3",
+        "Bytes": 4288499,
+        "Sha256": "7565a6f7f5fe458138289886e342ae9803f32e8ac2837b10ee175d26cf5e52ae"
+      },
+      {
+        "Path": "Music/lpl2023-get-dropped.mp3",
+        "Bytes": 3612681,
+        "Sha256": "990d5e7b2ee299af60fedd164048519ef4037485e365db47b1031f0d5e95b0a4"
+      },
+      {
+        "Path": "Music/lpl2023-good-stomps.mp3",
+        "Bytes": 3430849,
+        "Sha256": "2f702ea4c27a8a6736d641a91f22f88e970accadb1b3ef8697306c578dfa49a0"
+      },
+      {
+        "Path": "Music/lpl2023-hunted.mp3",
+        "Bytes": 3914213,
+        "Sha256": "d50383e104cadaa4eb74c82d174e107f0bbcc16cbde0bc75a077073df84aafd5"
+      },
+      {
+        "Path": "Music/lpl2023-keep-working.mp3",
+        "Bytes": 3161287,
+        "Sha256": "42fdfb5808b270f732942091d7c00c33df1c77dbfa70452a46d55c921d7245bd"
+      },
+      {
+        "Path": "Music/lpl2023-the-scrolls-of-taurus.mp3",
+        "Bytes": 5465902,
+        "Sha256": "4402c4c31f6440481bfdb5bb0b906df664b81379431b56a6351e592cc3f6ec0a"
+      },
+      {
+        "Path": "Music/lpl2023-trap-games.mp3",
+        "Bytes": 3322407,
+        "Sha256": "a489c6440a42fc4f58514993145f8b6bdf8e6593630fc56637b05a5d10f57581"
+      },
+      {
+        "Path": "Music/lpl2023-we-trappin.mp3",
+        "Bytes": 4543665,
+        "Sha256": "1cda524e447c368748c71712cfba87514fbba53b9a5d859e2ea15ff9460a4559"
+      },
+      {
+        "Path": "Music/lpl2024-angry-roads.mp3",
+        "Bytes": 3383200,
+        "Sha256": "b527d84f7a8ec88dcbce9018fe4c52dab8177d7d63a62dc768ea23e3184a26c2"
+      },
+      {
+        "Path": "Music/lpl2024-beat-it-up.mp3",
+        "Bytes": 4220810,
+        "Sha256": "a0d9da0434ac2995034e0f4a56e8a3a7be2d3f1e5d0ab840c0017b16081d2738"
+      },
+      {
+        "Path": "Music/lpl2024-coming-at-you.mp3",
+        "Bytes": 3382575,
+        "Sha256": "87b4a51adc5dcb331c23ee7ed3577a5702228d9ed609438428b23d6b2419f049"
+      },
+      {
+        "Path": "Music/lpl2024-devil-s-advocate.mp3",
+        "Bytes": 2994523,
+        "Sha256": "2fcb6da38f049b1f7ba3a974f84cbbf7dd68bccdddae03f504b65bd8513a49a1"
+      },
+      {
+        "Path": "Music/lpl2024-epic-or-bust.mp3",
+        "Bytes": 3218329,
+        "Sha256": "1474134a99eea659df1b5af9ef30c644885dffcd79c54c7e5ec785080211e59e"
+      },
+      {
+        "Path": "Music/lpl2024-getting-rowdy.mp3",
+        "Bytes": 3150621,
+        "Sha256": "4e89afc80c4ce775e5f1c6b3d3f71ed7542c3319bf2b6ebcca07fcee71b9571e"
+      },
+      {
+        "Path": "Music/lpl2024-go.mp3",
+        "Bytes": 3135551,
+        "Sha256": "14eb15f910709ae9cd41b8b45727a9b4a144d92b09876f79d410e29d86ba18bd"
+      },
+      {
+        "Path": "Music/lpl2024-intense-match.mp3",
+        "Bytes": 3108000,
+        "Sha256": "e375d104e995a63f844a04416d93b8aa3eb656d4b0d416950e03238af5f260de"
+      },
+      {
+        "Path": "Music/lpl2024-let-it-blow.mp3",
+        "Bytes": 4329898,
+        "Sha256": "a575c07b64871191b2d010336d4be5f1c5c64714200e0498bb2e14305bb943a1"
+      },
+      {
+        "Path": "Music/lpl2024-pandemonium.mp3",
+        "Bytes": 3960004,
+        "Sha256": "0f6afde8a9ae8cd223eb4bb233818fd8bd975c569e6c3e9c966bf6b100e423f8"
+      },
+      {
+        "Path": "Music/lpl2024-rake-it-up.mp3",
+        "Bytes": 3021476,
+        "Sha256": "a930d39e54a2884ac639e7238d3fa5421b708ce38995876c97f2a36f4ee3450f"
+      },
+      {
+        "Path": "Music/lpl2026-fearless-beat.mp3",
+        "Bytes": 2738058,
+        "Sha256": "db3ca970b968fb062939d1da0ebd254405372dcfd913276b23766cb32692926a"
+      },
+      {
+        "Path": "Music/lpl2026-im-a-winner.mp3",
+        "Bytes": 3371892,
+        "Sha256": "e9c27157fede5b7189ae4b081d30bc64a15b7d62aeb9fb9a6dce32d35bbd9e4f"
+      },
+      {
+        "Path": "Music/lpl2026-la-batalla.mp3",
+        "Bytes": 4244589,
+        "Sha256": "2debd7e0181400a114462e7b8e24ccf3cfe4f12e997ccbcad72061585c4ccee0"
+      },
+      {
+        "Path": "Music/lpl2026-we-up.mp3",
+        "Bytes": 3554951,
+        "Sha256": "41b21695432d716709120ecc5401ca6d2a5982ae383ac837eb49c1625278760f"
+      }
+    ]
+  }
+]
