@@ -10,6 +10,8 @@ Windows 桌面音乐助手：按年份、赛事和主题浏览开场音乐与 BP
 
 到 [v0.1 下载页](https://github.com/CHO-CYQ/rift-music/releases/tag/v0.1)，展开页面底部的 **Assets**。推荐下载 **`RiftMusic-v0.1-lite-win-x64.zip`**：只包含程序，不强制下载歌曲。解压运行后，点左下角 **“下载曲库”**，按分类勾选需要的曲包，再点“下载所选”。窗口会显示曲目数、大小、进度和已安装状态，支持取消。
 
+[下载轻量版](https://github.com/CHO-CYQ/rift-music/releases/download/v0.1/RiftMusic-v0.1-lite-win-x64.zip) · [下载完整包](https://github.com/CHO-CYQ/rift-music/releases/download/v0.1/RiftMusic-v0.1-full-win-x64.zip) · [SHA-256 校验文件](https://github.com/CHO-CYQ/rift-music/releases/download/v0.1/SHA256.txt)
+
 现有 **148 首音乐（63 首开场、85 首 BP）**拆成九个曲包：世界赛开场、英雄与皮肤、活动与宇宙、赛季与地区，以及全球总决赛 / MSI / 全球先锋赛 / LCK / LPL 的 BP 配乐。交叉赛事用途保留在曲目中；每首音频只分配到一个主曲包，全部下载可补齐现有曲库。
 
 需要一次装齐时可选 **`RiftMusic-v0.1-full-win-x64.zip`** 完整包。`Source code (zip / tar.gz)` 是开发源码，不包含完整歌曲库，也不能直接双击运行。
