@@ -35,4 +35,3 @@ else:
             'all_audio_artwork_fonts_and_appearance_preserved':True}
     if args.report:Path(args.report).write_text(json.dumps(report,ensure_ascii=False,indent=2),'utf-8')
     print(json.dumps(report,ensure_ascii=True))
-
