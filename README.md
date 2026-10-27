@@ -8,9 +8,30 @@ Windows 桌面音乐助手：按年份、赛事和主题浏览开场音乐与 BP
 
 ## 下载与运行
 
-到 [Releases](https://github.com/CHO-CYQ/rift-music/releases/tag/v0.1) 下载 Windows x64 ZIP，解压整个文件夹，双击 `RiftMusic.exe`。无需另外安装 .NET。不要单独移动 EXE，音乐和设置存放在同目录 `Data` 中。
+到 [v0.1 下载页](https://github.com/CHO-CYQ/rift-music/releases/tag/v0.1)，展开页面底部的 **Assets**，下载 **`RiftMusic-v0.1-beta-win-x64.zip`**（约 651 MiB）。完整包已经包含现有的 **148 首音乐：63 首开场、85 首 BP**，不需要逐首下载。`Source code (zip / tar.gz)` 是开发源码，不包含完整歌曲库，也不能直接双击运行。
+
+解压整个 ZIP 后进入 `RiftMusic` 文件夹，双击 `RiftMusic.exe`。无需另外安装 .NET。不要单独移动 EXE，音乐和设置存放在同目录 `Data` 中。
+
+| 想做什么 | 操作 |
+| --- | --- |
+| 下载软件和全部现有歌曲 | 下载上面的完整 ZIP；校验文件为同页的 `SHA256.txt` |
+| 找到下载好的音频 | 打开解压后的 `RiftMusic/Data/Music`；音频使用内部文件名，曲名和来源请在软件中查看 |
+| 添加自己的歌曲 | 软件左下角“导入本地音乐”，选择已有的 MP3 / WAV 文件 |
+| 找尚未收录的歌曲 | 本版不提供网易云、B 站等平台的搜索下载；请从音源发布者允许的渠道取得文件，再导入 |
 
 公开包使用新用户默认设置：自动开场与自动 BP 默认关闭，无个人收藏、对局记录或客户端安装路径。已有用户升级时保留自己的 `Data`；先退出托盘，再替换 EXE 和说明目录。
+
+## 界面预览
+
+游戏开场：按主题和年份选择音乐，分别设置试听与自动开场计划。
+
+![峡谷序曲游戏开场曲库界面](docs/images/opening-library.png)
+
+赛事 BP：按赛事和年份浏览配乐，独立配置 BP 自动播放。
+
+![峡谷序曲赛事 BP 曲库界面](docs/images/draft-library.png)
+
+截图来自 v0.1 测试版；截图中的收藏、音量和自动播放状态是演示设置，完整下载包使用上文的新用户默认配置。
 
 ## 当前功能
 
