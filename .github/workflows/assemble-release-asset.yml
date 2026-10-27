@@ -35,7 +35,7 @@ jobs:
           assert os.path.getsize(pack['Asset'])==pack['Bytes']
           with open(pack['Asset'],'rb') as source:assert hashlib.file_digest(source,'sha256').hexdigest()==pack['Sha256']
           verified=found.get(pack['Asset'])
-          if verified and verified['state']=='starter' and verified['size']==0:
+          if verified and verified['state']=='starter' and verified.get('digest') is None:
               subprocess.run(['gh','api','--method','DELETE',f"repos/{os.environ['GITHUB_REPOSITORY']}/releases/assets/{verified['id']}"],check=True)
               verified=None
           if verified is None:
@@ -48,5 +48,8 @@ jobs:
           assert verified['state']=='uploaded' and verified['size']==pack['Bytes'] and verified['digest']=='sha256:'+pack['Sha256'], 'Final upload response does not match verified source'
           for name in names:
               subprocess.run(['gh','api','--method','DELETE',f"repos/{os.environ['GITHUB_REPOSITORY']}/releases/assets/{found[name]['id']}"],check=True)
+          abandoned=found.get('RiftMusic-Music-bp-lpl-v0.1-transfer.zip')
+          if abandoned and abandoned['state']=='starter' and abandoned.get('digest') is None:
+              subprocess.run(['gh','api','--method','DELETE',f"repos/{os.environ['GITHUB_REPOSITORY']}/releases/assets/{abandoned['id']}"],check=True)
           print('Verified final LPL asset and removed temporary fragments.')
           PY

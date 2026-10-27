@@ -60,6 +60,9 @@ release=next((r for r in existing if r['tag_name']=='v0.1'),None)
 if release is None:
     release=request('POST',base+'/releases',{'tag_name':'v0.1','target_commitish':args.commit,'name':'峡谷序曲 v0.1 测试版','body':Path(args.notes).read_text('utf-8'),'draft':True,'prerelease':True})
 print(json.dumps({'release_id':release['id'],'draft':release['draft']},ensure_ascii=True),flush=True)
+# The embedded release.assets list omits failed starter uploads; the dedicated
+# assets endpoint exposes them so we refuse to blindly repeat an occupied name.
+release['assets']=request('GET',base+'/releases/'+str(release['id'])+'/assets?per_page=100')
 for asset in args.asset:
     name=Path(asset).name
     matched=next((a for a in release['assets'] if a['name']==name),None)
