@@ -1,0 +1,44 @@
+name: Assemble verified LPL release asset
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  assemble:
+    if: github.repository == 'CHO-CYQ/rift-music'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Reassemble and verify the uploaded music pack
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh api "repos/$GITHUB_REPOSITORY/releases/421575941/assets?per_page=100" > assets.json
+          python3 - <<'PY'
+          import json, subprocess, hashlib, os
+          assets=json.load(open('assets.json'))
+          names=['rift-lpl-stage-001.bin','rift-lpl-stage-002.bin']
+          found={a['name']:a for a in assets}
+          expected=json.loads(subprocess.check_output(['gh','api',f"repos/{os.environ['GITHUB_REPOSITORY']}/contents/docs/music-packs-v01.json",'-H','Accept: application/vnd.github.raw+json']))
+          pack=next(p for p in expected if p['Id']=='bp-lpl')
+          for name in names:
+              a=found[name]
+              assert a['state']=='uploaded'
+              with open(name,'wb') as output:
+                  subprocess.run(['gh','api','-H','Accept: application/octet-stream',f"repos/{os.environ['GITHUB_REPOSITORY']}/releases/assets/{a['id']}"],stdout=output,check=True)
+          with open(pack['Asset'],'wb') as output:
+              for name in names:
+                  with open(name,'rb') as source:
+                      while block:=source.read(1024*1024):output.write(block)
+          assert os.path.getsize(pack['Asset'])==pack['Bytes']
+          with open(pack['Asset'],'rb') as source:assert hashlib.file_digest(source,'sha256').hexdigest()==pack['Sha256']
+          if pack['Asset'] not in found:
+              subprocess.run(['gh','api','--method','POST','-H','Content-Type: application/octet-stream','--input',pack['Asset'],f"https://uploads.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/releases/421575941/assets?name={pack['Asset']}"],check=True)
+          assets=json.loads(subprocess.check_output(['gh','api',f"repos/{os.environ['GITHUB_REPOSITORY']}/releases/421575941/assets?per_page=100"]))
+          verified=next(a for a in assets if a['name']==pack['Asset'])
+          assert verified['state']=='uploaded' and verified['size']==pack['Bytes'] and verified['digest']=='sha256:'+pack['Sha256']
+          for name in names:
+              subprocess.run(['gh','api','--method','DELETE',f"repos/{os.environ['GITHUB_REPOSITORY']}/releases/assets/{found[name]['id']}"],check=True)
+          print('Verified final LPL asset and removed temporary fragments.')
+          PY
