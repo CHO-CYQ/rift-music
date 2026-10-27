@@ -1,4 +1,4 @@
-param([string]$OutputDirectory)
+﻿param([string]$OutputDirectory)
 $ErrorActionPreference = 'Stop'
 $repo = Split-Path -Parent $PSScriptRoot
 if (-not $OutputDirectory) { $OutputDirectory = Join-Path $repo 'artifacts\publish' }
@@ -31,3 +31,7 @@ Copy-Item -LiteralPath (Join-Path $repo 'docs\worlds22-reference.md') -Destinati
 Write-Output "发布目录：$OutputDirectory"
 
 foreach ($notice in Get-ChildItem -LiteralPath (Join-Path $repo 'src\RiftMusic.App\Assets\Fonts') -Filter 'ALIMAMA-SHUHEITI-*.txt') { Copy-Item -LiteralPath $notice.FullName -Destination (Join-Path $documentation ('ThirdParty\' + $notice.Name)) }
+
+$previewDirectory = Join-Path $documentation "docs\images"
+New-Item -ItemType Directory -Path $previewDirectory -Force | Out-Null
+Copy-Item -Path (Join-Path $repo "docs\images\*.png") -Destination $previewDirectory -Force
