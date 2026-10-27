@@ -33,10 +33,12 @@ jobs:
                       while block:=source.read(1024*1024):output.write(block)
           assert os.path.getsize(pack['Asset'])==pack['Bytes']
           with open(pack['Asset'],'rb') as source:assert hashlib.file_digest(source,'sha256').hexdigest()==pack['Sha256']
-          if pack['Asset'] not in found:
-              subprocess.run(['gh','api','--method','POST','-H','Content-Type: application/octet-stream','--input',pack['Asset'],f"https://uploads.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/releases/421575941/assets?name={pack['Asset']}"],check=True)
-          assets=json.loads(subprocess.check_output(['gh','api',f"repos/{os.environ['GITHUB_REPOSITORY']}/releases/421575941/assets?per_page=100"]))
-          verified=next(a for a in assets if a['name']==pack['Asset'])
+          verified=found.get(pack['Asset'])
+          if verified and verified['state']=='starter' and verified['size']==0:
+              subprocess.run(['gh','api','--method','DELETE',f"repos/{os.environ['GITHUB_REPOSITORY']}/releases/assets/{verified['id']}"],check=True)
+              verified=None
+          if verified is None:
+              verified=json.loads(subprocess.check_output(['gh','api','--method','POST','-H','Content-Type: application/octet-stream','--input',pack['Asset'],f"https://uploads.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/releases/421575941/assets?name={pack['Asset']}" ]))
           assert verified['state']=='uploaded' and verified['size']==pack['Bytes'] and verified['digest']=='sha256:'+pack['Sha256']
           for name in names:
               subprocess.run(['gh','api','--method','DELETE',f"repos/{os.environ['GITHUB_REPOSITORY']}/releases/assets/{found[name]['id']}"],check=True)
